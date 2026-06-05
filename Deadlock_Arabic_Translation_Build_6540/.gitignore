@@ -1,0 +1,10 @@
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Folder config file
+desktop.ini
+
+# Recycle Bin used on NTFS volumes
+$RECYCLE.BIN/
