@@ -2446,7 +2446,7 @@
 		"extra_stamina_pickup/extra_stamina"			"تحمل إضافي"
 		"clip_size_pickup/clip_size"					"3 مخازن ذخيرة كبيرة"
 
-		"small_gold_pickup_label:p"						"أرواح"
+		"small_gold_pickup_label:p"						"روح#|#أرواح"
 		"cooldown_reduction_pickup_label"				"تقليل فترة التهدئة"
 		"move_speed_pickup_label"						"سرعة حركة أعلى"
 		"health_regen_pickup_label"						"شفاء"
