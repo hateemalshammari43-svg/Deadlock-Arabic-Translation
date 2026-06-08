@@ -3736,8 +3736,8 @@
 		"MyRosterRosterDesc_PartyInvalid"			"لا يمكن إنشاء فريق صالح بتشكيلات لاعبي مجموعتك. حاول إضافة أبطال أو اختيار أبطال مختلفين لتشكيلات اللاعبين."
 		"MyRosterRosterDesc_HeroLabs"				"تحتاج تشكيلتك إلى 3 أبطال على الأقل، اثنان منهم يجب أن يكونوا أبطالًا قياسيين (غير تجريبيين)"
 		"MyRosterRosterDesc_NeedsMoreNonNewOld"		"لديك عدد كبير من الأبطال الجدد في تشكيلتك. الرجاء إضافة بعض الأبطال القدامى."
-		"MyRosterRosterDesc_NotEnoughHighestPri"		"باعتبارك لاعب إيترنوس، يجب عليك تحديد أبطال{d:min_highest_priority}على الأقل كأولوية قصوى لك"
-		"MyRosterRosterDesc_NotEnoughHighestPriParty"	"باعتبارك لاعب إيترنوس في مجموعة بهذا الحجم، يجب عليك تحديد أبطال{d:min_highest_priority}على الأقل كأولوية قصوى لك"
+		"MyRosterRosterDesc_NotEnoughHighestPri"		"باعتبارك لاعب إيترنوس 6، يجب عليك تحديد أبطال{d:min_highest_priority}على الأقل كأولوية قصوى لك"
+		"MyRosterRosterDesc_NotEnoughHighestPriParty"	"باعتبارك لاعب إيترنوس 6 في مجموعة بهذا الحجم، يجب عليك تحديد أبطال{d:min_highest_priority}على الأقل كأولوية قصوى لك"
 
 		"Citadel_PriorityToken"						"رمز أولوية بطل جديد"
 		"Citadel_PriorityToken_Desc"				"تحصل على رموز أولوية الأبطال عبر لعب المباريات.<br><br>بعد فتح الرمز، اسحب الرمز إلى بطاقة البطل لزيادة فرصتك في الحصول عليه. لن يتم استهلاك الرمز إلا إذا حصلت على ذلك البطل. <br><br>سيزداد معدل الحصول على الرموز مع إضافة المزيد من الأبطال الجدد إلى نظام المطابقة."
