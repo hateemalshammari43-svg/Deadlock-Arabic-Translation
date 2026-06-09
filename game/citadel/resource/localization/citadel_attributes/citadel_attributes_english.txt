@@ -336,8 +336,8 @@
 		//-----------------------------------------------------------------------------
 		// Ability Properties desc
 		//-----------------------------------------------------------------------------
-		"AffectedProperty_new_value"				"<span class=\\"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"
-		"AffectedPropertyPostFix"					"<span class=\\"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"
+		"AffectedProperty_new_value"				"<span class=\\"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\\"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"
 
 		"EMultiplyBase_postfix"						"%"
 
@@ -2972,10 +2972,10 @@
 		"GroundDashReductionPercent_postvalue_label"	"مسافة الاندفاع"
 		"GroundDashReductionPercent_postfix"	"%"
 		
-		"ActivePlayerStats_Percentage"		"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"
-		"ActivePlayerStats_PercentageNum"	"<span class=\\"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"
-		"ActivePlayerStats_MoveSpeed"		"<span id=\\"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"
-		"ActivePlayerStats_Regen"			"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"
+		"ActivePlayerStats_Percentage"		"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"
+		"ActivePlayerStats_PercentageNum"	"<span class=\\"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"
+		"ActivePlayerStats_MoveSpeed"		"<span id=\\"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"
+		"ActivePlayerStats_Regen"			"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"
 
 		"TechDamageReduction_label"			"ضرر روحي تخفيض"
 
