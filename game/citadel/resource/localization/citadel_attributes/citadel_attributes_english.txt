@@ -336,8 +336,8 @@
 		//-----------------------------------------------------------------------------
 		// Ability Properties desc
 		//-----------------------------------------------------------------------------
-		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
-		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+		"AffectedProperty_new_value"				"<span class=\\"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"AffectedValNew\\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\\"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"AffectedValPostfix\\">{s:valPostfix}</span>"
 
 		"EMultiplyBase_postfix"						"%"
 
@@ -586,7 +586,7 @@
 		"NonPlayerBonusWeaponPower_postvalue_label"			"ضرر السلاح ضد الشخصيات غير القابلة للعب"
 		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
 		"NonPlayerBonusWeaponPower_postfix"			"%"
-		"NonPlayerBonusWeaponPower_conditional"		"ضد الشخصيات غير القابلة للعب"
+		"NonPlayerBonusWeaponPower_conditional"		"ضد الشخصيات غير اللاعبة (NPCs)"
 
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"ضرر السلاح ضد الشخصيات غير اللاعبين"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"ضرر السلاح ضد الشخصيات غير اللاعبين"
@@ -599,7 +599,7 @@
 		"NonPlayerBulletResist_postvalue_label"			"مقاومة الرصاص ضد الشخصيات غير القابلة للعب"
 		"NonPlayerBulletResist_prefix"			"{s:sign}"
 		"NonPlayerBulletResist_postfix"			"%"
-		"NonPlayerBulletResist_conditional"		"ضد الشخصيات غير القابلة للعب"
+		"NonPlayerBulletResist_conditional"		"ضد الشخصيات غير اللاعبة (NPCs)"
 
 		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"				"%"
@@ -1688,7 +1688,7 @@
 
 		"SurgeOfPower_conditional"						"بعد استخدام قدرة"
 
-		"SpiritStrike_conditional"						"بعد هجوم اشتباك ناجح"
+		"SpiritStrike_conditional"						"بعد هجوم مشاجرة ناجح"
 
 		"LongRangeBonusWeaponPowerMinRange_label"		"الحد الأدنى للمسافة"
 		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"الحد الأدنى للمسافة"
@@ -2823,7 +2823,7 @@
 
 		"VeilCross_conditional"					"عبور حجاب كوني"
 		"modifier_veil_walker_triggered"			"الحجاب معدل إطلاق النار"
-		"modifier_veil_walker_stealth"			"الحجاب ووكر الخفاء"
+		"modifier_veil_walker_stealth"			"تخفي Veil Walker"
 
 		"InvisDuration_label"						"الخفاء المدة"
 
@@ -2972,10 +2972,10 @@
 		"GroundDashReductionPercent_postvalue_label"	"مسافة الاندفاع"
 		"GroundDashReductionPercent_postfix"	"%"
 		
-		"ActivePlayerStats_Percentage"		"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\">%</span>"
-		"ActivePlayerStats_PercentageNum"	"<span class=\"statNumber\">{d:value}</span><span class=\"statPostfix\">%</span>"
-		"ActivePlayerStats_MoveSpeed"		"<span id=\"speedDisplayMS\" class=\"statNumber\">{s:value}</span><span id=\"speedDisplayPostfix\" class=\"statPostfix\">م/ث</span>"
-		"ActivePlayerStats_Regen"			"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\"> /ث</span>"
+		"ActivePlayerStats_Percentage"		"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\">%</span>"
+		"ActivePlayerStats_PercentageNum"	"<span class=\\"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"statNumber\\">{d:value}</span><span class=\\"statPostfix\\">%</span>"
+		"ActivePlayerStats_MoveSpeed"		"<span id=\\"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"speedDisplayMS\\" class=\\"statNumber\\">{s:value}</span><span id=\\"speedDisplayPostfix\\" class=\\"statPostfix\\">م/ث</span>"
+		"ActivePlayerStats_Regen"			"<span class=\\"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"statNumber\\">{s:value}</span><span class=\\"statPostfix\\"> /ث</span>"
 
 		"TechDamageReduction_label"			"ضرر روحي تخفيض"
 

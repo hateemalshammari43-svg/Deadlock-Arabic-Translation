@@ -1,4 +1,4 @@
-# تحديث مستودع GitHub لتعريب Deadlock
+﻿# تحديث مستودع GitHub لتعريب Deadlock
 $OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
