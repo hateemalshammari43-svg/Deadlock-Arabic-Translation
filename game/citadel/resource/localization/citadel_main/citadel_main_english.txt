@@ -1,4 +1,4 @@
-﻿"lang"
+﻿﻿"lang"
 {
 	"Language" "English"
 	"Tokens"
@@ -11,16 +11,6 @@
 		"Close"							"إغلاق"
 		"Ignore"						"تجاهل"
 		"DontShowAgain"					"لا تعرض مرة أخرى"
-		"Yes"							"نعم"
-		"No"							"لا"
-		"yes"							"نعم"
-		"no"							"لا"
-		"YES"							"نعم"
-		"NO"							"لا"
-		"Citadel_Yes"					"نعم"
-		"Citadel_No"					"لا"
-		"Valve_Yes"					"نعم"
-		"Valve_No"					"لا"
 
 		"Citadel_GameName"										"ديدلوك"
 		"Citadel_PlaytestWarningTitle"							"نسخة تطوير أولية"
@@ -424,8 +414,8 @@
 		"Citadel_Hud_Quickbuy_Delete_Tooltip"						"إزالة من قائمة الانتظار"
 		"Citadel_Hud_Quickbuy_Exceeds_Slots"						"الخانات ممتلئة"
 		"Citadel_Hud_Quickbuy_Sell_Slot"							"محدد للبيع"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:f"				"{i:items_ready}{items_ready, plural, one{Item} other{Items}}"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f"			"{i:queue_size}{queue_size, plural, one{Item} other{Items}}"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:f"				"{i:items_ready} {items_ready, plural, one{Item} other{Items}}"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f"			"{i:queue_size} {queue_size, plural, one{Item} other{Items}}"
 		
 		"CitadelComponentGroup_EBulletVelocity"				"سرعة الرصاص"
 		"CitadelComponentGroup_EMagazines"					"مخازن الرصاص"
@@ -470,7 +460,7 @@
 		"Citadel_Hud_Autobuy_HudHint_PanelKey"						"{g:citadel_binding:'Default.Scoreboard'} للقائمة"
 		"Citadel_Hud_Autobuy_Buy_Prompt"							"شراء"
 		"Citadel_Hud_Autobuy_HudHint_CantPurchase"					"لا يمكن الشراء أثناء القتال"
-		"Citadel_Hud_Autobuy_HudHint_ShopKey"						"{g:citadel_binding:'Default.OpenHeroSheet'} لفتح المتجر"
+		"Citadel_Hud_Autobuy_HudHint_ShopKey"						"{g:citadel_binding:'Default.OpenHeroSheet'} لفتح المتجر" 
 		"Citadel_Hud_PurchasingDisabled"							"الشراء معطل أثناء القتال"
 
 		"Citadel_InvalidCast_NoFullClips"							"لا توجد مخازن لإعادة التعبئة"
@@ -713,7 +703,7 @@
 		"Citadel_StreetBrawl_Draft_Skip_Btn"		"تخطي العنصر"
 
 		"Citadel_StreetBrawl_Overtime_Title"		"وقت إضافي"
-		"Citadel_StreetBrawl_Overtime_Desc"			"زيادة صحة القوات<br>زيادة وقت إعادة الظهور"
+		"Citadel_StreetBrawl_Overtime_Desc"			"زيادة صحة القوات<br>زيادة وقت إعادة الظهور"		
 		"Citadel_StreetBrawl_MatchPoint"			"نقطة المباراة"
 		"Citadel_StreetBrawl_MatchPoint_Both_Teams"	"كلا الفريقين"
 		
@@ -762,9 +752,9 @@
 		"Citadel_Survey_Question_HeroPower_HighLabel"			"قوي"
 
 		"Citadel_Survey_Question_HeroFrontliner"				"ما مدى جودة هذا البطل كـ <span class=\"playAsHighlight\"><b>لاعب خط أمامي</b></span>؟"
-		"Citadel_Survey_Question_HeroCarry"						"ما مدى جودة<span class=\\"playAsHighlight\\"><b>التي تحمل</b></span>هل هذا بطل ؟"playAsHighlight\\"><b>التي تحمل</b></span>هل هذا بطل ؟"playAsHighlight\\"><b>التي تحمل</b></span>هل هذا بطل ؟"playAsHighlight\\"><b>التي تحمل</b></span>هل هذا بطل ؟"playAsHighlight\\"><b>التي تحمل</b></span>هل هذا بطل ؟"
+		"Citadel_Survey_Question_HeroCarry"						"ما مدى جودة<span class=\\"
 		"Citadel_Survey_Question_HeroDisable"					"ما مدى جودة هذا البطل <span class=\"playAsHighlight\"><b>في التعطيل أو التحكم في الحشود</b></span>؟"
-		"Citadel_Survey_Question_HeroUtility"					"ما مدى جودة هذا بطل في<span class=\\"playAsHighlight\\"><b>فائدة غير cc أو الشفاء المتحالف</b></span>؟"playAsHighlight\\"><b>فائدة غير cc أو الشفاء المتحالف</b></span>؟"playAsHighlight\\"><b>فائدة غير cc أو الشفاء المتحالف</b></span>؟"playAsHighlight\\"><b>فائدة غير cc أو الشفاء المتحالف</b></span>؟"playAsHighlight\\"><b>فائدة غير cc أو الشفاء المتحالف</b></span>؟"
+		"Citadel_Survey_Question_HeroUtility"					"ما مدى جودة هذا بطل في<span class=\\"
 
 		// Book
 		//"Citadel_Book_NotEnoughXP"							"This chatper requires {d:unlock_cost} to unlock, but you only have {d:available_unlocks} available. Play more matches to earn more unlocks."
@@ -782,7 +772,7 @@
 		"Citadel_Book_PrevPage"								"السابق"
 		"Citadel_Book_NextPage"								"التالي"
 		"Citadel_Book_Pause"								"إيقاف مؤقت"
-		"Citadel_Book_Play"									"PLAY"
+		"Citadel_Book_Play"									"Play"
 
 		// Library
 		"Citadel_Library_Title"								"المكتبة"
@@ -957,7 +947,7 @@
 		"Citadel_JoinParty_Title"									"الانضمام للمجموعة"
 		"Citadel_JoinParty_Desc"									"إذا كان لديك رمز مجموعة، أدخله أدناه."
 		"Citadel_JoinParty_Prompt"									"معرف المجموعة"
-		"Citadel_Party_Invites:f"									"حزب<span class=\\"InviteHeaderText\\">{party_invites, plural, one{Invite} other{Invites}}</span>"InviteHeaderText\\">{party_invites, plural, one{Invite} other{Invites}}</span>"InviteHeaderText\\">{party_invites, plural, one{Invite} other{Invites}}</span>"InviteHeaderText\\">{party_invites, plural, one{Invite} other{Invites}}</span>"InviteHeaderText\\">{party_invites, plural, one{Invite} other{Invites}}</span>"
+		"Citadel_Party_Invites:f"									"حزب<span class=\\"
 		"Citadel_PartyStartMatch"									"بدء المباراة"
 		"Citadel_PartyFindMatch"									"البحث عن مباراة"
 		"Citadel_Party_CreateEasyBot"								"أنشئ مجموعة لدعوة أصدقائك واللعب معاً ضد البوتات (سهل)"
@@ -1594,7 +1584,7 @@
 
 		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0} ألف"
 		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1} ألف"
-		"Citadel_Watch_Page_Spectators:f"							"{d:spectators}{spectators, plural, one{Spectator} other{Spectators}}"
+		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} {spectators, plural, one{Spectator} other{Spectators}}"
 		"Citadel_Watch_Page_FriendInMatch"							"صديق Steam في مباراة"
 		"Citadel_Watch_Page_MatchID"								"المعرف: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"الأصدقاء فقط"
@@ -1868,9 +1858,9 @@
 		"Citadel_MatchDetails_Victory"							"فوز"
 		"Citadel_MatchDetails_Defeat"							"خسارة"
 		//The top row of the match results, either team name or outcome as appropriate for each language
-		"Citadel_MatchDetails_Team_Results_Top"					"<span class=\\"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"
+		"Citadel_MatchDetails_Team_Results_Top"					"<span class=\"TeamName h2 display\">{s:team_name}</span>"
 		//The bottom row of the match results, either team name or outcome as appropriate for each language
-		"Citadel_MatchDetails_Team_Results_Bottom"				"<span class=\\"OutcomeLabel h1 display\\">{s:outcome_label}</span>"OutcomeLabel h1 display\\">{s:outcome_label}</span>"OutcomeLabel h1 display\\">{s:outcome_label}</span>"OutcomeLabel h1 display\\">{s:outcome_label}</span>"OutcomeLabel h1 display\\">{s:outcome_label}</span>"
+		"Citadel_MatchDetails_Team_Results_Bottom"				"<span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"جاري تحميل تفاصيل المباراة"
 		"Citadel_MatchDetails_MatchID"							"المباراة {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"عرض لوحة النتائج"
@@ -2024,7 +2014,7 @@
 		"Citadel_Post_Game_PlayedBy"					"لعب بواسطة"
 		"Citadel_Post_Game_You"							"أنت"
 
-		"Citadel_Post_Game_Requeue"						"PLAY AGAIN"
+		"Citadel_Post_Game_Requeue"						"Play Again"
 		"Citadel_Post_View_Other_Team"					"مشاهدة الفريق الآخر"
 
 		"Citadel_Post_Game_MVP"							"أفضل لاعب"
@@ -2164,7 +2154,7 @@
 		"Citadel_HeroBuilds_CopyBuildLabel"				"نسخ وتعديل"
 		"Citadel_HeroBuilds_CopyPostGameBuild"			"إنشاء تصميم"
 		"Citadel_HeroBuilds_CopyPostGameBuild_Tooltip"	"سيؤدي هذا إلى إنشاء تصميم محلي غير منشور بناءً على العناصر التي اشتراها اللاعب في هذه المباراة (بما في ذلك أهداف التعزيز وترتيب العناصر المباعة)."
-		"Citadel_HeroBuilds_BuildCreatorTitle"			"أنشئ بواسطة"
+		"Citadel_HeroBuilds_BuildCreatorTitle"			"أنشئ بواسطة"	
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"خطأ في حفظ التصميم"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"تأكد من أن التصميم يحتوي على اسم ووصف، وعنصر واحد مقترح على الأقل."
 		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
@@ -3026,7 +3016,7 @@
 		"citadel_reset_controller"						"إعادة ضبط إعدادات وحدة التحكم؟"
 		"citadel_confirm_reset_controller"				"هل أنت متأكد أنك تريد استعادة إعدادات أزرار التحكم الافتراضية؟"
 
-		"citadel_settings_steam_input_config:f"			"{d:controller_count}{controller_count, plural, one{Controller} other{Controllers}}"
+		"citadel_settings_steam_input_config:f"			"{d:controller_count} {controller_count, plural, one{Controller} other{Controllers}}"
 		"citadel_settings_steam_input"						"خيارات وحدة التحكم"
 		"citadel_settings_steam_input_no_controller"		"لم يتم اكتشاف وحدة تحكم"
 		"citadel_settings_steam_input_open_configurator"	"افتح إعدادات Steam"
@@ -3046,7 +3036,7 @@
 		"citadel_settings_keybind_unbound"					"[?]"
 
 		"citadel_settings_keybind_unbound_warning_title"	"تمت إزالة اختصارات قديمة"
-		"citadel_settings_keybind_unbound_warning_body:f"	"{num_conflicts, plural, one{You have saved one or more keybinds that were previously assigned to another command:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"h4 CriticalText\\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"h4 CriticalText\\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"h4 CriticalText\\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"h4 CriticalText\\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\\"h4 CriticalText\\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"
+		"citadel_settings_keybind_unbound_warning_body:f"	"{num_conflicts, plural, one{You have saved one or more keybinds that were previously assigned to another command:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}{s:existing_binding_secondary}</span><br><br>Please be sure to rebind this command.} other{You have saved keybinds that were previously associated with other commands:<br><br><span class=\"h4 CriticalText\">{s:existing_binding_primary}<br>{s:existing_binding_secondary}</span><br><br>Please be sure to rebind these commands.}}"
 
 		"Citadel_GraphicsDriverWarning_Title"			"تحذير: برنامج تشغيل الرسوميات قديم"
 		"Citadel_GraphicsDriverOutOfDateWarning_AMD"	"للحصول على تجربة لعب مثالية، يرجى زيارة دعم AMD لتنزيل أحدث برنامج تشغيل."
@@ -3390,8 +3380,8 @@
 		"citadel_spectator_voice_mode_1"		"أصوات اللاعبين: إيقاف"
 		"hud_free_cursor_mode_0"				"تفعيل المؤشر"
 		"hud_free_cursor_mode_1"				"تفعيل تحكم الكاميرا"
-		"hud_prev_player"						"{g:citadel_binding:'Spectator.SpectatorPrevTarget'} اللاعب السابق"
-		"hud_next_player"						"{g:citadel_binding:'Spectator.SpectatorNextTarget'} اللاعب التالي"
+		"hud_prev_player"						"{g:citadel_binding:'Spectator.SpectatorPrevTarget'} اللاعب السابق" 
+		"hud_next_player"						"{g:citadel_binding:'Spectator.SpectatorNextTarget'} اللاعب التالي" 
 		"hud_spectating"						"مشاهدة"
 		"hud_change_camera"						"{g:citadel_binding:'Spectator.ToggleSpectatorCamera'} تبديل الكاميرا"
 		"hud_spectate_next_prev"				"التالي/السابق"
@@ -3405,7 +3395,7 @@
 		"hud_spectate_minimap_view_amber"		"{g:citadel_binding:'Spectator.SpectatorFOWTeamAmber'} العنبر"
 		"hud_spectate_minimap_view_both_teams"	"{g:citadel_binding:'Spectator.SpectatorFOWTeamBoth'} كلا الفريقين"
 		"hud_spectate_minimap_view_target_team" "{g:citadel_binding:1st:'Spectator.SpectatorFOWTeamTarget'} الهدف"
-		"hud_spectate_minimap_view"				"عرض الخريطة"
+		"hud_spectate_minimap_view"				"عرض الخريطة" 
 
 		"kill_hype_KillStreak_count"	"{d:kill_streak}"
 		"kill_hype_KillStreak"	"قتل<br>متتالي!"
@@ -3555,7 +3545,7 @@
 		"menu_play_browse_shop_desc"				"تصفح متجر العناصر وتعرّف على القدرات والبنيات!"
 		"menu_play_learn_to_play_desc"				"تعلم كيفية اللعب"
 		"menu_play_matchmaking"						"بحث عن مباراة عادية"
-		"menu_play_low_priority_matchmaking:f"		"أنت في قائمة الأولوية المنخفضة"LowPriGamesText\\">{i:low_pri_games_remaining}</span>{low_pri_games_remaining, plural, one{game} other{games}}في قائمة الانتظار ذات الأولوية المنخفضة أو إزالة عضو الحزب المعاقب للعودة إلى التوفيق الطبيعي."LowPriGamesText\\">{i:low_pri_games_remaining}</span>{low_pri_games_remaining, plural, one{game} other{games}}في قائمة الانتظار ذات الأولوية المنخفضة أو إزالة عضو الحزب المعاقب للعودة إلى التوفيق الطبيعي."LowPriGamesText\\">{i:low_pri_games_remaining}</span>{low_pri_games_remaining, plural, one{game} other{games}}في قائمة الانتظار ذات الأولوية المنخفضة أو إزالة عضو الحزب المعاقب للعودة إلى التوفيق الطبيعي."LowPriGamesText\\">{i:low_pri_games_remaining}</span>{low_pri_games_remaining, plural, one{game} other{games}}في قائمة الانتظار ذات الأولوية المنخفضة أو إزالة عضو الحزب المعاقب للعودة إلى التوفيق الطبيعي."
+		"menu_play_low_priority_matchmaking:f"		"أنت في قائمة الأولوية المنخفضة"
 		"menu_learn_incomplete"						"غير مكتمل"
 		"menu_learn_completed"						"مكتمل"
 
@@ -3683,17 +3673,17 @@
 
 		"MyRosterTitle"								"تشكيلتي"
 		"Roster_Create_Title"						"إنشاء تشكيلة"
-		"Select_Hero_Title"							"اختر بطلًا"
+		"Select_Hero_Title"							"اختر بطلًا"		
 		//"MyRoster_SelectHeroes"						"<span class=\"highlight\">Select Heroes</span> to add or remove them from your Roster."
 		//"MyRoster_PreferHeroes"						"<span class=\"highlight\">Star a hero</span> to prefer them for the next match."
 		"ConfirmRoster_BadRoster:f"					"أنت بحاجة على الأقل إلى{d:min_roster_size}{min_roster_size, plural, one{hero} other{heroes}}في قائمتك للانضمام إلى المباراة."
 		"SelectHeroFromRoster"						"اختر بطلًا من تشكيلتك للعب"
 		"MyRosterAddHeroes"							"إضافة أبطال"
-		"MyRosterConfirm"							"OK"
-		"MyRosterConfirmAndReadyUp"					"READY"
-		"MyRosterSaveAndClose"						"SAVE & CLOSE"
-		"MyRosterSaveAndBack"						"SAVE & BACK"
-		"MyRosterCancelForEveryone"					"CANCEL FOR PARTY"
+		"MyRosterConfirm"							"Confirm"
+		"MyRosterConfirmAndReadyUp"					"Confirm & Ready Up"
+		"MyRosterSaveAndClose"						"Save and Close"
+		"MyRosterSaveAndBack"						"Save and Back"
+		"MyRosterCancelForEveryone"					"Cancel for all in party"
 		"MyRosterRosterEmpty"						"تشكيلة فارغة"
 		"MyRosterRosterDesc:f"						"الحد الأدنى من{d:min_roster_size}{min_roster_size, plural, one{hero} other{heroes}}مطلوب للوقوف في قائمة الانتظار"
 		"MyRosterSelectHero"						"اختر بطلًا"
@@ -3705,13 +3695,13 @@
 		"MyRosterAssignedTesting"					"اختبار مخصص"
 		"MyRosterAssignedOpenTesting"				"اختبار مفتوح"
 		"MyRosterChangeHero"						"تغيير البطل"
-		"MyRosterLetsGo"							"ENTER QUEUE"
-		"MyRosterReadyUp"							"READY UP"
-		"MyRosterCreateParty"						"CREATE PARTY"
-		"MyRosterWaitForParty"						"WAITING FOR PARTY..."
-		"MyRosterExit"								"EXIT ROSTER"
+		"MyRosterLetsGo"							"Enter Queue"
+		"MyRosterReadyUp"							"Ready Up!"
+		"MyRosterCreateParty"						"Create Party!"
+		"MyRosterWaitForParty"						"Waiting on party members..."
+		"MyRosterExit"								"Exit Roster"
 		"MyRosterExitRosterConfirm"					"هل أنت متأكد أنك تريد إغلاق التشكيلة؟ سيؤدي ذلك إلى إغلاق التشكيلة للمجموعة بالكامل."
-		"MyRosterPartyHighSkillRangeTitle"			"مجموعة بفارق مهارة كبير"
+		"MyRosterPartyHighSkillRangeTitle"			"مجموعة بفارق مهارة كبير"		
 		"MyRosterPartyHighSkillRangeNew"			"فرق المهارة بين أعضاء مجموعتك كبير جدًا.<br><br>نتيجةً لذلك، قد يواجه اللاعبون الأقل مهارة في مباراتك صعوبة في مجاراة اللعب."
 		"PartyWarningPostGame"						"مباراة مجموعة بفارق مهارة كبير"
 		"Citadel_Roster_ViewBackstory_Tooltip"		"عرض قصة الشخصية"
@@ -3819,7 +3809,7 @@
 		"ReportCard_LastHits"						"الضربات الأخيرة"
 		//"ReportCard_LastHits_Tutorial"				"Get <span class=\"yourscore\">25</span> Killing Blows"
 		//"ReportCard_LastHits_Desc"					"Achieve the last hit on <span class=\"highlight\">Troopers</span> and <span class=\"highlight\">Enemy Heroes</span>."
-		"ReportCard_LastHits_Progress"				"<span class=\\"yourscore\\">{i:lastHits}</span> / {i:lastHitsNextGoal}"yourscore\\">{i:lastHits}</span> / {i:lastHitsNextGoal}"yourscore\\">{i:lastHits}</span> / {i:lastHitsNextGoal}"yourscore\\">{i:lastHits}</span> / {i:lastHitsNextGoal}"yourscore\\">{i:lastHits}</span> / {i:lastHitsNextGoal}"
+		"ReportCard_LastHits_Progress"				"<span class=\"yourscore\">{i:lastHits}</span> / {i:lastHitsNextGoal}"
 
 		"ReportCard_OrbsSecured"					"كرات أرواح خضراء"
 		"ReportCard_OrbsSecuredDesc"				"التقط الكرة الخضراء بإطلاق النار عليها وهي في الهواء"
@@ -3834,11 +3824,11 @@
 
 		"ReportCard_ModsPurchased"					"عناصر مشتراة"
 		"ReportCard_ModsPurchased_Desc"				"شراء عناصر من المتجر"
-		"ReportCard_ModsPurchased_Progress"			"<span class=\\"yourscore\\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"yourscore\\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"yourscore\\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"yourscore\\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"yourscore\\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"
+		"ReportCard_ModsPurchased_Progress"			"<span class=\"yourscore\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"
 
 		"ReportCard_AbilitiesUpgraded"				"ترقية المهارات"
 		"ReportCard_AbilitiesUpgraded_Desc"			"ترقية المهارات عبر إبقاء {g:citadel_binding:'Scoreboard'} مضغوطًا"
-		"ReportCard_AbilitiesUpgraded_Progress"		"<span class=\\"yourscore\\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"yourscore\\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"yourscore\\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"yourscore\\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"yourscore\\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"
+		"ReportCard_AbilitiesUpgraded_Progress"		"<span class=\"yourscore\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"
 
 		"ReportCard_SoulsCollected_Desc"			"اجمع 1000 روح بقتل جنود العدو"
 
@@ -3884,7 +3874,7 @@
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">يبدو أنها المرة الأولى التي تلعب فيها!</span><br><br>قمنا بتمييز بعض الأبطال المناسبين للاعبين الجدد. ننصح بتجربة أحدهم إذا لم تكن متأكدًا من أين تبدأ."
 		"NPE_Heroes_Modal_Button"					"حسنًا!"
 
-		"NPE_Bots_Modal_Desc"						"<span class=\\"introText\\">أول مباراة بوت لك! تعتبر مباريات بوت</span><br><br>رائعة للتعرف على بطل ؛ لكن لا تقم بإعادة إنشاء التدفق والعمل الجماعي لمباراة حماية الأصناف النباتية بدقة.<br><br>بمجرد أن تشعر بالراحة، لا تتردد في ترك مباراة الروبوت والانتقال إلى التوفيق."introText\\">أول مباراة بوت لك! تعتبر مباريات بوت</span><br><br>رائعة للتعرف على بطل ؛ لكن لا تقم بإعادة إنشاء التدفق والعمل الجماعي لمباراة حماية الأصناف النباتية بدقة.<br><br>بمجرد أن تشعر بالراحة، لا تتردد في ترك مباراة الروبوت والانتقال إلى التوفيق."introText\\">أول مباراة بوت لك! تعتبر مباريات بوت</span><br><br>رائعة للتعرف على بطل ؛ لكن لا تقم بإعادة إنشاء التدفق والعمل الجماعي لمباراة حماية الأصناف النباتية بدقة.<br><br>بمجرد أن تشعر بالراحة، لا تتردد في ترك مباراة الروبوت والانتقال إلى التوفيق."introText\\">أول مباراة بوت لك! تعتبر مباريات بوت</span><br><br>رائعة للتعرف على بطل ؛ لكن لا تقم بإعادة إنشاء التدفق والعمل الجماعي لمباراة حماية الأصناف النباتية بدقة.<br><br>بمجرد أن تشعر بالراحة، لا تتردد في ترك مباراة الروبوت والانتقال إلى التوفيق."introText\\">أول مباراة بوت لك! تعتبر مباريات بوت</span><br><br>رائعة للتعرف على بطل ؛ لكن لا تقم بإعادة إنشاء التدفق والعمل الجماعي لمباراة حماية الأصناف النباتية بدقة.<br><br>بمجرد أن تشعر بالراحة، لا تتردد في ترك مباراة الروبوت والانتقال إلى التوفيق."
+		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">Your first bot match!</span><br><br>Bot matches are great for gaining familiarity with a hero; but don't accurately recreate the flow and teamwork of a PvP match.<br><br>Once you feel comfortable, feel free to leave the bot match and hop into matchmaking."
 		"NPE_Bots_Modal_Button"						"حسنًا!"
 
 
@@ -3896,7 +3886,7 @@
 		"Sandbox_Tutorial_Controls_Jump"			"{g:citadel_binding:1st:'Mantle'}"
 		"Sandbox_Tutorial_Controls_Attack"			"{g:citadel_binding:1st:'Attack'}"
 		"Sandbox_Tutorial_Controls_Zoom"			"{g:citadel_binding:1st:'ADS'}"
-		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'Reload'}"
+		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'Reload'}"	
 		"Sandbox_Tutorial_Controls_LightMelee"		"{g:citadel_binding:1st:'AbilityMelee'}"
 		"Sandbox_Tutorial_Controls_HeavyMelee"		"إبقاء {g:citadel_binding:1st:'AbilityMelee'} مضغوطًا"
 		"Sandbox_Tutorial_Controls_Parry"			"{g:citadel_binding:1st:'HeldItem'}"
@@ -4201,7 +4191,7 @@
 		"citadel_chatwheel_need_heal"							"أحتاج علاج!"
 		"citadel_chatwheel_going_shop"							"ذاهب للتسوق"
 
-		"citadel_chatwheel_responding_to"						"الرد على:"
+		"citadel_chatwheel_responding_to"						"الرد على:"	
 
 		//"citadel_quick_response_cancel"							"Cancel Last Ping Message"
 		//"citadel_quick_response_respond_onmyway_to_hero"		"Respond 'On my Way' to {s:hero_name}"
@@ -4314,7 +4304,7 @@
 
 		//"citadel_next_ap_abilities"				"<Panel class=\"goldIcon\"/> <span class=\"nextAPGoldLabel\">{i:gold_to_next_level}</span> to next Lvl"
 		//"citadel_ap_max_level"					"max Lvl"
-		"citadel_value_then_value_now_ability_upgrades"	"({s:ValueNow} → <span class=\\"greenUpgradedText\\">{s:ValueThen}</span>)"greenUpgradedText\\">{s:ValueThen}</span>)"greenUpgradedText\\">{s:ValueThen}</span>)"greenUpgradedText\\">{s:ValueThen}</span>)"greenUpgradedText\\">{s:ValueThen}</span>)"
+		"citadel_value_then_value_now_ability_upgrades"	"({s:ValueNow} → <span class=\"greenUpgradedText\">{s:ValueThen}</span>)"
 
 
 
@@ -4415,9 +4405,9 @@
 
 		// Street Brawl Strings
 		"Citadel_Hud_BuyPhase_Countdown"	"تبدأ الجولة خلال..."
-		"Citadel_Hud_TopbarStreeBrawlScore"	"{i:score}<span class=\\"demote\\">نقطة</span>"demote\\">نقطة</span>"demote\\">نقطة</span>"demote\\">نقطة</span>"demote\\">نقطة</span>"
+		"Citadel_Hud_TopbarStreeBrawlScore"	"{i:score}<span class=\\"demote\\">نقطة</span>"
 		//The top row of the street brawl scoring message, either team name or outcome as appropriate for each language
-		"Citadel_Hud_StreeBrawlTeamName"					"<span class=\\"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"TeamName h2 display\\">{s:team_name}</span>"
+		"Citadel_Hud_StreeBrawlTeamName"					"<span class=\"TeamName h2 display\">{s:team_name}</span>"
 		"Citadel_Hud_StreeBrawlScores"		"انتهت الجولة"
 		"Citadel_Hud_StreetBrawlShopCountdown"  "تبدأ الجولة خلال:"
 

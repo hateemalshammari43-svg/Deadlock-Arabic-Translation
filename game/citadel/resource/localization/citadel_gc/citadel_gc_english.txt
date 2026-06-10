@@ -1,17 +1,17 @@
-﻿"lang"
+﻿﻿"lang"
 {
 	"Language"		"English"
 	"Tokens"
 	{
 		// Item formatting
-		"ItemNameUniqueFormat"						"%s1%s2%s3"
-		"ItemNameWithQualityFormat"					"%s1 %s2%s3"
+		"ItemNameUniqueFormat"						"%s1%s2%s3"			// will turn into "The Battalion's Backup #1"; foreign languages that have gender/declension can change this to be "Shotgun #1" or whatever
+		"ItemNameWithQualityFormat"					"%s1 %s2%s3"		// will turn into "Strange Shotgun #1"; foreign languages that have gender for adjectives can change this to be "Shotgun #1 (Strange)" or whatever
 		"ItemNameCraftNumberFormat"					" #%s1"
-		"ItemTypeDesc"								"المستوى %s1 %s2"
-		"ItemTypeDescNoLevel"						"المستوى %s1"
-		"ItemTypeDescKillEater"						"%s1 %s2"
-		"ItemTypeDescKillEaterAlt"					"%s2: %s1"
-		"RarityTypeDesc"							"%s1 %s2"
+		"ItemTypeDesc"								"المستوى %s1 %s2"			// s1 is the level number, s2 is the item type. Example: "Level 4 Medigun"
+		"ItemTypeDescNoLevel"						"المستوى %s1"				// s1 is the level number. Example: "Level 12"
+		"ItemTypeDescKillEater"						"%s1 %s2"				// s1 is the rarity, s2 is the item type
+		"ItemTypeDescKillEaterAlt"					"%s2: %s1"				// "Kills: 123"
+		"RarityTypeDesc"							"%s1 %s2"				// s1 is the rarity, s2 is the item type
 		"Econ_Store_PurchaseType_Standard"			"%s1"
 
 		//Market description attributes
@@ -225,12 +225,12 @@
 		"Steam_Citadel_Hideout_Cube"		"يتمنى لو كان هذا المخبأ مكعبه"
 		"Steam_Citadel_Hideout_Sulking"		"يزعل في المخبأ"
 		"Steam_Citadel_Hideout_Wyoming"		"حلم وايومنغ في المخبأ"
-		"Steam_Citadel_Hideout_Pruno"		"صنع برونو في المخبأ"
-		"Steam_Citadel_Hideout_Magic"		"يتدرب على السحر في المخبأ"
-		"Steam_Citadel_Hideout_Life"		"يتسلى بوجبة خفيفة في المخبأ"
-		"Steam_Citadel_Hideout_Prowl"		"يتجول في المخبأ"
-		"Steam_Citadel_Hideout_Pray"		"يلعب في المخبأ"
-		"Steam_Citadel_Hideout_Read"		"يقرأ في المخبأ"
+		"Steam_Citadel_Hideout_Pruno"		"صنع برونو في المخبأ"	
+		"Steam_Citadel_Hideout_Magic"		"يتدرب على السحر في المخبأ"	
+		"Steam_Citadel_Hideout_Life"		"يتسلى بوجبة خفيفة في المخبأ"	
+		"Steam_Citadel_Hideout_Prowl"		"يتجول في المخبأ"	
+		"Steam_Citadel_Hideout_Pray"		"يلعب في المخبأ"	
+		"Steam_Citadel_Hideout_Read"		"يقرأ في المخبأ"	
 		"Steam_Citadel_Hideout_Service"		"جاهز للخدمة في المخبأ"
 		"Steam_Citadel_Hideout_Ranting"		"يتذمر في المخبأ"
 		"Steam_Citadel_Hideout_Dreams"		"يحلم أحلامًا جميلة في المخبأ"
