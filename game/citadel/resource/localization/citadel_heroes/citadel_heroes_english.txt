@@ -1621,7 +1621,7 @@
 		"StompRadius_postfix"						" م"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land""Move Speed"
+		"ability_bounce_pad/speed_on_land"		"Move Speed"
 
 		"ability_crackshot"						"إصابة ماهرة"
 		"ability_crackshot_quip"				"تعامل مع مكافأة ضرر مع لقطات للرأس"
@@ -3246,8 +3246,8 @@
 		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"مُبطأ"
 		"viscous_goo_grenade_t1_desc"					"+{s:ضرر} ضرر و +{s:نطاق} متر نطاق"
 		"viscous_goo_grenade_t3_desc"					"يرتد مرات {s:MaxBounces} ويحسن مقياس الروح"
-		"MaxBounces_label""Bounces"
-		"MaxBounces_postvalue_label""Bounces"
+		"MaxBounces_label"		"Bounces"
+		"MaxBounces_postvalue_label"		"Bounces"
 		"PuddleRadius_label"							"بركة نطاق"
 		"PuddleRadius_postvalue_label"							"بركة نطاق"
 		"PuddleRadius_postfix"							" م"
@@ -3294,13 +3294,13 @@
 
 		"DamageHeavyMelee_postvalue_label"						"الضرر"
 
-		"viscous_gootapult""Splatapult"
+		"viscous_gootapult"		"Splatapult"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
 		"GooSlowPercent_postfix"						"%"
-		"GooDuration_label""Puddle Duration"
-		"GooDuration_postvalue_label""Puddle Duration"
+		"GooDuration_label"		"Puddle Duration"
+		"GooDuration_postvalue_label"		"Puddle Duration"
 		"GooDuration_postfix"							" ثانية"
 		//"citadel_ability_viscous_ball_boost"			"Slam Ball"
 		"RollingTime_label"								"وقت المتداول"
@@ -3823,7 +3823,7 @@
 		"BatPerSecond_postvalue_label" "الخفافيش في الثانية"
 
 		"ability_vampirebat_steallife" "جرف"
-		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Active:</span> Slash with your umbrella, dealing {g:citadel_inline_attribute:'SpiritDamage'}, increasing with their missing health. Receive a {g:citadel_inline_attribute:'Heal'} for every target killed.<br><br><span class=\"diminish\">Passive: </span>Holding {g:citadel_binding:'ADS'} causes you to briefly float.<br><span class=\"diminish\">Rake executes non-heroes below {s:TrooperExecuteThreshold} health.</span>"
+		"ability_vampirebat_steallife_desc"		"<span class=\"diminish\">Active:</span> Slash with your umbrella, dealing {g:citadel_inline_attribute:'SpiritDamage'}, increasing with their missing health. Receive a {g:citadel_inline_attribute:'Heal'} for every target killed.<br><br><span class=\"diminish\">Passive: </span>Holding {g:citadel_binding:'ADS'} causes you to briefly float.<br><span class=\"diminish\">Rake executes non-heroes below {s:TrooperExecuteThreshold} health.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> علاج لكل قتل <br><span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> مفقود صحة ضرر وزيادة علاج لكل مقياس Kill Spirit"
 		"MissingHealthDamagePercentage_postvalue_label" "صحة مفقود كـ ضرر"

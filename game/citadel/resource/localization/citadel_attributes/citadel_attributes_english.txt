@@ -3224,7 +3224,7 @@
 		"InlineAttribute_Courage"		"  شجاعة"
 		"InlineAttribute_Spirit"		"  روح"
 		"InlineAttribute_Slow"			"  إبطاء"
-		"InlineAttribute_SlowResistance""slow resistance"
+		"InlineAttribute_SlowResistance"		"slow resistance"
 		"InlineAttribute_DamageAmp"		"  زيادة الضرر"
 		"InlineAttribute_SpiritDamage"	"  ضرر روحي"
 		"InlineAttribute_SpiritDPS"	"  ضرر روحي مستمر"
@@ -3259,6 +3259,6 @@
 		"InlineAttribute_Pulling" "  سحب"
 		"InlineAttribute_PureDamage"	"  ضرر نقي"
 		"InlineAttribute_Silence"	"  إسكات"
-		"InlineAttribute_BonusSprintSpeed""bonus sprint speed"
+		"InlineAttribute_BonusSprintSpeed"		"bonus sprint speed"
 	}
 }
