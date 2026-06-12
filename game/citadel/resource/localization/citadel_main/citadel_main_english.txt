@@ -3,8 +3,8 @@
 	"Language" "English"
 	"Tokens"
 	{
-		"Citadel_Dashboard_BuildVersion"	"#{د:رقم البناء}"
-		"Citadel_Dashboard_BuildTime" 		"{s:BuildTime}"
+		"Citadel_Dashboard_BuildVersion"	"#{d:buildNumber}"
+		"Citadel_Dashboard_BuildTime" 		"{s:buildTime}"
 
 		"OK"							"موافق"
 		"Cancel"						"إلغاء"
@@ -397,14 +397,14 @@
 
 		"Citadel_Hud_Quickbuy"										"شراء سريع"
 		"Citadel_Hud_Quickbuy_Short"								"شراء سريع"
-		"Citadel_Hud_Quickbuy_Index"								"{ط:الفهرس}"
-		"Citadel_Hud_Quickbuy_ModName"								"{ق:mod_name}"
-		"Citadel_Hud_Quickbuy_ModCost"								"{أنا:mod_cost}"
+		"Citadel_Hud_Quickbuy_Index"								"{i:index}"
+		"Citadel_Hud_Quickbuy_ModName"								"{s:mod_name}"
+		"Citadel_Hud_Quickbuy_ModCost"								"{i:mod_cost}"
 		"Citadel_Hud_Quickbuy_Empty"								"أضف عناصر إلى قائمة الشراء السريع عبر<br>النقر بزر الماوس الأيمن أو السحب"
 		"Citadel_Hud_Quickbuy_Instructional"						"أضف/أزل من قائمة الشراء السريع باستخدام <Panel class=\"rightClick\"></Panel>"
 		"Citadel_Hud_Quickbuy_Instructional_Ready"					"{g:citadel_binding:'PurchaseQuickbuy'} للشراء"
-		"Citadel_Hud_Quickbuy_QueueSize"							"{أنا:queue_size}"
-		"Citadel_Hud_Quickbuy_ItemsReady"							"{ط:العناصر_جاهزة}"
+		"Citadel_Hud_Quickbuy_QueueSize"							"{i:queue_size}"
+		"Citadel_Hud_Quickbuy_ItemsReady"							"{i:items_ready}"
 		"Citadel_Hud_Quickbuy_ToastLabel_Purchase"					"تم شراء العنصر"
 		"Citadel_Hud_Quickbuy_ToastLabel_Sell"						"تم بيع العنصر"
 		"Citadel_Hud_Quickbuy_Tooltip"								"انقر لشراء أحد هذه العناصر أو {g:citadel_binding:'PurchaseQuickbuy'} عند الاقتراب من المتجر لشراء العنصر التالي في القائمة."
@@ -607,9 +607,9 @@
 		"Citadel_ModBonus_ArmorInvestmentDesc"						"زيادة الصحة"
 		"Citadel_ModBonus_TechInvestmentDesc"						"زيادة قوة الروح"
 		
-		"Citadel_ModBonus_CostLow"									"{أنا: النفوس}"
+		"Citadel_ModBonus_CostLow"									"{i:souls}"
 		"Citadel_ModBonus_CostHigh"									"{i:thousands_gold},{i:hundreds_gold} ألف"
-		"Citadel_ModBonus_Percentage"								"{أنا:مكافأة_النسبة المئوية}%"
+		"Citadel_ModBonus_Percentage"								"{i:bonus_percent}%"
 
 		"Citadel_Menu"						"القائمة"
 
@@ -1137,7 +1137,7 @@
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"المكافآت التالية:"
 		"Citadel_HUD_LevelReward_NetWorthHigh"						"{s:thousands_gold} ألف"
-		"Citadel_HUD_LevelReward_NetWorthLow"						"{أنا:الذهب}"
+		"Citadel_HUD_LevelReward_NetWorthLow"						"{i:gold}"
 		
 		"Citadel_Hud_KillFeedNone"									"<لا شيء>"
 		"Citadel_Hud_KillFeedTrooper"								"جندي #{i:unit_num}"
@@ -1243,7 +1243,7 @@
 		"Citadel_Mod_Tooltip_Active"									"نشطة"
 		"Citadel_Mod_Tooltip_Innate"									"فطرية"
 
-		"Citadel_Hud_TopbarPlayerNetworthPlayerLow"						"{أنا:الذهب}"
+		"Citadel_Hud_TopbarPlayerNetworthPlayerLow"						"{i:gold}"
 		"Citadel_Hud_TopbarPlayerNetworthPlayerMed"						"{i:thousands_gold},{i:hundred_gold}<span class=\"demote\"> ألف</span>"
 		"Citadel_Hud_TopbarPlayerNetworthPlayerHigh"					"{i:thousands_gold}<span class=\"demote\"> ألف</span>"
 		"Citadel_Hud_TopbarPlayerNetworth"								"{i:thousands_gold}<span class=\"demote\"> ألف</span>"
@@ -1288,7 +1288,7 @@
 		"Citadel_HUD_DamageReport_Title"							"تقرير الضرر"
 		"Citadel_HUD_DamageReport_DamageReceived"					"الضرر المتلقى"
 		"Citadel_HUD_DamageReport_DamageDealt"						"الضرر الملحق"
-		"Citadel_HUD_DamageReport_TopDamageSources:f"				"{num_damage_rows، الجمع، واحد{أعلى مصدر ضرر} آخر{أهم {i:num_damage_rows} مصادر الضرر}}"
+		"Citadel_HUD_DamageReport_TopDamageSources:f"				"{num_damage_rows، الجمع، واحد{Top Damage Source} آخر{أهم {i:num_damage_rows} مصادر الضرر}}"
 		"Citadel_HUD_DamageReport_ShowMore"							"عرض المزيد"
 		"Citadel_HUD_DamageReport_DamageByHero"						"الضرر من الأبطال"
 
@@ -1299,14 +1299,14 @@
 		"Citadel_HUD_DamageReport_Time180"							"3 دقائق"
 		"Citadel_HUD_DamageReport_Time60"							"دقيقة واحدة"
 		"Citadel_HUD_DamageReport_Time30"							"30 ثانية"
-		"Citadel_HUD_DamageReport_AbilitySummary"					"{ق:القدرة_ملخص}"
+		"Citadel_HUD_DamageReport_AbilitySummary"					"{s:ability_summary}"
 		"Citadel_HUD_DamageReport_HeroDamageReceived"				"الضرر المتلقى من البطل"
 		"Citadel_HUD_DamageReport_AllHeroDamageReceived"			"الضرر المتلقى من جميع الأبطال"
 		"Citadel_HUD_DamageReport_HeroDamageDealt"					"الضرر الملحق بالبطل"
 		"Citadel_HUD_DamageReport_AllHeroDamageDealt"				"الضرر الملحق بجميع الأبطال"
 		"Citadel_HUD_DamageReport_Total"							"إجمالي الضرر:"
 		"Citadel_HUD_DamageReport_TotalTaken"						"الضرر المتلقى من البطل:"
-		"Citadel_HUD_DamageReport_TotalDamageValue"					"{د:إجمالي_الضرر}"
+		"Citadel_HUD_DamageReport_TotalDamageValue"					"{d:total_damage}"
 		"Citadel_HUD_DamageReport_DamagePercentWeapon"				"{i:weapon_damage_percent}%"
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
@@ -1335,9 +1335,9 @@
 		"Citadel_LanePreference_Tooltip"							"إعطاء الأولوية للبدء في نفس المسار مع أعضاء مجموعتك، إن أمكن.<br><br>ملاحظة: قد يؤثر هذا على توازن المباراة."
 
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
-		"Citadel_HUD_DamageRows_DamageValue"						"{ط:الضرر_تم}"
+		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:f"								"x{i:hit_count}{hit_count، الجمع، واحد{ } آخر{}}"
-		"Citadel_HUD_DamageRows_PercentDecreased"					"-{أنا:percent_adjusted}%"
+		"Citadel_HUD_DamageRows_PercentDecreased"					"-{i:percent_adjusted}%"
 		"Citadel_HUD_DamageRows_PercentIncreased"					"+{i:percent_adjusted}%"
 
 		"Citadel_PrivilegedFeatures_Title"							"ملخص السلوك"
@@ -1495,7 +1495,7 @@
 		"Citadel_Matchmaking_WaitingForParty"						"في انتظار المجموعة"
 		"Citadel_Matchmaking_SearchingForMatch"						"جاري البحث"
 		"Citadel_Matchmaking_ConnectingToServer"					"الاتصال بالخادم"
-		"Citadel_Matchmaking_PartyMembersReady:f"					"{د:ready_party_members} / {د:party_members}"
+		"Citadel_Matchmaking_PartyMembersReady:f"					"{d:ready_party_members} / {d:party_members}"
 		"Citadel_Matchmaking_ElapsedTime"							"{s:queue_time}"
 		"Citadel_Matchmaking_InteractHint"							"{g:citadel_binding:'OpenMainMenu'} لإلغاء البحث"
 		"Citadel_Matchmaking_HideoutCancelHint"						"استمر في الضغط على {g:citadel_binding:'HideoutCancelMatchmaking'} لإلغاء البحث"
@@ -1555,8 +1555,8 @@
 		"Citadel_HideoutConnectionFailed_VersionIncompatible"	"نسخة اللعبة غير متوافقة"
 		"Citadel_HideoutConnectionFailed_FailedToConnect"		"فشل الاتصال"
 
-		"Citadel_HideoutBallJuggle_Increment"						"{ق:القيمة}س"
-		"Citadel_HideoutBallJuggle_Land"							"{ق:القيمة}س :)"
+		"Citadel_HideoutBallJuggle_Increment"						"{s:value}س"
+		"Citadel_HideoutBallJuggle_Land"							"{s:value}س :)"
 		"Citadel_Dashboard_ShowHeroLabHeroes"						"إظهار الأبطال التجريبيين"
 
 		"Citadel_OrbClaimTime_postfix"								" ملي ثانية"
@@ -1584,7 +1584,7 @@
 
 		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0} ألف"
 		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1} ألف"
-		"Citadel_Watch_Page_Spectators:f"							"{د: متفرجون} {متفرجون، جمع، واحد{متفرج} آخر{متفرجون}}"
+		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} {متفرجون، جمع، واحد{Spectator} آخر{Spectators}}"
 		"Citadel_Watch_Page_FriendInMatch"							"صديق Steam في مباراة"
 		"Citadel_Watch_Page_MatchID"								"المعرف: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"الأصدقاء فقط"
@@ -1798,15 +1798,15 @@
 		"Citadel_Profile_Stats_GamesPlayed:f"					"لعبت"
 		"Citadel_Profile_Stats_GamesWon:f"						"فاز{games_won, plural, one{Game} other{Games}}"
 		"Citadel_Profile_Stats_Kills:f"							"{stat_value, plural, واحد{Kill} آخر{Kills}}"
-		"Citadel_Profile_Stats_Assists:f"						"{stat_value, plural, واحد{مساعدة} أخرى{مساعدات}}"
+		"Citadel_Profile_Stats_Assists:f"						"{stat_value, plural, واحد{Assist} أخرى{Assists}}"
 		"Citadel_Profile_Stats_HeroDamage:f"					"ضرر الأبطال"
 		"Citadel_Profile_Stats_ObjDamage:f"						"ضرر الجنود"
 		"Citadel_Profile_Stats_LastHits:f"						"{last_hits، جمع، واحد{Last Hit} آخر{Last Hits}}"
-		"Citadel_Profile_Stats_Denies:f"						"{ينفي، الجمع، واحد{ينكر} آخر{ينكر}}"
+		"Citadel_Profile_Stats_Denies:f"						"{ينفي، الجمع، واحد{Deny} آخر{Denies}}"
 		"Citadel_Profile_Stats_Healing:f"						"العلاج"
-		"Citadel_Profile_Stats_Commends:f"						"{commend_count، جمع، واحد{Commend} آخر{Commend}}"
+		"Citadel_Profile_Stats_Commends:f"						"{commend_count، جمع، واحد{Commends} آخر{Commend}}"
 		"Citadel_Profile_Stats_Networth:f"						"{stat_value, plural, one{Soul} other{Souls}}تم جمعها"
-		"Citadel_Profile_Stats_Value_Networth_Low"				"{أنا:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth} ألف"
 		"Citadel_Profile_Stats_SortBy"							"ترتيب حسب:"
 		"Citadel_Profile_CoreRating"							"التصنيف"
@@ -1900,9 +1900,9 @@
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"المباريات"
 		"Citadel_ProfileCard_StatTitle_Commends"				"ثناء"
 
-		"Citadel_ProfileCard_StatValue_Int"						"{د:stat_value}"
-		"Citadel_ProfileCard_StatValue_Date"					"{ر:s:stat_value}"
-		"Citadel_ProfileCard_StatValue_String"					"{ق:stat_value}"
+		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
+		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
+		"Citadel_ProfileCard_StatValue_String"					"{s:stat_value}"
 
 		"Citadel_ProfileCard_AccountID"							"معرّف الحساب: {d:account_id}"
 		"Citadel_ProfileCard_PartyMatchmaking"					"الحزب هو التوفيق"
@@ -1955,8 +1955,8 @@
 		"Citadel_Graph_Souls_ItemCultistSacrifice"					"تضحية الطائفة"
 		"Citadel_Graph_Souls_ItemGooseEgg"					"بيضة الإوزة الذهبية"
 
-		"Citadel_Graph_Souls_Percent"					"{د: نسبة مئوية}٪"
-		"Citadel_Graph_Souls_Percent_Paren"				"({د: نسبة مئوية}٪)"
+		"Citadel_Graph_Souls_Percent"					"{d:pct}٪"
+		"Citadel_Graph_Souls_Percent_Paren"				"({d:pct}٪)"
 
 		"Citadel_Graph_Damage_Boss"						"الأهداف"
 		"Citadel_Graph_Damage_Creep"					"الجنود"
@@ -2157,7 +2157,7 @@
 		"Citadel_HeroBuilds_BuildCreatorTitle"			"أنشئ بواسطة"	
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"خطأ في حفظ التصميم"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"تأكد من أن التصميم يحتوي على اسم ووصف، وعنصر واحد مقترح على الأقل."
-		"Citadel_HeroBuilds_FavoriteCount"				"{أنا:favorite_count}"
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
 		"Citadel_HeroBuilds_DailyFavorite"				"أفضل التصاميم اليومية"
 		"Citadel_HeroBuilds_WeeklyFavorite"				"أفضل التصاميم الأسبوعية"
 		"Citadel_HeroBuilds_DailyFavorite_Tooltip"		"هذه هي التصاميم الأكثر استخداماً لهذا البطل خلال آخر 24 ساعة."
@@ -3016,7 +3016,7 @@
 		"citadel_reset_controller"						"إعادة ضبط إعدادات وحدة التحكم؟"
 		"citadel_confirm_reset_controller"				"هل أنت متأكد أنك تريد استعادة إعدادات أزرار التحكم الافتراضية؟"
 
-		"citadel_settings_steam_input_config:f"			"{d:controller_count} {controller_count، الجمع، واحد {وحدة تحكم} أخرى {وحدات تحكم}}"
+		"citadel_settings_steam_input_config:f"			"{d:controller_count} {controller_count، الجمع، واحد {Controller} أخرى {Controllers}}"
 		"citadel_settings_steam_input"						"خيارات وحدة التحكم"
 		"citadel_settings_steam_input_no_controller"		"لم يتم اكتشاف وحدة تحكم"
 		"citadel_settings_steam_input_open_configurator"	"افتح إعدادات Steam"
@@ -3098,12 +3098,12 @@
 		"citadel_settings_active_item_slot_popup"	"عند شراء عنصر نشط، اعرض نافذة منبثقة لاختيار إعدادات الفتحات وإدارتها."
 
 		"citadel_keybind_popup_title"				"تعيين اختصار"
-		"citadel_keybind_popup_subtitle"			"{ق:الأمر}"
+		"citadel_keybind_popup_subtitle"			"{s:command}"
 		"citadel_keybind_popup_single_key_bind"		"مفتاح واحد فقط. لا يتم دعم اختصارات متعددة."
 		"citadel_keybind_popup_cancel"				"إلغاء"
 		"citadel_keybind_popup_confirm"				"حسنًا"
 		"citadel_keybind_popup_ignore_conflict"		"متابعة التعيين"
-		"citadel_keybind_popup_conflict_name"		"{ق:first_command}"
+		"citadel_keybind_popup_conflict_name"		"{s:first_command}"
 		"citadel_keybind_popup_conflict_list:f"		"{s:first_command} + {d:numAdditional} أخرى"
 
 		"citadel_keybind_alt"							"ALT"
@@ -3246,7 +3246,7 @@
 		"Citadel_ModifierKeybindOnly"					"يمكن تعيين مفاتيح التعديل فقط لهذه المجموعة."
 		"Citadel_ConflictingWithPrimaryModifier"		"يتعارض هذا المُعدِّل مع {s:key_name}"
 
-		"citadel_clientversion"							"#{د: رقم إصدار_العميل}"
+		"citadel_clientversion"							"#{d:client_version_number}"
 		"Citadel_ClientVersion_Connary"					""
 		"OS_Default_Device"								"الجهاز الافتراضي"
 
@@ -3388,7 +3388,7 @@
 		"hud_spectate_fly_down"					"{g:citadel_binding:'Spectator.SpectatorFlyDown'} هبوط"
 		"hud_spectate_fly_up"					"{g:citadel_binding:'Spectator.SpectatorFlyUp'} طيران"
 		"hud_spectate_change_team"				"{g:citadel_binding:'Spectator.ToggleSpectatorTeam'} تبديل الفريق"
-		"hud_spectate_count"					"{د:عدد المشاهدين}"
+		"hud_spectate_count"					"{d:spectatorCount}"
 		"hud_spectate_count_tooltip"			"عدد المتفرجين"
 
 		"hud_spectate_minimap_view_sapphire"	"{g:citadel_binding:'Spectator.SpectatorFOWTeamSapphire'} الياقوت"
@@ -3397,7 +3397,7 @@
 		"hud_spectate_minimap_view_target_team" "{g:citadel_binding:1st:'Spectator.SpectatorFOWTeamTarget'} الهدف"
 		"hud_spectate_minimap_view"				"عرض الخريطة" 
 
-		"kill_hype_KillStreak_count"	"{د:kill_streak}"
+		"kill_hype_KillStreak_count"	"{d:kill_streak}"
 		"kill_hype_KillStreak"	"قتل<br>متتالي!"
 		"kill_hype_FirstBlood"	"أول<br>قتل!"
 
@@ -3883,13 +3883,13 @@
 
 
 		"Sandbox_Tutorial_Controls_Move"			"{g:citadel_binding:1st:'MoveForward'}، {g:citadel_binding:1st:'MoveBackwards'}، {g:citadel_binding:1st:'MoveLeft'}، {g:citadel_binding:1st:'MoveRight'}"
-		"Sandbox_Tutorial_Controls_Jump"			"{g:citadel_binding:1st:'عباءة'}"
-		"Sandbox_Tutorial_Controls_Attack"			"{g:citadel_binding:1st:'هجوم'}"
+		"Sandbox_Tutorial_Controls_Jump"			"{g:citadel_binding:1st:'Mantle'}"
+		"Sandbox_Tutorial_Controls_Attack"			"{g:citadel_binding:1st:'Attack'}"
 		"Sandbox_Tutorial_Controls_Zoom"			"{g:citadel_binding:1st:'ADS'}"
-		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'إعادة التحميل'}"	
+		"Sandbox_Tutorial_Controls_Reload"			"{g:citadel_binding:1st:'Reload'}"	
 		"Sandbox_Tutorial_Controls_LightMelee"		"{g:citadel_binding:1st:'AbilityMelee'}"
 		"Sandbox_Tutorial_Controls_HeavyMelee"		"إبقاء {g:citadel_binding:1st:'AbilityMelee'} مضغوطًا"
-		"Sandbox_Tutorial_Controls_Parry"			"{g:citadel_binding:1st:'HoldItem'}"
+		"Sandbox_Tutorial_Controls_Parry"			"{g:citadel_binding:1st:'HeldItem'}"
 		"Sandbox_Tutorial_Controls_Dash"			"{g:citadel_binding:1st:'MoveForward'}+{g:citadel_binding:1st:'Roll'}"
 		"Sandbox_Tutorial_Controls_Slide"			"{g:citadel_binding:1st:'Crouch'} ثم {g:citadel_binding:1st:'Roll'}"
 		"Sandbox_Tutorial_Controls_AirDash"			"{g:citadel_binding:1st:'Mantle'} ثم {g:citadel_binding:1st:'Roll'}"
@@ -3936,7 +3936,7 @@
 		"Sandbox_Tutorial_Ultimate"					"استخدم الألتميت"
 		"Sandbox_Tutorial_Ultimate_desc"			"اقتل الجنود ({i:troopers_remaining} متبقٍ)"
 
-		"Sandbox_Tutorial_UltimateAbility"			"{ق:Ability4Name2}"
+		"Sandbox_Tutorial_UltimateAbility"			"{s:Ability4Name2}"
 		"Sandbox_Tutorial_UltimateAbility_desc"		"{g:citadel_binding:'Ability4'} لاستخدام الألتميت."
 
 		"Sandbox_Tutorial_KillTroopers"				"اقتل الجنود ({i:troopers_remaining} متبقٍ)"
@@ -4034,17 +4034,17 @@
 		// Start Chat Ping Messages
 		//-----------------------------------------------------------------------------
 
-		"citadel_chatmessage"					"{s:الهدف} {s:message}"
+		"citadel_chatmessage"					"{s:target} {s:message}"
 		"citadel_chatmessage_old"				"{s:target} {s:persona}: {s:message}"
 		"citadel_chat_all"						"[الكل]"
 		"citadel_chat_spectators"				"[المتفرجون فقط]"
 		"citadel_chat_allies"					"[الحلفاء]"
 		"citadel_bot_name_prefix"				"[آلي]"
 		"citadel_bot_name_unknown"				"غير معروف"
-		"citadel_purchasemessage"				"{س:param_1}"
-		"citadel_ping_wheel_message"			"{رسالة:رسالة}"
-		"citadel_bot_message"					"{s:lane_color} - {s:assistance}"
-		"citadel_bot_message_verbose"			"{s:persona} - {s:lane_color} [{d:lane_number}] - {s:signment}"
+		"citadel_purchasemessage"				"{s:param_1}"
+		"citadel_ping_wheel_message"			"{s:message}"
+		"citadel_bot_message"					"{s:lane_color} - {s:assignment}"
+		"citadel_bot_message_verbose"			"{s:persona} - {s:lane_color} [{d:lane_number}] - {s:assignment}"
 		
 		"citadel_bot_objective_none"			"لا شيء"
 		"citadel_bot_objective_attack_t1"		"هاجم T1"
@@ -4212,7 +4212,7 @@
 		"Citadel_ChatError_Unknown"				"تعذر إرسال الرسالة: سبب غير معروف."
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
-		"ping_message"											"{s:pre_p الترقيم}{s:ping}{s:post_p الترقيم}"
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
 		"ping_pre_exclamation"									""
 		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"متجه إلى الأصفر"

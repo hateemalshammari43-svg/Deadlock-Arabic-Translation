@@ -242,7 +242,7 @@
 		//"StatDesc_TechShieldHealth"						"Spirit Shield"
 		"StatDesc_BulletShieldHealth"					"درع الضرر"
 		"StatDesc_BulletShieldHealth_postvalue_label"					"درع الضرر"
-		"StatDesc_ReloadSpeed_prefix"					"{ق:علامة}"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
 		"StatDesc_ReloadSpeed"							"تقليل وقت التلقيم"
 		"StatDesc_ReloadSpeed_postvalue_label"							"تقليل وقت التلقيم"
 		"StatDesc_ReloadSpeed_postfix"					"%"
@@ -283,16 +283,16 @@
 		//"StatDesc_AbilityPower"							"Ability Power"
 		//"StatDesc_DefensePower"							"Defense Power"
 
-		"StatDesc_TechLifesteal_prefix"					"{ق:علامة}"
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
 		"StatDesc_TechLifesteal"						"سرقة حياة للروح"
 		"StatDesc_TechLifesteal_postvalue_label"						"سرقة حياة للروح"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
-		"StatDesc_TechLifestealNonHero_prefix"			"{ق:علامة}"
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
 		"StatDesc_TechLifestealNonHero"					"سرقة حياة للروح (غير الأبطال)"
 		"StatDesc_TechLifestealNonHero_postvalue_label"					"سرقة حياة للروح (غير الأبطال)"
 
-		"StatDesc_BulletLifesteal_prefix"					"{ق:علامة}"
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
 		"StatDesc_BulletLifesteal"						"سرقة حياة للرصاص"
 		"StatDesc_BulletLifesteal_postvalue_label"						"سرقة حياة للرصاص"
 		"StatDesc_BulletLifesteal_postfix"				"%"
@@ -386,7 +386,7 @@
 		"ShieldHealth_postvalue_label"							"درع الصحة"
 
 		//"SpeedBoostPercent_label"						"Speed"
-		"SpeedBoostPercent_prefix"						"{ق:علامة}"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
 		"SpeedBoostPercent_postfix"						"%"
 
 		"Damage_label"								"الضرر"
@@ -403,7 +403,7 @@
 
 		"BonusDamagePercent_label"							"إضافي الضرر"
 		"BonusDamagePercent_postvalue_label"							"إضافي الضرر"
-		"BonusDamagePercent_prefix"						"{ق:علامة}"
+		"BonusDamagePercent_prefix"						"{s:sign}"
 		"BonusDamagePercent_postfix"						"%"
 
 		"DamagePlayer_label"							"ضرر للاعبين"
@@ -479,64 +479,64 @@
 		"DPS_Self_postvalue_label"								"ضرر الذاتي"
 		"DPS_Self_postfix"								"/ث"
 
-		"BaseAttackDamage_prefix"						"{ق:علامة}"
+		"BaseAttackDamage_prefix"						"{s:sign}"
 		"BaseAttackDamage_label"						"أساسي الضرر"
 		"BaseAttackDamage_postvalue_label"						"أساسي الضرر"
 
-		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"أساسي الضرر"
 		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"أساسي الضرر"
 
-		"BonusHealth_prefix"							"{ق:علامة}"
+		"BonusHealth_prefix"							"{s:sign}"
 		"BonusHealth_label"							"إضافي الصحة"
 		"BonusHealth_postvalue_label"							"إضافي الصحة"
 
-		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_HEALTH_MAX_label"							"إضافي الصحة"
 		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"إضافي الصحة"
 
-		"SpiritPowerInnate_prefix"							"{ق:علامة}"
+		"SpiritPowerInnate_prefix"							"{s:sign}"
 		"SpiritPowerInnate_label"							"قوة الروح"
 		"SpiritPowerInnate_postvalue_label"					"قوة الروح"
 
-		"MaxHealth_prefix"							"{ق:علامة}"
+		"MaxHealth_prefix"							"{s:sign}"
 		"MaxHealth_label"							"أقصى صحة"
 
 		"MaxHealth_postvalue_label"							"أقصى صحة"
 
 		//"BonusEnergyMax_label"						"Energy Cells"
 
-		"BonusMaxHealth_prefix"							"{ق:علامة}"
+		"BonusMaxHealth_prefix"							"{s:sign}"
 		"BonusMaxHealth_label"						"أقصى صحة"
 
 		"BonusMaxHealth_postvalue_label"						"أقصى صحة"
 
-		"BonusHealthPercent_prefix"					"{ق:علامة}"
+		"BonusHealthPercent_prefix"					"{s:sign}"
 		"BonusHealthPercent_postfix"				"%"
 		"BonusHealthPercent_label"					"الصحة"
 		"BonusHealthPercent_postvalue_label"					"الصحة"
 
-		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				"%"
 		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"الصحة"
 		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"الصحة"
 
-		"BonusHealthRegen_prefix"					"{ق:علامة}"
+		"BonusHealthRegen_prefix"					"{s:sign}"
 		"BonusHealthRegen_postfix"					""
 		"BonusHealthRegen_label"					"تجديد الصحة"
 		"BonusHealthRegen_postvalue_label"					"تجديد الصحة"
 
-		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postfix"					""
 		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"تجديد الصحة"
 		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"تجديد الصحة"
 
-		"OutOfCombatHealthRegen_prefix"					"{ق:علامة}"
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
 		"OutOfCombatHealthRegen_postfix"				""
 		"OutOfCombatHealthRegen_label"					"تجديد خارج القتال"
 		"OutOfCombatHealthRegen_postvalue_label"					"تجديد خارج القتال"
 
-		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postfix"				""
 		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"تجديد خارج القتال"
 		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"تجديد خارج القتال"
@@ -546,37 +546,37 @@
 		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
 		"LevelUpBaseMeleeDamage"					"ضرر الاشتباك"
 
-		"HealthRegen_prefix"						"{ق:علامة}"
+		"HealthRegen_prefix"						"{s:sign}"
 		"HealthRegen_postfix"						""
 		"HealthRegen_label"						"تجديد الصحة"
 
 		"HealthRegen_postvalue_label"						"تجديد الصحة"
 
-		"BonusRegenMaxHealthPercent_prefix"					"{ق:علامة}"
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
 		"BonusRegenMaxHealthPercent_postfix"					"%"
 		"BonusRegenMaxHealthPercent_label"						"أقصى تجدد الصحة"
 		"BonusRegenMaxHealthPercent_postvalue_label"						"أقصى تجدد الصحة"
 
-		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					"%"
 		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"أقصى تجدد الصحة"
 		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"أقصى تجدد الصحة"
 
-		"BonusHealthRegenOutOfCombat_prefix"			"{ق:علامة}"
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
 		//"BonusHealthRegenOutOfCombat_postfix"			""
 		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
 
-		"ExternalBonusHealthRegen_prefix"				"{ق:علامة}"
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
 		"ExternalBonusHealthRegen_postfix"				"/ث"
 		"ExternalBonusHealthRegen_label"				"تجديد الصحة"
 		"ExternalBonusHealthRegen_postvalue_label"				"تجديد الصحة"
 
-		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"/ث"
 		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"تجديد الصحة"
 		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"تجديد الصحة"
 
-		"ActiveHealthRegenBoost_prefix"					"{ق:علامة}"
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
 		//"ActiveHealthRegenBoost_postfix"				"hp/sec"
 		"ActiveHealthRegenBoost_label"				"تجديد الصحة"
 
@@ -584,35 +584,35 @@
 
 		"NonPlayerBonusWeaponPower_label"			"ضرر السلاح ضد الشخصيات غير القابلة للعب"
 		"NonPlayerBonusWeaponPower_postvalue_label"			"ضرر السلاح ضد الشخصيات غير القابلة للعب"
-		"NonPlayerBonusWeaponPower_prefix"			"{ق:علامة}"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
 		"NonPlayerBonusWeaponPower_postfix"			"%"
 		"NonPlayerBonusWeaponPower_conditional"		"ضد الشخصيات غير اللاعبة (NPCs)"
 
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"ضرر السلاح ضد الشخصيات غير اللاعبين"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"ضرر السلاح ضد الشخصيات غير اللاعبين"
-		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{ق:علامة}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"ضد الشخصيات غير اللاعبين"
 
 		"NonPlayerBulletResist_label"			"مقاومة الرصاص ضد الشخصيات غير القابلة للعب"
 
 		"NonPlayerBulletResist_postvalue_label"			"مقاومة الرصاص ضد الشخصيات غير القابلة للعب"
-		"NonPlayerBulletResist_prefix"			"{ق:علامة}"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
 		"NonPlayerBulletResist_postfix"			"%"
 		"NonPlayerBulletResist_conditional"		"ضد الشخصيات غير اللاعبة (NPCs)"
 
-		"BonusMeleeDamagePercent_prefix"				"{ق:علامة}"
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
 		"BonusMeleeDamagePercent_postfix"				"%"
 		"BonusMeleeDamagePercent_label"				"ضرر الاشتباك"
 
 		"BonusMeleeDamagePercent_postvalue_label"				"ضرر الاشتباك"
 
-		"BonusMeleeDamage_prefix"						"{ق:علامة}"
+		"BonusMeleeDamage_prefix"						"{s:sign}"
 		"BonusMeleeDamage_label"						"ضرر الاشتباك"
 
 		"BonusMeleeDamage_postvalue_label"						"ضرر الاشتباك"
 
-		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"ضرر الاشتباك"
 
 		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"ضرر الاشتباك"
@@ -622,11 +622,11 @@
 		"FuseTime_postvalue_label"								"وقت الفتيل"
 		"FuseTime_postfix"								" ثانية"
 
-		"BonusAmmoRegen_prefix"							"{ق:علامة}"
+		"BonusAmmoRegen_prefix"							"{s:sign}"
 		"BonusAmmoRegen_postfix"						" في الثانية"
 		//"BonusAmmoRegen_label"						"Ammo Regen"
 
-		"BonusAmmo_prefix"								"{ق:علامة}"
+		"BonusAmmo_prefix"								"{s:sign}"
 		"BonusAmmo_postfix"								"%"
 		//"BonusAmmo_label"								"Bullets"
 
@@ -641,30 +641,30 @@
 		//"ChainDamageCoeff_postfix"						"% of gun damage"
 		//"ChainDamageCoeff_label"						"Chain Damage"
 
-		"BulletArmor_prefix"							"{ق:علامة}"
+		"BulletArmor_prefix"							"{s:sign}"
 		"BulletArmor_label"								"درع الرصاص"
 		"BulletArmor_postvalue_label"								"درع الرصاص"
 
-		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_BULLET_ARMOR_label"								"درع الرصاص"
 		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"درع الرصاص"
 
-		"BulletResist_prefix"							"{ق:علامة}"
+		"BulletResist_prefix"							"{s:sign}"
 		"BulletResist_postfix"							"%"
 		"BulletResist_label"							"مقاومة الرصاص"
 		"BulletResist_postvalue_label"							"مقاومة الرصاص"
 
-		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							"%"
 		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"مقاومة الرصاص"
 		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"مقاومة الرصاص"
 
-		"BulletArmorDamageReduction_prefix"				"{ق:علامة}"
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
 		"BulletArmorDamageReduction_postfix"			"%"
 		"BulletArmorDamageReduction_label"				"مقاومة الرصاص"
 		"BulletArmorDamageReduction_postvalue_label"				"مقاومة الرصاص"
 
-		"BulletArmorDamageReductionPerStack_prefix"				"{ق:علامة}"
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
 		"BulletArmorDamageReductionPerStack_postfix"			"%"
 		"BulletArmorDamageReductionPerStack_label"				"مقاومة الرصاص لكل تراكم"
 		"BulletArmorDamageReductionPerStack_postvalue_label"	"مقاومة الرصاص لكل تراكم"
@@ -672,7 +672,7 @@
 
 
 		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
-		"TechArmorDamageReduction_prefix"				"{ق:علامة}"
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
 		"TechArmorDamageReduction_postfix"				"%"
 		"TechArmorDamageReduction_Label"				"مقاومة الروح"
 
@@ -695,7 +695,7 @@
 		"MagicResistReduction_postvalue_label"		"مقاومة الروح"
 		"MagicResistReduction_postfix"	"%"
 
-		"TechDamageScale_prefix"						"{ق:علامة}"
+		"TechDamageScale_prefix"						"{s:sign}"
 		"TechDamageScale_postfix"						"%"
 		"TechDamageScale_label"							"ضرر الروح"
 
@@ -706,30 +706,30 @@
 		"OutgoingTechDamagePercent_postvalue_label" "ضرر الروح"
 		"OutgoingTechDamagePercent_postfix" "%"
 
-		"TechArmor_prefix"								"{ق:علامة}"
+		"TechArmor_prefix"								"{s:sign}"
 		"TechArmor_label"								"درع الروح"
 		"TechArmor_postvalue_label"								"درع الروح"
 
-		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
 		"MODIFIER_VALUE_TECH_ARMOR_label"								"درع الروح"
 		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"درع الروح"
 		
-		"TechResist_prefix"								"{ق:علامة}"
+		"TechResist_prefix"								"{s:sign}"
 		"TechResist_postfix"							"%"
 		"TechResist_label"								"مقاومة الروح"
 		"TechResist_postvalue_label"								"مقاومة الروح"
 
-		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
 		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
 		"MODIFIER_VALUE_TECH_RESIST_label"								"مقاومة الروح"
 		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"مقاومة الروح"
 
-		"TechResistPerStack_prefix"						"{ق:علامة}"
+		"TechResistPerStack_prefix"						"{s:sign}"
 		"TechResistPerStack_postfix"					"%"
 		"TechResistPerStack_label"						"تضخيم الروح لكل تراكم"
 		"TechResistPerStack_postvalue_label"						"تضخيم الروح لكل تراكم"
 
-		"MagicIncreasePerStack_prefix"					"{ق:علامة}"
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
 		"MagicIncreasePerStack_postfix"					"%"
 		"MagicIncreasePerStack_label"					"تضخيم الروح لكل تراكم"
 
@@ -739,7 +739,7 @@
 		"BulletDamageReduction_label"					"درع الرصاص"
 		"BulletDamageReduction_postvalue_label"					"درع الرصاص"
 
-		"ActiveBulletDamageReduction_prefix"			"{ق:علامة}"
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
 		"ActiveBulletDamageReduction_label"			"ضرر الرصاص"
 		"ActiveBulletDamageReduction_postvalue_label"			"ضرر الرصاص"
 		"ActiveBulletDamageReduction_postfix"			"%"
@@ -748,12 +748,12 @@
 		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"درع الرصاص"
 		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"درع الرصاص"
 
-		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{ق:علامة}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
 		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"ضرر الرصاص"
 		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"ضرر الرصاص"
 		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			"%"
 
-		"BonusMoveSpeed_prefix"							"{ق:علامة}"
+		"BonusMoveSpeed_prefix"							"{s:sign}"
 		"BonusMoveSpeed_label"						"سرعة الحركة"
 		"BonusMoveSpeed_postvalue_label"						"سرعة الحركة"
 		"BonusMoveSpeed_postfix"						" م/ث"
@@ -763,17 +763,17 @@
 		"FloatMoveSpeed_postvalue_label"						"سرعة الطفو"
 		"FloatMoveSpeed_postfix"						" م/ث"
 
-		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"سرعة الحركة"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"سرعة الحركة"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						" م/ث"
 
-		"RestoreDelay_prefix"							"{ق:علامة}"
+		"RestoreDelay_prefix"							"{s:sign}"
 		"RestoreDelay_label"						"تأخير الاستعادة"
 		"RestoreDelay_postvalue_label"						"تأخير الاستعادة"
 		"RestoreDelay_postfix"						" ثانية"
 
-		"HealLifePercentOutOfCombat_prefix"				"{ق:علامة}"
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
 		"HealLifePercentOutOfCombat_label"				"أقصى تجدد الصحة"
 		"HealLifePercentOutOfCombat_postvalue_label"	"أقصى تجدد الصحة"
 		"HealLifePercentOutOfCombat_postfix"			" %"
@@ -786,17 +786,17 @@
 		"WeaponRange_postvalue_label"							"سلاح مدى"
 		"WeaponRange_postfix"						" م"
 
-		"BonusMoveSpeedPercent_prefix"					"{ق:علامة}"
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
 		"BonusMoveSpeedPercent_postfix"					"%"
 		"BonusMoveSpeedPercent_label"					"سرعة الحركة"
 		"BonusMoveSpeedPercent_postvalue_label"					"سرعة الحركة"
 
-		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					"%"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"سرعة الحركة"
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"سرعة الحركة"
 
-		"SlowResistancePercent_prefix"					"{ق:علامة}"
+		"SlowResistancePercent_prefix"					"{s:sign}"
 		"SlowResistancePercent_label"					"مقاومة الإبطاء"
 		"SlowResistancePercent_postvalue_label"					"مقاومة الإبطاء"
 		"SlowResistancePercent_postfix"					"%"
@@ -804,7 +804,7 @@
 		"AirSpeedBonus_label"						"مكافأة الهواء سرعة"
 
 		"AirSpeedBonus_postvalue_label"						"مكافأة الهواء سرعة"
-		"AirSpeedBonus_prefix"						"{ق:علامة}"
+		"AirSpeedBonus_prefix"						"{s:sign}"
 		"AirSpeedBonus_postfix"						" م/ث"
 		//"AscendSpeed_label"							""
 		//"DescendSpeed_label"							""
@@ -814,29 +814,29 @@
 
 		"BonusCooldownReduction_postvalue_label"					"تخفيض فترة التهدئة لكل رصاصة"
 
-		"BonusClipSize_prefix"							"{ق:علامة}"
+		"BonusClipSize_prefix"							"{s:sign}"
 		"BonusClipSize_label"							"الذخيرة"
 		"BonusClipSize_postvalue_label"							"الذخيرة"
 
-		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"الذخيرة"
 		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"الذخيرة"
 
-		"BonusClipSizePercent_prefix"					"{ق:علامة}"
+		"BonusClipSizePercent_prefix"					"{s:sign}"
 		"BonusClipSizePercent_postfix"					"%"
 		"BonusClipSizePercent_label"					"أقصى ذخيرة"
 		"BonusClipSizePercent_postvalue_label"					"أقصى ذخيرة"
 
-		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					"%"
 		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"أقصى ذخيرة"
 		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"أقصى ذخيرة"
 
-		"TemporaryBonusClipSize_prefix"				"{ق:علامة}"
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
 		"TemporaryBonusClipSize_label"				"مؤقت ذخيرة"
 		"TemporaryBonusClipSize_postvalue_label"				"مؤقت ذخيرة"
 
-		"TemporaryBonusClipSizePercent_prefix"			"{ق:علامة}"
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
 		"TemporaryBonusClipSizePercent_postfix"			"%"
 		"TemporaryBonusClipSizePercent_label"			"مؤقت ذخيرة"
 
@@ -852,41 +852,41 @@
 
 		"BulletPenetrationPercent_postvalue_label"				"اختراق رصاصة ضرر"
 
-		"TechPower_prefix"								"{ق:علامة}"
+		"TechPower_prefix"								"{s:sign}"
 		"TechPower_label"								"قوة الروح"
 		"TechPower_postvalue_label"								"قوة الروح"
 		"TechPower_postfix"								""
 
-		"MODIFIER_VALUE_TECH_POWER_prefix"								"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
 		"MODIFIER_VALUE_TECH_POWER_label"								"قوة الروح"
 		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"قوة الروح"
 		"MODIFIER_VALUE_TECH_POWER_postfix"								""
 
-		"TechPowerPercent_prefix"						"{ق:علامة}"
+		"TechPowerPercent_prefix"						"{s:sign}"
 		"TechPowerPercent_label"						"قوة الروح"
 		"TechPowerPercent_postvalue_label"						"قوة الروح"
 		"TechPowerPercent_postfix"						"%"
 
-		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"قوة الروح"
 		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"قوة الروح"
 		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						"%"
 
-		"ArmorPower_prefix"								"{ق:علامة}"
+		"ArmorPower_prefix"								"{s:sign}"
 		"ArmorPower_label"								"أساسي الصحة"
 		"ArmorPower_postvalue_label"								"أساسي الصحة"
 		"ArmorPower_postfix"								"%"
 
-		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{ق:علامة}"
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
 		"MODIFIER_VALUE_ARMOR_POWER_label"								"أساسي الصحة"
 		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"أساسي الصحة"
 		"MODIFIER_VALUE_ARMOR_POWER_postfix"								"%"
 
-		"TechPowerAmp_prefix"							"{ق:علامة}"
+		"TechPowerAmp_prefix"							"{s:sign}"
 		//"TechPowerAmp_label"							"Spirit"
 		//"TechPowerAmp_postfix"							""
 
-		"SpellAmplificationPercent_prefix"				"{ق:علامة}"
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
 		"SpellAmplificationPercent_label"				"قوة الروح"
 		"SpellAmplificationPercent_postvalue_label"				"قوة الروح"
 		"SpellAmplificationPercent_postfix"				""
@@ -904,39 +904,39 @@
 
 		"ChargesRestored_postvalue_label"							"تمت استعادة الرسوم"			
 
-		"BonusFireRate_prefix"							"{ق:علامة}"
+		"BonusFireRate_prefix"							"{s:sign}"
 		"BonusFireRate_postfix"							"%"
 		"BonusFireRate_label"							"معدل الإطلاق"
 		"BonusFireRate_postvalue_label"							"معدل الإطلاق"
 
-		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_FIRE_RATE_postfix"							"%"
 		"MODIFIER_VALUE_FIRE_RATE_label"							"معدل الإطلاق"
 		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"معدل الإطلاق"
 		
-		"ActivatedFireRate_prefix"						"{ق:علامة}"
+		"ActivatedFireRate_prefix"						"{s:sign}"
 		"ActivatedFireRate_postfix"						"%"
 		"ActivatedFireRate_label"						"معدل الإطلاق"
 
 		"ActivatedFireRate_postvalue_label"						"معدل الإطلاق"
 
-		"BonusFireRatePlayerUnit_prefix"				"{ق:علامة}"
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
 		"BonusFireRatePlayerUnit_postfix"				"%"
 		"BonusFireRatePlayerUnit_label"					"أتباع معدل إطلاق النار"
 
 		"BonusFireRatePlayerUnit_postvalue_label"					"أتباع معدل إطلاق النار"
 
-		"BonusFireRateNPC_prefix"							"{ق:علامة}"
+		"BonusFireRateNPC_prefix"							"{s:sign}"
 		"BonusFireRateNPC_postfix"							"%"
 		"BonusFireRateNPC_label"							"معدل إطلاق النار"
 
 		"BonusFireRateNPC_postvalue_label"							"معدل إطلاق النار"
 
-		"BonusMeleeAttackSpeed_prefix"					"{ق:علامة}"
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
 		"BonusMeleeAttackSpeed_postfix"					"%"
 		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
 
-		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					"%"
 
 		"AbilityDamageReduction_label"				"ضرر روحي تخفيض"
@@ -996,27 +996,27 @@
 		"FreezeDuration_postvalue_label"							"تجميد المدة"
 		"FreezeDuration_postfix"							" ثانية"
 
-		"CooldownReduction_prefix"						"{ق:علامة}"
+		"CooldownReduction_prefix"						"{s:sign}"
 		"CooldownReduction_postfix"						"%"
 		"CooldownReduction_label"						"القدرة تخفيض فترة التهدئة"
 		"CooldownReduction_postvalue_label"						"القدرة تخفيض فترة التهدئة"
 		
-		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
 		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"القدرة تخفيض فترة التهدئة"
 		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"القدرة تخفيض فترة التهدئة"
 
-		"SingleAbilityCooldownReduction_prefix"						"{ق:علامة}"
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
 		"SingleAbilityCooldownReduction_postfix"					"%"
 		"SingleAbilityCooldownReduction_label"						"القدرة تخفيض فترة التهدئة"
 		"SingleAbilityCooldownReduction_postvalue_label"			"القدرة تخفيض فترة التهدئة"
 		
-		"ItemCooldownReduction_prefix"						"{ق:علامة}"
+		"ItemCooldownReduction_prefix"						"{s:sign}"
 		"ItemCooldownReduction_postfix"						"%"
 		"ItemCooldownReduction_label"						"العنصر تخفيض فترة التهدئة"
 		"ItemCooldownReduction_postvalue_label"						"العنصر تخفيض فترة التهدئة"
 
-		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
 		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"العنصر تخفيض فترة التهدئة"
 		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"العنصر تخفيض فترة التهدئة"
@@ -1026,13 +1026,13 @@
 
 		"CooldownRefundPercent_postvalue_label"	"استرداد أموال فترة التهدئة"
 
-		"ImbuedCooldownReduction_prefix"				"{ق:علامة}"
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
 		"ImbuedCooldownReduction_postfix"				"%"
 		"ImbuedCooldownReduction_label"					"القدرة المشبعة تخفيض فترة التهدئة"
 
 		"ImbuedCooldownReduction_postvalue_label"					"القدرة المشبعة تخفيض فترة التهدئة"
 
-		"NonImbuedCooldownReduction_prefix"				"{ق:علامة}"
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
 		"NonImbuedCooldownReduction_postfix"			"%"
 		"NonImbuedCooldownReduction_label"				"القدرة غير المشبعة تخفيض فترة التهدئة"
 
@@ -1043,36 +1043,36 @@
 
 		"CooldownReductionFlat_postvalue_label"					"تقليل وقت الانتظار"
 
-		"BonusAbilityCharges_prefix"					"{ق:علامة}"
+		"BonusAbilityCharges_prefix"					"{s:sign}"
 		"BonusAbilityCharges_label"					"رسوم القدرة الإضافية"
 
 		"BonusAbilityCharges_postvalue_label"					"رسوم القدرة الإضافية"
 
-		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"رسوم القدرة الإضافية"
 
 		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"رسوم القدرة الإضافية"
 
 		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
-		"BonusChargedAbilityDamage_prefix"				"{ق:علامة}"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
 		"BonusChargedAbilityDamage_postfix"				"%"
 
-		"CooldownBetweenChargeReduction_prefix"			"{ق:علامة}"
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
 		"CooldownBetweenChargeReduction_label"			"وقت أسرع بين الشحنات"
 		"CooldownBetweenChargeReduction_postvalue_label"			"وقت أسرع بين الشحنات"
 		"CooldownBetweenChargeReduction_postfix"		"%"
 
-		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{ق:علامة}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
 		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"وقت أسرع بين الشحنات"
 		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"وقت أسرع بين الشحنات"
 		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		"%"
 
-		"BonusSprintSpeed_prefix"						"{ق:علامة}"
+		"BonusSprintSpeed_prefix"						"{s:sign}"
 		"BonusSprintSpeed_postfix"						" م/ث"
 		"BonusSprintSpeed_label"						"سرعة الركض"
 		"BonusSprintSpeed_postvalue_label"						"سرعة الركض"
 		
-		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						" م/ث"
 		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"سرعة الركض"
 		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"سرعة الركض"
@@ -1082,22 +1082,22 @@
 
 		"SprintSpeed_postvalue_label"								"سرعة الركض"
 
-		"BonusSprintSpeedPercent_prefix"				"{ق:علامة}"
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
 		"BonusSprintSpeedPercent_label"				"سرعة الركض"
 		"BonusSprintSpeedPercent_postvalue_label"				"سرعة الركض"
 		"BonusSprintSpeedPercent_postfix"				"%"
 
-		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"سرعة الركض"
 		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"سرعة الركض"
 		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				"%"
 
-		"BonusSuperSprintSpeed_prefix"					"{ق:علامة}"
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
 		"BonusSuperSprintSpeed_label"					"سرعة الركض"
 
 		"BonusSuperSprintSpeed_postvalue_label"					"سرعة الركض"
 
-		"BonusSuperSprintSpeedPercent_prefix"			"{ق:علامة}"
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
 		"BonusSuperSprintSpeedPercent_postfix"			"%"
 
 		"TotalHealthRegen_label"						"إجمالي تجديد الصحة"
@@ -1105,17 +1105,17 @@
 
 		"TotalHealthRegen_postvalue_label"						"إجمالي تجديد الصحة"
 
-		"StatusResistancePercent_prefix"				"{ق:علامة}"
+		"StatusResistancePercent_prefix"				"{s:sign}"
 		"StatusResistancePercent_label"				"مقاومة الإضعاف"
 		"StatusResistancePercent_postvalue_label"				"مقاومة الإضعاف"
 		"StatusResistancePercent_postfix"				"%"
 
-		"InnateStatusResistancePercent_prefix"				"{ق:علامة}"
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
 		"InnateStatusResistancePercent_label"				"مقاومة الإضعاف"
 		"InnateStatusResistancePercent_postvalue_label"				"مقاومة الإضعاف"
 		"InnateStatusResistancePercent_postfix"				"%"
 
-		"FervorStatusResistancePercent_prefix"				"{ق:علامة}"
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
 		"FervorStatusResistancePercent_label"				"مقاومة الإضعاف"
 		"FervorStatusResistancePercent_postvalue_label"				"مقاومة الإضعاف"
 		"FervorStatusResistancePercent_postfix"				"%"
@@ -1124,7 +1124,7 @@
 		"ActiveStatusResistancePercent_label"			"تقليل التأثير السلبي"
 		"ActiveStatusResistancePercent_postvalue_label"			"تقليل التأثير السلبي"
 
-		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"مقاومة الإضعاف"
 		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"مقاومة الإضعاف"
 		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
@@ -1138,30 +1138,30 @@
 		"StatusResistanceDuration_postvalue_label"				"المدة"
 		"StatusResistanceDuration_postfix"				" ثانية"
 
-		"CleavePercentage_prefix"						"{ق:علامة}"
+		"CleavePercentage_prefix"						"{s:sign}"
 		//"CleavePercentage_label"						"Splash Amount"
 		"CleavePercentage_postfix"						"%"
 
 		//"CleaveRadius_label"							"Splash Radius"
 
-		"BonusAccuracy_prefix"							"{ق:علامة}"
+		"BonusAccuracy_prefix"							"{s:sign}"
 		"BonusAccuracy_postfix"							"%"
 		//"BonusAccuracy_label"							"Gun Accuracy"
 
-		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							"%"
 
-		"BonusBulletSpeedPercent_prefix"				"{ق:علامة}"
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
 		"BonusBulletSpeedPercent_postfix"				"%"
 		"BonusBulletSpeedPercent_label"					"سرعة الرصاصة"
 		"BonusBulletSpeedPercent_postvalue_label"					"سرعة الرصاصة"
 
-		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				"%"
 		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"سرعة الرصاصة"
 		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"سرعة الرصاصة"
 
-		"LifeStealPercent_prefix"						"{ق:علامة}"
+		"LifeStealPercent_prefix"						"{s:sign}"
 		"LifeStealPercent_label"						"سرقة الحياة"
 		"LifeStealPercent_postvalue_label"						"سرقة الحياة"
 		"LifeStealPercent_postfix"						"%"
@@ -1171,7 +1171,7 @@
 		"LifestealPercentHero_postvalue_label"					"سرقة الحياة"
 		"LifestealPercentHero_postfix"					"%"
 
-		"LifestealPercentNonHero_prefix"						"{ق:علامة}"
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
 		"LifestealPercentNonHero_label"					"سرقة الحياة على غير أبطال"
 		"LifestealPercentNonHero_postvalue_label"					"سرقة الحياة على غير أبطال"
 		"LifestealPercentNonHero_postfix"				"%"
@@ -1180,22 +1180,22 @@
 		"AbilityLifestealDuration_postvalue_label"		"القدرة سرقة الحياة المدة"
 		"AbilityLifestealDuration_postfix"				" ثانية"
 
-		"BulletLifestealPercent_prefix"						"{ق:علامة}"
+		"BulletLifestealPercent_prefix"						"{s:sign}"
 		"BulletLifestealPercent_label"					"سرقة حياة للرصاص"
 		"BulletLifestealPercent_postvalue_label"					"سرقة حياة للرصاص"
 		"BulletLifestealPercent_postfix"				"%"
 
-		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"سرقة حياة للرصاص"
 		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"سرقة حياة للرصاص"
 		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
 
-		"TechLifestealPercent_prefix"					"{ق:علامة}"
+		"TechLifestealPercent_prefix"					"{s:sign}"
 		"TechLifestealPercent_label"						"سرقة حياة للروح"
 		"TechLifestealPercent_postvalue_label"						"سرقة حياة للروح"
 		"TechLifestealPercent_postfix"					"%"
 
-		"MeleeLifestealPercent_prefix"						"{ق:علامة}"
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
 		"MeleeLifestealPercent_label"					"سرقة الحياة بالاشتباك"
 		"MeleeLifestealPercent_postvalue_label"					"سرقة الحياة بالاشتباك"
 		"MeleeLifestealPercent_postfix"					"%"
@@ -1231,11 +1231,11 @@
 
 		//"MeleeDamageReduction_label"					"Melee Armor"
 
-		"MeleeDamageReductionPercent_prefix"			"{ق:علامة}"
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
 		"MeleeDamageReductionPercent_postfix"			"%"
 		//"MeleeDamageReductionPercent_label"			"Melee Armor"
 		
-		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{ق:علامة}"
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
 		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
 		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
 
@@ -1265,33 +1265,33 @@
 
 		//"SlowSpeedLimit_label"						"Speed Reduced To"
 
-		"HealAmpReceivePercent_prefix"					"{ق:علامة}"
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
 		//"HealAmpReceivePercent_label"					"Healing Received Boost"
 		"HealAmpReceivePercent_postfix"					"%"
 
-		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
 		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
 		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					"%"
 
-		"HealAmpCastPercent_prefix"					"{ق:علامة}"
+		"HealAmpCastPercent_prefix"					"{s:sign}"
 		"HealAmpCastPercent_label"					"فعالية العلاج"
 		"HealAmpCastPercent_postvalue_label"					"فعالية العلاج"
 		"HealAmpCastPercent_postfix"					"%"
 		
-		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"فعالية العلاج"
 		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"فعالية العلاج"
 		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					"%"
 
-		"HealAmpRegenPercent_prefix"					"{ق:علامة}"
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
 		//"HealAmpRegenPercent_label"					"Health Regen Boost"
 		"HealAmpRegenPercent_postfix"					"%"
 		
-		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
 		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
 		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					"%"
 		
-		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{ق:علامة}"
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
 		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
 		"HealAmpRegenMultiplierOutOfCombat_postfix"			"س"
 
@@ -1311,7 +1311,7 @@
 		"DegenResistance_label"						"مقاومة تقليل العلاج"
 		"DegenResistance_postvalue_label"						"مقاومة تقليل العلاج"
 		"DegenResistance_postfix"					"%"
-		"DegenResistance_prefix"					"{ق:علامة}"
+		"DegenResistance_prefix"					"{s:sign}"
 
 		"ProcChance_label"							"فرصة التفعيل"
 
@@ -1322,7 +1322,7 @@
 		"OutgoingDamageReduction_prefix"				"-"
 		"OutgoingDamageReduction_postfix"				"%"
 
-		"OutgoingDamagePercent_prefix" "{ق:علامة}"
+		"OutgoingDamagePercent_prefix" "{s:sign}"
 		"OutgoingDamagePercent_label" "الضرر"
 		"OutgoingDamagePercent_postvalue_label" "الضرر"
 		"OutgoingDamagePercent_postfix" "%"
@@ -1359,7 +1359,7 @@
 
 		"TechShieldHealth_postvalue_label"					"درع روح صحة"
 		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
-		"TechShieldDamagePercent_prefix"			"{ق:علامة}"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
 		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
 		"TechShieldDamagePercent_postfix"			"%"
 
@@ -1370,7 +1370,7 @@
 		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"درع رصاص صحة"
 
 		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
-		"BulletShieldDamagePercent_prefix"			"{ق:علامة}"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
 		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
 		"BulletShieldDamagePercent_postfix"			"%"
 
@@ -1407,32 +1407,32 @@
 		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
 		"DodgeAnimSpeedScale_postfix"					"س"
 
-		"BulletDamagePercent_prefix"					"{ق:علامة}"
+		"BulletDamagePercent_prefix"					"{s:sign}"
 		"BulletDamagePercent_label"					"ضرر الرصاص"
 		"BulletDamagePercent_postvalue_label"					"ضرر الرصاص"
 		"BulletDamagePercent_postfix"					"%"
 
-		"AbilityLifestealPercent_prefix"					"{ق:علامة}"
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
 		"AbilityLifestealPercent_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercent_postvalue_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercent_postfix"				"%"
 		
-		"AbilityLifestealPercentHero_prefix"					"{ق:علامة}"
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
 		"AbilityLifestealPercentHero_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercentHero_postvalue_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
-		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"سرقة حياة للروح"
 		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"سرقة حياة للروح"
 		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
 		
-		"AbilityLifestealPercentHeroPassive_prefix"					"{ق:علامة}"
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
 		"AbilityLifestealPercentHeroPassive_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercentHeroPassive_postvalue_label"				"سرقة حياة للروح"
 		"AbilityLifestealPercentHeroPassive_postfix"			"%"
 
-		"AbilityLifestealPercentNonHero_prefix"					"{ق:علامة}"
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
 		"AbilityLifestealPercentNonHero_label"			"سرقة حياة للروح (غير الأبطال)"
 		"AbilityLifestealPercentNonHero_postvalue_label"			"سرقة حياة للروح (غير الأبطال)"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
@@ -1493,12 +1493,12 @@
 		//"BonusAttackRange_label"						"Weapon Range"
 		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						"أمتار"
 
-		"BonusAttackRangePercent_prefix"				"{ق:علامة}"
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
 		"BonusAttackRangePercent_postfix"				"%"
 		"BonusAttackRangePercent_label"					"سلاح السقوط مدى"
 		"BonusAttackRangePercent_postvalue_label"					"سلاح السقوط مدى"
 
-		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				"%"
 		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"سلاح السقوط مدى"
 		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"سلاح السقوط مدى"
@@ -1509,7 +1509,7 @@
 		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					"%"
 		//"WeaponRecoilReduction_label"					"Recoil Reduction"
 
-		"BonusDPSPercent_prefix"						"{ق:علامة}"
+		"BonusDPSPercent_prefix"						"{s:sign}"
 		"BonusDPSPercent_label"						"ضرر الرصاص"
 		"BonusDPSPercent_postvalue_label"						"ضرر الرصاص"
 		"BonusDPSPercent_postfix"						"%"
@@ -1521,7 +1521,7 @@
 		"TurretFireRate_label"							"برج معدل إطلاق النار"
 
 		"TurretFireRate_postvalue_label"							"برج معدل إطلاق النار"
-		"TurretFireRate_prefix"							"{ق:علامة}"
+		"TurretFireRate_prefix"							"{s:sign}"
 		"TurretFireRate_postfix"						"%"
 
 		"TurretDPS_label"								"ضرر البرج في الثانية"
@@ -1537,66 +1537,66 @@
 		"HealRadius_postvalue_label"								"علاج نطاق"
 		"HealRadius_postfix"								" م"
 
-		"BulletArmorReduction_prefix"					"{ق:علامة}"
+		"BulletArmorReduction_prefix"					"{s:sign}"
 		"BulletArmorReduction_postfix"					"%"
 		"BulletArmorReduction_label"					"مقاومة الرصاص"
 
 		"BulletArmorReduction_postvalue_label"					"مقاومة الرصاص"
 
-		"LocalBulletArmorReduction_prefix"				"{ق:علامة}"
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
 		"LocalBulletArmorReduction_postfix"				"%"
 		"LocalBulletArmorReduction_label"				"مقاومة الرصاص"
 
 		"LocalBulletArmorReduction_postvalue_label"				"مقاومة الرصاص"
 
-		"LocalTechArmorReduction_prefix"				"{ق:علامة}"
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
 		//"LocalTechArmorReduction_label"				"Magic Resist"
 		"LocalTechArmorReduction_postfix"				"%"
 
 		"BulletResistOnActive_label"					"مقاومة الرصاص"
 
 		"BulletResistOnActive_postvalue_label"					"مقاومة الرصاص"
-		"BulletResistOnActive_prefix"					"{ق:علامة}"
+		"BulletResistOnActive_prefix"					"{s:sign}"
 		"BulletResistOnActive_postfix"					"%"
 
-		"WeaponPowerAmp_prefix"							"{ق:علامة}"
+		"WeaponPowerAmp_prefix"							"{s:sign}"
 		//"WeaponPowerAmp_label"						"Courage"
 
-		"WeaponPowerWhileActivated_prefix"						"{ق:علامة}"
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
 		//"WeaponPowerWhileActivated_label"						"Courage"
 
 		"FireRate_postfix"								"%"
 
-		"WeaponPower_prefix"							"{ق:علامة}"
+		"WeaponPower_prefix"							"{s:sign}"
 		"WeaponPower_label"								"ضرر السلاح"
 		"WeaponPower_postvalue_label"								"ضرر السلاح"
 		"WeaponPower_postfix"							"%"
 
-		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_WEAPON_POWER_label"								"ضرر السلاح"
 		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"ضرر السلاح"
 		"MODIFIER_VALUE_WEAPON_POWER_postfix"							"%"
 
-		"DamageIncrease_prefix"							"{ق:علامة}"
+		"DamageIncrease_prefix"							"{s:sign}"
 		"DamageIncrease_label"						"تم أخذ ضرر"
 
 		"DamageIncrease_postvalue_label"						"تم أخذ ضرر"
 
-		"DamageIncreasePercent_prefix"					"{ق:علامة}"
+		"DamageIncreasePercent_prefix"					"{s:sign}"
 		"DamageIncreasePercent_label"					"تم أخذ ضرر"
 		"DamageIncreasePercent_postvalue_label"					"تم أخذ ضرر"
 		"DamageIncreasePercent_postfix"					"%"
 
-		"BonusAbilitySpeed_prefix"						"{ق:علامة}"
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
 		//"BonusAbilitySpeed_postfix"						""
 		//"BonusAbilitySpeed_label"							"Ability Move Speed"
 
-		"ReloadSpeedMultipler_prefix"					"{ق:علامة}"
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
 		"ReloadSpeedMultipler_label"					"مدة التلقيم"
 		"ReloadSpeedMultipler_postvalue_label"					"مدة التلقيم"
 		"ReloadSpeedMultipler_postfix"					"%"
 
-		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_RELOAD_SPEED_label"					"مدة التلقيم"
 		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"مدة التلقيم"
 		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					"%"
@@ -1628,11 +1628,11 @@
 		"BulletDamagePercentAsTechDamage_postvalue_label"		"إضافي ضرر الروح"
 		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
 
-		"BonusCritDamagePercent_prefix"					"{ق:علامة}"
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
 		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
 		"BonusCritDamagePercent_postfix"				"%"
 
-		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				"%"
 
 		//"DPSDmgPercent_label"							"DPS as Damage"
@@ -1667,7 +1667,7 @@
 		"CloseRangeBonusDamageRange_postvalue_label"				"مسافة قريبة"
 		"CloseRangeBonusDamageRange_postfix"			" م"
 
-		"CloseRangeBonusWeaponPower_prefix"				"{ق:علامة}"
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
 		"CloseRangeBonusWeaponPower_label"				"ضرر السلاح"
 		"CloseRangeBonusWeaponPower_postvalue_label"				"ضرر السلاح"
 		"CloseRangeBonusWeaponPower_postfix"			"%"
@@ -1694,7 +1694,7 @@
 		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"الحد الأدنى للمسافة"
 		"LongRangeBonusWeaponPowerMinRange_postfix"		" م"
 
-		"LongRangeBonusWeaponPower_prefix"				"{ق:علامة}"
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
 		"LongRangeBonusWeaponPower_label"				"ضرر السلاح"
 		"LongRangeBonusWeaponPower_postvalue_label"				"ضرر السلاح"
 		"LongRangeBonusWeaponPower_postfix"				"%"
@@ -1704,48 +1704,48 @@
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"المسافة الأدنى"
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		"م"
 
-		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"ضرر السلاح"
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"ضرر السلاح"
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
 		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"خارج المدى"
 
-		"TechRangeMultiplier_prefix"					"{ق:علامة}"
+		"TechRangeMultiplier_prefix"					"{s:sign}"
 		"TechRangeMultiplier_label"						"نطاق القدرة"
 		"TechRangeMultiplier_postvalue_label"						"نطاق القدرة"
 		"TechRangeMultiplier_postfix"					"%"
 
-		"TechRangeMultiplierBuff_prefix"					"{ق:علامة}"
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
 		"TechRangeMultiplierBuff_label"						"نطاق القدرة"
 		"TechRangeMultiplierBuff_postvalue_label"						"نطاق القدرة"
 		"TechRangeMultiplierBuff_postfix"					"%"
 
-		"ImbuedTechRangeMultiplier_prefix"				"{ق:علامة}"
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
 		"ImbuedTechRangeMultiplier_label"				"القدرة المشبعة مدى"
 		"ImbuedTechRangeMultiplier_postvalue_label"				"القدرة المشبعة مدى"
 		"ImbuedTechRangeMultiplier_postfix"				"%"
 
-		"NonImbuedTechRangeMultiplier_prefix"			"{ق:علامة}"
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
 		"NonImbuedTechRangeMultiplier_label"			"القدرة غير المشبعة مدى"
 		"NonImbuedTechRangeMultiplier_postvalue_label"			"القدرة غير المشبعة مدى"
 		"NonImbuedTechRangeMultiplier_postfix"			"%"
 
-		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					"%"
 
-		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					"%"
 
-		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{ق:علامة}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
 		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"القدرة المشبعة مدى"
 		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"القدرة المشبعة مدى"
 		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				"%"
 
-		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{ق:علامة}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
 		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"القدرة غير المشبعة مدى"
 		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"القدرة غير المشبعة مدى"
 		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			"%"
@@ -1753,35 +1753,35 @@
 		//"ThrowRange_label"								"Throw Range"
 		"ThrowRange_postfix"							" م"
 
-		"TechRadiusMultiplier_prefix"					"{ق:علامة}"
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
 		"TechRadiusMultiplier_label"					"نطاق التأثير"
 		"TechRadiusMultiplier_postvalue_label"					"نطاق التأثير"
 		"TechRadiusMultiplier_postfix"					"%"
 
-		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"نطاق التأثير"
 		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"نطاق التأثير"
 		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					"%"
 
-		"TechRadiusMultiplierBuff_prefix"					"{ق:علامة}"
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
 		"TechRadiusMultiplierBuff_label"					"نطاق التأثير"
 		"TechRadiusMultiplierBuff_postvalue_label"					"نطاق التأثير"
 		"TechRadiusMultiplierBuff_postfix"					"%"
 
-		"ImbuedTechRadiusMultiplier_prefix"					"{ق:علامة}"
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
 		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
 		"ImbuedTechRadiusMultiplier_postfix"					"%"
 
-		"NonImbuedTechRadiusMultiplier_prefix"					"{ق:علامة}"
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
 		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
 		"NonImbuedTechRadiusMultiplier_postfix"					"%"
 
-		"TechRangeAdditive_prefix"						"{ق:علامة}"
+		"TechRangeAdditive_prefix"						"{s:sign}"
 		"TechRangeAdditive_label"						"نطاق القدرة"
 		"TechRangeAdditive_postvalue_label"						"نطاق القدرة"
 		"TechRangeAdditive_postfix"						" م"
 
-		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
 		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"نطاق القدرة"
 		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						" م/ث"
@@ -1801,12 +1801,12 @@
 
 		//"HealthCost_label"							"Health Cost"
 
-		"ZipLineSpeedPercent_prefix"					"{ق:علامة}"
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
 		"ZipLineSpeedPercent_label"						"سرعة الحبل السحاب"
 		"ZipLineSpeedPercent_postvalue_label"						"سرعة الحبل السحاب"
 		"ZipLineSpeedPercent_postfix"					"%"
 
-		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"سرعة الحبل السحاب"
 		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGEt_postvalue_label"						"سرعة الحبل السحاب"
 		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGEt_postfix"					"%"
@@ -1817,10 +1817,10 @@
 		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
 		"ZiplineJumpBonusMoveSpeed_postfix"					" م/ث"
 
-		"BonusZipLineSpeed_prefix"						"{ق:علامة}"
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
 		//"BonusZipLineSpeed_label"						"Hyperline Speed"
 
-		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{ق:علامة}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
 
 		"MaxProjectiles_label"						"عدد المقذوفات"
 
@@ -1831,7 +1831,7 @@
 
 		//"TackleDurationMax_label"						"Max Tackle Duration"
 
-		"MoveSpeedBonus_prefix"							"{ق:علامة}"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
 		"MoveSpeedBonus_label"							"سرعة الحركة"
 		"MoveSpeedBonus_postvalue_label"							"سرعة الحركة"
 		"MoveSpeedBonus_postfix"						" م/ث"
@@ -1984,27 +1984,27 @@
 		"AbilityCharges_postvalue_label"						"شحنات"
 		
 		
-		"BonusAbilityDurationPercent_prefix"			"{ق:علامة}"
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
 		"BonusAbilityDurationPercent_label"				"مدة القدرة"
 		"BonusAbilityDurationPercent_postvalue_label"				"مدة القدرة"
 		"BonusAbilityDurationPercent_postfix"			"%"		
 				
-		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{ق:علامة}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
 		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"مدة القدرة"
 		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"مدة القدرة"
 		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
 		
-		"NonImbuedBonusDuration_prefix"				"{ق:علامة}"
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
 		"NonImbuedBonusDuration_label"				"القدرة غير المشبعة المدة"
 		"NonImbuedBonusDuration_postvalue_label"				"القدرة غير المشبعة المدة"
 		"NonImbuedBonusDuration_postfix"			"%"		
 		
-		"ImbuedBonusDuration_prefix"					"{ق:علامة}"
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
 		"ImbuedBonusDuration_label"						"القدرة المشبعة المدة"
 		"ImbuedBonusDuration_postvalue_label"						"القدرة المشبعة المدة"
 		"ImbuedBonusDuration_postfix"					"%"
 
-		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"القدرة المشبعة المدة"
 		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"القدرة المشبعة المدة"
 		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
@@ -2052,7 +2052,7 @@
 		"TurretLifetime_postvalue_label"						"وقت البقاء"
 		"TurretLifetime_postfix"						" ثانية"
 
-		"CritCoatingDamagePercent_prefix"				"{ق:علامة}"
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
 		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
 		"CritCoatingDamagePercent_postfix"				"%"
 
@@ -2100,7 +2100,7 @@
 		"ProcDamage_postfix"							""
 
 		//"BaseDamagePct_label"							"Bonus Spirit Amp"
-		"BaseDamagePct_prefix"							"{ق:علامة}"
+		"BaseDamagePct_prefix"							"{s:sign}"
 		"BaseDamagePct_postfix"							"%"
 
 		"TargetsPerTick_label"						"الأهداف المصابة لكل طلقة"
@@ -2176,7 +2176,7 @@
 		"InvisFadeToDuration_postvalue_label"						"وقت التلاشي"
 		"InvisFadeToDuration_postfix"						" ثانية"
 
-		"InvisMoveSpeedMod_prefix"					"{ق:علامة}"
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
 		"InvisMoveSpeedMod_postfix"					" م/ث"
 		"InvisMoveSpeedMod_label"					"إنفيس سرعة الاندفاع"
 
@@ -2190,7 +2190,7 @@
 		"ArmingDuration_postvalue_label"						"تسليح المدة"
 		"ArmingDuration_postfix"						" ثانية"
 
-		"AirJumpVerticalSpeedPercent_prefix"			"{ق:علامة}"
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
 		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
 		"AirJumpVerticalSpeedPercent_postfix"			"%"
 
@@ -2205,22 +2205,22 @@
 
 		"AirControlPercentBarrier_label"					"التحكم الجوي"
 		"AirControlPercentBarrier_postvalue_label"					"التحكم الجوي"
-		"AirControlPercentBarrier_prefix"							"{ق:علامة}"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
 		"AirControlPercentBarrier_postfix"							"%"
 
 		"AirControlPercent_label"					"التحكم الجوي"
 		"AirControlPercent_postvalue_label"					"التحكم الجوي"
-		"AirControlPercent_prefix"							"{ق:علامة}"
+		"AirControlPercent_prefix"							"{s:sign}"
 		"AirControlPercent_postfix"							"%"
 
 		"AirControlAccelPercent_label"					"التسارع الجوي"
 		"AirControlAccelPercent_postvalue_label"					"التسارع الجوي"
-		"AirControlAccelPercent_prefix"							"{ق:علامة}"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
 		"AirControlAccelPercent_postfix"							"%"
 
 		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"التحكم الجوي"
 		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"التحكم الجوي"
-		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
 		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							"%"
 
 		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
@@ -2337,15 +2337,15 @@
 		//"CombatRegenPercent_label"						"Health Regen in Combat"
 		"CombatRegenPercent_postfix"					"%"
 
-		"AttackPower_prefix"							"{ق:علامة}"
+		"AttackPower_prefix"							"{s:sign}"
 		//"AttackPower_postfix"							""
 		//"AttackPower_label"								"Attack Power"
 
-		"AbilityPower_prefix"							"{ق:علامة}"
+		"AbilityPower_prefix"							"{s:sign}"
 		//"AbilityPower_postfix"							""
 		//"AbilityPower_label"							"Ability Power"
 		  
-		"DefensePower_prefix"							"{ق:علامة}"
+		"DefensePower_prefix"							"{s:sign}"
 		//"DefensePower_postfix"							""
 		//"DefensePower_label"							"Defense Power"
 
@@ -2384,11 +2384,11 @@
 		//"FinalSlow_label"							"Slowest Speed"		
 		"FinalSlow_postfix"							" م/ث"		
 
-		"WeaponPowerPerStack_prefix"				"{ق:علامة}"
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
 		"WeaponPowerPerStack_label"					"ضرر السلاح لكل تراكم"
 		"WeaponPowerPerStack_postvalue_label"					"ضرر السلاح لكل تراكم"
 		"WeaponPowerPerStack_postfix"				"%"
-		"WeaponPowerPerStackNonHero_prefix"				"{ق:علامة}"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
 		"WeaponPowerPerStackNonHero_label"					"غير بطل ضرر السلاح"
 		"WeaponPowerPerStackNonHero_postvalue_label"					"غير بطل ضرر السلاح"
 		"WeaponPowerPerStackNonHero_postfix"				"%"
@@ -2418,23 +2418,23 @@
 		//"RegenerationRate_label"					"Restore Time"
 		"RegenerationRate_postfix"					" ثانية"
 
-		"BulletShieldMaxHealth_prefix"				"{ق:علامة}"
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
 		"BulletShieldMaxHealth_label"				"درع رصاص صحة"
 		"BulletShieldMaxHealth_postvalue_label"				"درع رصاص صحة"
 
-		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"درع رصاص صحة"
 		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"درع رصاص صحة"
 
-		"ActiveBulletShieldMaxHealth_prefix"		"{ق:علامة}"
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
 		"ActiveBulletShieldMaxHealth_label"			"درع رصاص صحة"
 		"ActiveBulletShieldMaxHealth_postvalue_label"			"درع رصاص صحة"
 
-		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{ق:علامة}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
 		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"درع رصاص صحة"
 		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"درع رصاص صحة"
 
-		"TechShieldMaxHealth_prefix"				"{ق:علامة}"
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
 		"TechShieldMaxHealth_label"					"درع روح صحة"
 		"TechShieldMaxHealth_postvalue_label"					"درع روح صحة"
 
@@ -2452,12 +2452,12 @@
 		"FireRatePerKill_prefix"			"+"
 		"FireRatePerKill_postfix"		"%"
 
-		"BonusZoomPercent_prefix"				"{ق:علامة}"
+		"BonusZoomPercent_prefix"				"{s:sign}"
 		"BonusZoomPercent_label"				"تقريب السلاح"
 		"BonusZoomPercent_postvalue_label"				"تقريب السلاح"
 		"BonusZoomPercent_postfix"				"%"
 
-		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{ق:علامة}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
 		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"تقريب السلاح"
 		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"تقريب السلاح"
 		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				"%"
@@ -2481,10 +2481,10 @@
 		"AssaultDuration_postfix"				" ثانية"
 
 		//"AssaultFireRate_label"				"Air Attack Fire Rate"
-		"AssaultFireRate_prefix"				"{ق:علامة}"
+		"AssaultFireRate_prefix"				"{s:sign}"
 		"AssaultFireRate_postfix"				"%"
 
-		"ActiveHealthRegen_prefix"			"{ق:علامة}"
+		"ActiveHealthRegen_prefix"			"{s:sign}"
 		"ActiveHealthRegen_label"			"تجديد الصحة"
 		"ActiveHealthRegen_postvalue_label"			"تجديد الصحة"
 		"ActiveHealthRegen_postfix"			"ن.ص/ث"
@@ -2580,13 +2580,13 @@
 
 		"Stamina_label"							"الطاقة"
 		"Stamina_postvalue_label"							"الطاقة"
-		"Stamina_prefix"							"{ق:علامة}"
+		"Stamina_prefix"							"{s:sign}"
 
 		"MODIFIER_VALUE_STAMINA_label"							"الطاقة"
 		"MODIFIER_VALUE_STAMINA_postvalue_label"							"الطاقة"
-		"MODIFIER_VALUE_STAMINA_prefix"							"{ق:علامة}"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
 
-		"StaminaCooldownReduction_prefix"				"{ق:علامة}"
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
 		"StaminaCooldownReduction_label"				"استرجاع الطاقة"
 		"StaminaCooldownReduction_postvalue_label"				"استرجاع الطاقة"
 		"StaminaCooldownReduction_postfix"			"%"
@@ -2609,7 +2609,7 @@
 		"BleedTechResist_label"				"مقاومة الروح"
 
 		"BleedTechResist_postvalue_label"				"مقاومة الروح"
-		"BleedTechResist_prefix"				"{ق:علامة}"
+		"BleedTechResist_prefix"				"{s:sign}"
 		"BleedTechResist_postfix"				"%"
 
 		//"StackProcDamage_label"			"Burst Damage"
@@ -2617,7 +2617,7 @@
 		"StackDuration_postvalue_label"				"تراكم المدة"
 		"StackDuration_postfix"			" ثانية"
 
-		"HeadShotBonusDamage_prefix"		"{ق:علامة}"
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
 		"HeadShotBonusDamage_label"			"مكافأة طلقة الرأس ضرر"
 		"HeadShotBonusDamage_postvalue_label"			"مكافأة طلقة الرأس ضرر"
 		"HeadShotDebuffDuration_label"		"المدة"
@@ -2663,7 +2663,7 @@
 		"TechPowerReduction_postfix"					""
 
 		//"SlowFireRatePercent_label"			"Fire Rate Scale"
-		"SlowFireRatePercent_prefix"			"{ق:علامة}"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
 		"SlowFireRatePercent_postfix"			"%"
 
 		"MaxFireRateSlowPercent_label"			"أقصى معدل إطلاق النار"
@@ -2673,7 +2673,7 @@
 		"MaxFireRateSlowPercent_prefix"		"-"
 
 		//"FireRateScale_label"					"Fire Rate Scale"
-		"FireRateScale_prefix"				"{ق:علامة}"
+		"FireRateScale_prefix"				"{s:sign}"
 		"FireRateScale_postfix"				"%"
 
 		//"ActiveHealAmount_label"				"Self Heal"
@@ -2699,25 +2699,25 @@
 		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"الهائج"
 		"berserker_stack"							"الهائج"
 
-		"WeaponDamageBonus_prefix"		"{ق:علامة}"
+		"WeaponDamageBonus_prefix"		"{s:sign}"
 		"WeaponDamageBonus_label"			"ضرر السلاح"
 
 		"WeaponDamageBonus_postvalue_label"			"ضرر السلاح"
 
-		"TechDamageBonusPercent_prefix"		"{ق:علامة}"
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
 		"TechDamageBonusPercent_label"		"ضرر الروح"
 		"TechDamageBonusPercent_postvalue_label"		"ضرر الروح"
 		"TechDamageBonusPercent_postfix"		"%"
 
-		"SuperiorStaminaBonusSpirit_prefix"	"{ق:علامة}"
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
 		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
 
-		"EchoShardBonusSpirit_prefix"		"{ق:علامة}"
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
 		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
 
 
 
-		"BonusSpirit_prefix"				"{ق:علامة}"
+		"BonusSpirit_prefix"				"{s:sign}"
 		"BonusSpirit_label"				"قوة الروح"
 		"BonusSpirit_postvalue_label"				"قوة الروح"
 		//"modifier_power_shard_bonus"		"Echo Boost"
@@ -2726,41 +2726,41 @@
 		"BonusDuration_postfix" 			" ثانية"
 		//"superior_stamina_buff"			"Bonus Spirit Power"
 
-		"HighGroundBonusWeaponPower_prefix"	"{ق:علامة}"
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
 		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
 		"HighGroundBonusWeaponPower_postfix"	"%"
 
-		"BonusBaseWeaponDamage_prefix"					"{ق:علامة}"
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
 		"BonusBaseWeaponDamage_label"					"ضرر السلاح"
 		"BonusBaseWeaponDamage_postvalue_label"					"ضرر السلاح"
 		"BonusBaseWeaponDamage_postfix"					"%"
 
-		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"ضرر السلاح"
 		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"ضرر السلاح"
 		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
 
-		"BaseAttackDamagePercent_prefix"					"{ق:علامة}"
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
 		"BaseAttackDamagePercent_label"					"ضرر السلاح"
 		"BaseAttackDamagePercent_postvalue_label"					"ضرر السلاح"
 		"BaseAttackDamagePercent_postfix"					"%"
 
-		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"ضرر السلاح"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"ضرر السلاح"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
 
-		"BaseAttackDamagePercentAltFire_prefix"					"{ق:علامة}"
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
 		"BaseAttackDamagePercentAltFire_label"					"النار الثانوية ضرر السلاح"
 		"BaseAttackDamagePercentAltFire_postvalue_label"					"النار الثانوية ضرر السلاح"
 		"BaseAttackDamagePercentAltFire_postfix"					"%"
 
-		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{ق:علامة}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"ضرر سلاح الإطلاق الثانوي"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"ضرر سلاح الإطلاق الثانوي"
 		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
 
-		"ImbuedTechPower_prefix"					"{ق:علامة}"
+		"ImbuedTechPower_prefix"					"{s:sign}"
 		"ImbuedTechPower_label"						"القدرة المشبعة قوة الروح"
 
 		"ImbuedTechPower_postvalue_label"						"القدرة المشبعة قوة الروح"
@@ -2774,7 +2774,7 @@
 		"EnemyLifeThreshold_postfix"					"%"
 
 		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
-		"CloneDamageTakenIncreasePercent_prefix"		"{ق:علامة}"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
 		"CloneDamageTakenIncreasePercent_postfix"		"%"
 
 		"ability_abort_cast"						"إلغاء"
@@ -2860,7 +2860,7 @@
 		"ActiveBonusMoveSpeed_label"					"سرعة الحركة"
 
 		"ActiveBonusMoveSpeed_postvalue_label"					"سرعة الحركة"
-		"ActiveBonusMoveSpeed_prefix"					"{ق:علامة}"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
 		"ActiveBonusMoveSpeed_postfix"					" م/ث"
 		"ActiveItemUse_conditional"					"أثناء النشاط"
 
@@ -2868,7 +2868,7 @@
 
 		"BuffMoveSpeedBonus_postvalue_label"						"سرعة الحركة"
 		"BuffMoveSpeedBonus_postfix"						" م/ث"
-		"BuffMoveSpeedBonus_prefix"						"{ق:علامة}"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
 
 		//"ChannelMoveSpeed_label"						"Channel Move Speed"
 		"ChannelMoveSpeed_postfx"						" م/ث"
@@ -2894,9 +2894,9 @@
 		"LowHealthThreshold_postfix"					"%"
 		"LowHealthTechResist_label"						"مقاومة الروح"
 		"LowHealthTechResist_postvalue_label"						"مقاومة الروح"
-		"LowHealthTechResist_prefix"					"{ق:علامة}"
+		"LowHealthTechResist_prefix"					"{s:sign}"
 		//"LowHealthWeaponPowerPercent_label"				"Courage"
-		"LowHealthWeaponPowerPercent_prefix"			"{ق:علامة}"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
 		"LowHealthWeaponPowerPercent_postfix"			"%"
 		"ExecuteThreshold_label"						"عتبة القضاء الفوري"
 		"ExecuteThreshold_postvalue_label"						"عتبة القضاء الفوري"
@@ -2929,12 +2929,12 @@
 		"MaxHealthLossPercent_postvalue_label"				"أقصى صحة"
 		"MaxHealthLossPercent_postfix"			"%"
 
-		"BonusClipPerKill_prefix"				"{ق:علامة}"
+		"BonusClipPerKill_prefix"				"{s:sign}"
 		"BonusClipPerKill_label"				"مكافأة ذخيرة لكل عملية قتل"
 
 		"BonusClipPerKill_postvalue_label"				"مكافأة ذخيرة لكل عملية قتل"
 
-		"BonusSpiritPerKill_prefix"				"{ق:علامة}"
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
 		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
 
 		//"MaxClipBonus_label"				"Max Clip Bonus"
@@ -2957,7 +2957,7 @@
 		"StaminaRegenPercent_postvalue_label"			"استرجاع الطاقة"
 		"StaminaRegenPercent_postfix"		"%"
 
-		"MeleeResistPercent_prefix"			"{ق:علامة}"
+		"MeleeResistPercent_prefix"			"{s:sign}"
 		"MeleeResistPercent_label"			"مقاومة الاشتباك"
 		"MeleeResistPercent_postvalue_label"			"مقاومة الاشتباك"
 		"MeleeResistPercent_postfix"		"%"
@@ -2991,13 +2991,13 @@
 
 		"IncomingDamagePercent_postvalue_label"		"تم أخذ ضرر"
 		"IncomingDamagePercent_postfix"		"%"
-		"IncomingDamagePercent_prefix"		"{ق:علامة}"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
 
 		"IncomingDamagePercentFromCaster_label"		"تم أخذ ضرر"
 
 		"IncomingDamagePercentFromCaster_postvalue_label"		"تم أخذ ضرر"
 		"IncomingDamagePercentFromCaster_postfix"	"%"
-		"IncomingDamagePercentFromCaster_prefix"	"{ق:علامة}"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
 
 		
 		"IncomingBulletDamagePercentFromCaster_label"	"تم أخذ ضرر الرصاص"
@@ -3005,7 +3005,7 @@
 		
 		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"تم أخذ ضرر الرصاص"
 		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
-		"IncomingBulletDamagePercentFromCaster_prefix"	"{ق:علامة}"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
 
 		"SlowResistance_label" "مقاومة الإبطاء"
 		"SlowResistance_postvalue_label" "مقاومة الإبطاء"
@@ -3100,7 +3100,7 @@
 
 		"AirBonusDamageGiven_label"					"في الهواء ضرر"
 		"AirBonusDamageGiven_postvalue_label"		"في الهواء ضرر"
-		"AirBonusDamageGiven_prefix"				"{ق:علامة}"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
 		"AirBonusDamageGiven_postfix"				"%"
 
 		"AirBonusDamageTaken_label"					"في الهواء تلقى ضرر"
@@ -3148,20 +3148,20 @@
 		"ResistStealAmount_postvalue_label"		"المقاومة المسروقة"
 		"ResistStealAmount_postfix"				"%"
 
-		"OmniPendantBonusAbilityCharges_prefix"	"{ق:علامة}"
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
 		"OmniPendantBonusAbilityCharges_label"	"قدرة مشحونة"
 		"OmniPendantBonusAbilityCharges_postvalue_label"	"قدرة مشحونة"
 
-		"BonusAbilityChargesNonCharge_prefix"	"{ق:علامة}"
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
 		"BonusAbilityChargesNonCharge_label"			"قدرة غير مشحونة"
 		"BonusAbilityChargesNonCharge_postvalue_label"	"قدرة غير مشحونة"
 
-		"WeaponDamageBonusPerKill_prefix"				"{ق:علامة}"
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
 		"WeaponDamageBonusPerKill_label"				"ضرر السلاح لكل قتل"
 		"WeaponDamageBonusPerKill_postvalue_label"		"ضرر السلاح لكل قتل"
 		"WeaponDamageBonusPerKill_postfix"				"%"
 
-		"ImbueAbilityLifesteal_prefix"				"{ق:علامة}"
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
 		"ImbueAbilityLifesteal_label"				"مشبع سرقة الحياة"
 		"ImbueAbilityLifesteal_postvalue_label"				"مشبع سرقة الحياة"
 		"ImbueAbilityLifesteal_postfix"				"%"
