@@ -1,0 +1,57 @@
+{
+    "launcher_version": "1.0.8",
+    "launcher_download_url": "https://github.com/hateemalshammari43-svg/Deadlock-Arabic-Translation/releases/download/v1.0.8/DhadLauncher.exe",
+    "games": [
+        {
+            "id": "deadlock",
+            "name": "Deadlock",
+            "developer": "Valve",
+            "steam_app_id": "1422450",
+            "github_user": "hateemalshammari43-svg",
+            "github_repo": "Deadlock-Arabic-Translation",
+            "github_branch": "main",
+            "exe_names": [
+                "citadel.exe",
+                "project8.exe"
+            ],
+            "subdir_check": "game",
+            "localization_files": [
+                {
+                    "key": "main",
+                    "source_file": "game/citadel/resource/localization/citadel_main/citadel_main_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_main/citadel_main_english.txt"
+                },
+                {
+                    "key": "gc",
+                    "source_file": "game/citadel/resource/localization/citadel_gc/citadel_gc_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_gc/citadel_gc_english.txt"
+                },
+                {
+                    "key": "heroes",
+                    "source_file": "game/citadel/resource/localization/citadel_heroes/citadel_heroes_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_heroes/citadel_heroes_english.txt"
+                },
+                {
+                    "key": "mods",
+                    "source_file": "game/citadel/resource/localization/citadel_mods/citadel_mods_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_mods/citadel_mods_english.txt"
+                },
+                {
+                    "key": "attributes",
+                    "source_file": "game/citadel/resource/localization/citadel_attributes/citadel_attributes_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_attributes/citadel_attributes_english.txt"
+                },
+                {
+                    "key": "gc_hero_names",
+                    "source_file": "game/citadel/resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_gc_hero_names/citadel_gc_hero_names_english.txt"
+                },
+                {
+                    "key": "gc_mod_names",
+                    "source_file": "game/citadel/resource/localization/citadel_gc_mod_names/citadel_gc_mod_names_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_gc_mod_names/citadel_gc_mod_names_english.txt"
+                }
+            ]
+        }
+    ]
+}
