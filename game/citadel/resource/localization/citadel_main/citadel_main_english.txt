@@ -4464,6 +4464,17 @@
 		"Citadel_PostGame_AwardPlayerDmg_RankOther"		"<br/>ضرر اللاعبين"
 		"Citadel_PostGame_AwardObjDmg_RankOther"		"<br/>ضرر الأهداف"
 		"Citadel_PostGame_AwardHealing_RankOther"		"<br/>شفاء"
+		"Citadel_HUD_IdolExpired"		"انتهت صلاحية جرة الأرواح..."
+		"Citadel_HUD_Koth_Time_Warning"		"الوقت أوشك على الانتهاء..."
+		"Citadel_HUD_KothCompleted"		"تم تأمين الشق!"
+		"Citadel_HUD_KothCompletedEnemy"		"خُسر الشق"
+		"Citadel_HUD_KothTimeRanOut"		"تلاشى الشق..."
+		"Citadel_HUD_KothExpired"		"لقد تلاشى الشق..."
+		"Citadel_HUD_Koth_Warning"		"شق غير مستقر ينفتح..."
+		"Citadel_HUD_Koth_Warning_Desc"		"اذهب إلى الشق للمطالبة بقوته"
+		"Citadel_AttackerClass_CLASS_BOSS_TIER_3_AMBER"		"الملك الخفي"
+		"Citadel_AttackerClass_CLASS_BOSS_TIER_3_SAPPHIRE"		"الأم الكبرى"
+		"ping_koth"		"الشق غير المستقر هنا!"
 	}
 }
 
