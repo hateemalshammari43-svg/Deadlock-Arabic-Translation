@@ -4495,6 +4495,9 @@
 		"Citadel_RankedSeason_SeasonRank"		"رتبة الموسم"
 		"Citadel_RankedSeason_HighestRank"		"أعلى رتبة"
 		"Citadel_RankedSeason_ProtectionRemaining"		"الحماية المتبقية: {d:demotion_protection_remaining}/{d:demotion_protection_total}"
+		"menu_play_unranked"		"قياسي"
+		"MENU_PLAY_UNRANKED"		"قياسي"
+		"menu_play_ranked_matchmaking"		"لعب مباراة تنافسية ضد لاعبين آخرين"
 	}
 }
 
