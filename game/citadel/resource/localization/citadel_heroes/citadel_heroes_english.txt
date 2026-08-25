@@ -1583,8 +1583,8 @@
 		
 		"ability_explosive_barrel"					"برميل بارود"
 		"ability_explosive_barrel_quip"				"رمي برميل ينفجر عند إطلاق النار"
-		"ability_explosive_barrel_desc"				"قم برمي البرميل الذي ينفجر بعد تأخير، وقم بالتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} وتطبيق {g:citadel_inline_attribute:'KnockUp'}. <br><br> يمكن تفجير البرميل مبكرًا عن طريق <span class=\"highlight\">shot</span> أو <span class=\"highlight\">اشتباك'd</span> أو <span class=\"highlight\">detonated</span> بواسطة برميل آخر."
-		"ability_explosive_barrel_t3_desc"			"<span class=\"highlight\">+{s:TossDuration} ثانية</span> الإزاحة ورسوم <span class=\"highlight\">+{s:AbilityCharges}</span>."
+		"ability_explosive_barrel_desc"				"ألقِ برميلاً ينفجر بعد مهلة، محدثاً {g:citadel_inline_attribute:'SpiritDamage'}، <span class=\"highlight\">ويشعل الأعداء</span> ويطبق {g:citadel_inline_attribute:'KnockUp'}. <br><br>يمكن إطلاق النار على البرميل أو ضربه يدوياً أو تفجيره ببرميل آخر لتفجيره مبكراً. <br><br><span class=\"diminish\">يتراكم الاحتراق عند تداخل البراميل لدمج أضرارها.<br>يمكن ضغط زر الإلقاء البديل لوضع البرميل أمام {s:hero_name}.</span>"
+		"ability_explosive_barrel_t3_desc"			"<span class=\"highlight\">+{s:ImpactDamage}</span> ضرر الاصطدام<br><span class=\"highlight\">+{s:DPS}</span> ضرر حرق في الثانية<br><span class=\"highlight\">{s:AbilityCooldownBetweenCharge}</span> وقت شحن القدرة<br><span class=\"highlight\">تحسين مقياس الروح</span>"
 		//"BarrelLifetime_label"						"Barrel Life Time"
 		"BarrelLifetime_postfix"						" ثانية"
 		//MinExplodeTime_label						"Min Time to Explode"
@@ -1610,7 +1610,7 @@
 		"ability_bounce_pad_desc"				"قم بإسقاط لوحة الارتداد في العالم التي تطلق <span class=\"highlight\"> أي بطل</span>. <br><br>You <span class=\"highlight\"> تنفجر</span> عند الهبوط، وتتعامل مع <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">ضرر</span> إلى أي أعداء قريب. <br><br><span class=\"diminish\">لا يمكن أن يحدث الانفجار إلا مرة واحدة لكل شخص لكل وسادة وثب.</span>"
 		"ability_bounce_pad_t1_desc"			"<span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
 		"ability_bounce_pad_t2_desc"			"أنت وحلفاء تحصلان على +{s:SpeedOnLand} متر/s مكافأة سرعة مقابل {s:BuffDuration} ثانية عند الهبوط"
-		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\"> + {s:StompDamage}</span> ستومب ضرر. تحسين مقياس الروح"
+		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration} ثوانٍ</span> صعق عند الدهس"
 		"StompDamage_label"			"ضرر الهبوط"
 		"StompDamage_postvalue_label"			"ضرر الهبوط"
 		"StompDamage_postvalue_postvalue_label"			"من ضرر الهبوط"
@@ -1821,7 +1821,7 @@
 		"GrenadeCount_label" "عدد القنابل"
 		"GrenadeCount_postvalue_label" "عدد القنابل"
 		"ability_nano_clustergrenade_quip" "ارمِ القنابل العنقودية"
-		"ability_nano_clustergrenade_t2_desc" "<span class=\"highlight\">-{s:MeleeResistReduction}%</span> مقاومة الاشتباك لكل قنبلة لمدة {s:MeleeResistReductionDuration} ثوانٍ</span>"
+		"ability_nano_clustergrenade_t2_desc" "لكل ملامسة قنبلة: <span class=\"highlight\">{s:MeleeResistReduction}%</span> مقاومة للضربات اليدوية لمدة <span class=\"highlight\">{s:MeleeResistReductionDuration} ثوانٍ</span>"
 		"BonusDamageVsBarrier_postvalue_label" "مكافأة ضرر مقابل الحواجز"
 
 
@@ -2316,7 +2316,7 @@
 
 		"citadel_ability_shiv_killing_blow"		"الضربة القاضية"
 		"citadel_ability_shiv_killing_blow_quip"	"سافر إلى مستوى صحة بطل المنخفض واقتله على الفور"
-		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">تفعيل:</span> اقفز للأمام، وتعامل {g:citadel_inline_attribute:'SpiritDamage'} مع أول عدو بطل. إذا كانت أقل من عتبة القتل <span class=\"highlight\">، </span>، PHZVALXYZقم بتنفيذ </span> عليها بدلاً من ذلك."
+		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">القدرة النشطة:</span> اندفع للأمام، محدثاً {g:citadel_inline_attribute:'SpiritDamage'} لأول بطل عدو. إذا كانت صحتهم تحت <span class=\"highlight\">عتبة القتل</span>، قم <span class=\"highlight\">بإعدامهم</span> بدلاً من ذلك.<br><br>القضاء على عدو بالضربة القاضية يتيح لك إعادة استخدام القدرة خلال <span class=\"highlight\">{s:RecastWindow} ثوانٍ</span>"
 		"citadel_ability_shiv_killing_blow_passive_desc" "<span class=\"diminish\">تأثير سلبي: </span> المدمر أعداء يملأك بالغضب. أثناء الغضب الكامل، زادت مكاسب {s:hero_name} من ضرر وPHZVALXYZ الذي يفتح الخصائص الخاصة </span> على قدراته الأخرى."
 		
 		"citadel_ability_shiv_killing_blow/active_buff"		"غاضب"
@@ -2336,9 +2336,9 @@
 		"BuffMoveSpeed_prefix"				"+"
 		"BuffMoveSpeed_postfix"				"م"
 
-		"citadel_ability_shiv_killing_blow_t1_desc"		"احصل على <span class=\"highlight\">+{s:BonusMoveSpeed} متر/s</span> تحرك سرعة أثناء الغضب الكامل."
+		"citadel_ability_shiv_killing_blow_t1_desc"		"<span class=\"highlight\">+{s:AbilityCastRange} م</span> مدى القدرة<br><span class=\"highlight\">+{s:BonusMoveSpeed} م/ث</span> عند اكتمال الغضب."
 		"citadel_ability_shiv_killing_blow_t2_desc"		"<span class=\"highlight\">+{s:BuffDamage}%</span> مكافأة الغضب الكامل ضرر<br><span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
-		"citadel_ability_shiv_killing_blow_t3_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> عدو صحة عتبة <br>يتيح لك إنهاء عدو بضربة قاتلة إعادة صياغة <span class=\"highlight\">{s:RecastWindow} ثانية</span>"
+		"citadel_ability_shiv_killing_blow_t3_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> عتبة صحة العدو"
 
 		//-----------------------------------------------------------------------------
 		// Hero: Rutger
@@ -2428,7 +2428,7 @@
 		"mirage_tornado_desc"				"حول نفسك إلى زوبعة تنطلق للأمام، <span class=\"highlight\"> يدمر أعداء</span>، تبطئة <span class=\"highlight\">، تحرك سرعة</span> و<span class=\"highlight\"> يرفعهم </span> في الهواء. بعد الخروج من الإعصار تحصل على تهرب <span class=\"highlight\">رصاصة</span>."
 		"mirage_tornado_t1_desc"			"<span class=\"highlight\">+{s:Damage}</span> ضرر"
 		"mirage_tornado_t2_desc"			"<br><span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد<br><span class=\"highlight\">+{s:WhirlwindEvasionChance}%</span> التهرب"
-		"mirage_tornado_t3_desc"			"إعادة الصياغة داخل <span class=\"highlight\">{s:RecastWindow} ثانية</span>.<br><span class=\"highlight\">+{s:HoldInPlaceDuration} ثانية</span> رفع المدة <br> يزيد من مقياس الروح."
+		"mirage_tornado_t3_desc"			"إعادة الإلقاء خلال <span class=\"highlight\">{s:RecastWindow} ثوانٍ</span>.<br>يزيد من مقياس الروح."
 
 		"WhirlwindEvasionChance_label"	"فرصة التهرب من رصاصة"
 		"WhirlwindEvasionChance_postvalue_label"	"فرصة التهرب من رصاصة"
@@ -5264,5 +5264,20 @@
 		"viscous_goo_bowling_ball_t2_desc"		"+{s:Damage} ضرر و +{s:BulletResist}% مقاومة"
 		"ability_necro_gravestone_t1_desc"		"<span class="highlight">+{s:MoveSpeedPercent}%</span> سرعة الغول<br><span class="highlight">{s:AbilityCooldown} ثوانٍ</span> وقت انتظار"
 		"ability_fencer_throwblade_t1_desc"		"احصل على +{s:BonusFireRate}% سرعة إطلاق نار و +{s:BonusBulletSpeedPercent}% سرعة رصاص لمدة {s:BuffDuration} ثوانٍ"
+		"ClubSlowPercent_prefix"		"-"
+		"ability_stacking_damage_t3_desc"		"<span class=\"highlight\">+{s:DamageBonusFixedPerStack}</span>/ لكل تراكم<br>يتناسب مع ضرر السلاح"
+		"modifier_astro_barrel_burn"		"احتراق البارود"
+		"ability_punkgoat_goatflip/maxhealthbuff"		"صلابة النطح"
+		"MaxHealthBuffPct_postvalue_label"		"أقصى صحة"
+		"MaxHealthBuffPct_postfix"		"%"
+		"MaxHealthBuffDuration_postvalue_label"		"المدة"
+		"MaxHealthBuffDuration_postfix"		"ث"
+		"ability_unicorn_dazzlingorb_t2_desc"		"+{s:Damage} ضرر وزيادة مقياس الروح"
+		"ability_fencer_riposte_t2_desc"		"<span class=\"highlight\">{s:MeleeResistReduction}%</span> مقاومة اليدوي و <span class=\"highlight\">+{s:StunDuration} ثوانٍ</span> مدة الصعق"
+		"ability_fencer_riposte_t3_desc"		"احصل على <span class=\"highlight\">{s:TargetLifesteal}%</span> سرقة صحة بالسلاح والروح واليدوي ضد هدف الرد السريع لمدة {s:TargetLifestealDuration} ثوانٍ"
+		"modifier_fencer_riposte_target_lifesteal"		"مميز لسرقة الصحة"
+		"TargetLifesteal_label"		"سرقة صحة السلاح والروح ضد الهدف"
+		"TargetLifesteal_postvalue_label"		"سرقة الصحة ضد الهدف"
+		"TargetLifesteal_postfix"		"%"
 	}
 }

@@ -243,7 +243,7 @@
 		"upgrade_glass_cannon_plus1"		"مدفع زجاجي +1"
 
 		//Fury Trance
-		"upgrade_fury_trance_active"	"يمنح <span class=\"highlight\">معدل إطلاق النار</span> و<span class=\"highlight\">Spirit مقاومة</span> لكن <span class=\"highlight\">يسكت</span> أنت و<span class=\"highlight\"> يعطلان استخدام القدرة على التحمل وتجديدها </span>."
+		"upgrade_fury_trance_active"	"يمنح <span class=\"highlight\">سرعة إطلاق النار</span> و <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">سرعة الحركة</span>، ويزيل عقوبة <span class=\"highlight\">سرعة الحركة</span> عند إطلاق النار، ولكنه <span class=\"highlight\">يصمتك</span> و <span class=\"highlight\">يعطل استهلاك واسترجاع اللياقة</span>."
 
 		//Vampiric Burst
 		"upgrade_surging_power_active"	"المنح <span class=\"highlight\">سرقة الحياة</span>، و<span class=\"highlight\">معدل إطلاق النار</span>، و<span class=\"highlight\">ذخيرة</span>. لا يقتصر ذخيرة المُضاف على حجم مجلتك أقصى."
@@ -563,7 +563,7 @@
 		"upgrade_aoe_root_active"		"قم بإلقاء قنبلة <span class=\"highlight\">vacuum</span>، واسحب كل أعداء إلى منطقة صغيرة وقم بتطبيق <span class=\"highlight\">تبطئة Hex</span>.  <span class=\"diminish\"><br><br>Alt يلقي إلى وحدة هدف مباشرة.</span>"
 
 		//Curse
-		"upgrade_glitch_desc"					"يلعن عدو - <span class=\"highlight\"> المقاطعة والإسكات ونزع سلاح </span> و<span class=\"highlight\"> منع استخدام العنصر </span>. <span class=\"highlight\">R يزيل جميع التعزيزات غير النهائية </span>."
+		"upgrade_glitch_desc"					"يلعن العدو - <span class=\"highlight\">مقاطعاً، ومصمتاً، ونازعاً لسلاحه</span>، و <span class=\"highlight\">مانعاً لاستخدام العناصر</span>. <span class=\"highlight\">يزيل جميع البفات غير الخارقة</span>.<br><br>يتم تقليل <span class=\"highlight\">ضرر المستكشف الخاص بك</span> طوال المدة."
 		"modifier_glitch_debuff"				"ملعون!"
 
 		//Bullet Resist Shredder
@@ -571,7 +571,7 @@
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "درع رصاص منخفض"
 
 		//Echo Shard
-		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">R قم بإعادة تعيين فترة تبريد</span> للقدرة غير المطلقة المشبعة."
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">إعادة تعيين وقت الانتظار</span> للقدرة غير الخارقة المحددة.<br><br>يزداد وقت انتظار هذا العنصر بمقدار <span class=\"highlight\">وقت انتظار القدرة المحددة</span>."
 
 		//Duration Extender
 		"upgrade_arcane_extension_desc"	"إضفاء القدرة على زيادة <span class=\"highlight\">المدة</span>."
@@ -648,7 +648,7 @@
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "فك ختم المفاصل!"
 
 		//SpiritBurn
-		"upgrade_spirit_burn_desc"	"يؤدي التعامل مع {g:citadel_inline_attribute:'SpiritDamage'} بشكل كبير إلى عدو داخل {s:DamageThresholdDuration} ثانية إلى حدوث انفجار يتعامل مع ضرر وحرق أعداء القريب. أثناء الحرق، يأخذ أعداء ضرر بمرور الوقت ويحصل على شفاء أقل."
+		"upgrade_spirit_burn_desc"	"إلحاق ضرر روح كبير {g:citadel_inline_attribute:'SpiritDamage'} بعدو خلال {s:DamageThresholdDuration} ثوانٍ يسبب انفجاراً يحدث ضرراً وحرقاً لذلك العدو. أثناء الاحتراق، يتلقى الأعداء ضرراً مستمراً وتأثيراً مخفضاً للعلاج.<br><span class=\"diminish\">وقت الانتظار منفصل لكل عدو، بحيث يمكن حرق كل هدف مرة واحدة فقط لكل فترة انتظار. يحدث نصف الضرر على غير الأبطال.</span>"
 		"MinDPS_label" "الحد الأدنى للضرر في الثانية"
 
 		"MinDPS_postvalue_label" "الحد الأدنى للضرر في الثانية"
@@ -752,7 +752,7 @@
 		"HealReductionDuration_postfix"		"ث"
 
 		//Discord | Scourge
-		"upgrade_discord_desc"						"قم بتطبيق <span class=\"highlight\">مقاومة الروح</span> وهالة على هدف الودية التي تتعامل مع <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ضرر</span> إلى أعداء بما يتناسب مع أقصى صحة. <br>يمكن أن يتم صبها ذاتيًا."
+		"upgrade_discord_desc"						"تطبيق <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">مقاومة التأثيرات السلبية</span> وهالة على حليف تحدث <span class=\"highlight\">ضرر روح {g:citadel_inline_attribute:'SpiritIcon'}</span> للأعداء متناسبة مع أقصى صحة لديهم. يتم تقليل التأثيرات السلبية الحالية على الهدف.<br>يمكن إلقاؤها على النفس."
 		"MaxHealthPercentAsDPS_label"				"أقصى صحة في الثانية"
 		"MaxHealthPercentAsDPS_postvalue_label"				"أقصى صحة في الثانية"
 		"MaxHealthPercentAsDPS_postfix"				"%"
