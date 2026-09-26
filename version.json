@@ -1,5 +1,5 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "release_date": "2026-09-27",
-    "notes": "إصلاح الشارات ومفاتيح القائمة الرئيسية والتنافسي:\n- تعريب تبويبات المود التنافسي (Citadel_Ranked_Matches_Tab_Name).\n- تعريب شارات القائمة الرئيسية (menu_ranked & MENU_NEW).\n- استكمال وتغطية جميع المفاتيح غير المترجمة."
+    "notes": "إصلاح شامل لجميع مفاتيح الهاشتاج باللعبة:\n- تعريب تبويب الأبطال والمباريات للتنافسي (Citadel_Ranked_Heroes_Tab_Name).\n- تعريب شرط انتصارات الأبطال (Citadel_RankedSeason_HeroWinsRequired).\n- تعريب حالة سجل المباريات (Citadel_RankedMatchHistory_Calibrating).\n- تعريب كافة الشارات ومفاتيح الأحرف الكبيرة والصغيرة لقوائم المود التنافسي."
 }
