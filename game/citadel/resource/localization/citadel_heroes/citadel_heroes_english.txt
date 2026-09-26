@@ -53,7 +53,7 @@
 		"citadel_ability_passive_beefy"			"مرونة جهنمية"
 		"citadel_ability_passive_beefy_quip"	"قم بإعادة إنشاء بعض من ضرر التي تتلقاها"
 		"citadel_ability_passive_beefy_desc"	"احصل على سمات دفاعية إضافية. أخذ ضرر يمنح {g:citadel_inline_attribute:'Regen'} مؤقتًا لجزء من ضرر المأخوذ."
-		"citadel_ability_passive_beefy_t3_desc" "تم تجديد <span class=\"highlight\">+{s:StatusResistancePercent}%</span> Debuff مقاومة و<span class=\"highlight\">+{s:RegenIncomingDamagePercent}%</span> ضرر"
+		"citadel_ability_passive_beefy_t3_desc" "تم تجديد <span class="highlight">+{s:StatusResistancePercent}%</span> مقاومة التأثيرات السلبية و<span class="highlight">+{s:RegenIncomingDamagePercent}%</span> ضرر"
 		"RegenIncomingDamagePercent_label"		"تم تجديد ضرر"
 		"RegenIncomingDamagePercent_postvalue_label"		"تم تجديد ضرر"
 		"RegenIncomingDamagePercent_postfix"		"%"
@@ -330,7 +330,7 @@
 		"citadel_ability_psychic_lift_quip"		"ارفع عدو وقاطعهم وأسكتهم"
 		"citadel_ability_psychic_lift_desc"		"ارفع عدو بطل في الهواء ثم اضربها بقوة <span class=\"highlight\"> باتجاه موقع هدف</span>."
 		"citadel_ability_psychic_lift/lift"		"تحريك ذهني"		
-		"citadel_ability_psychic_lift_t3_desc"	"+{s:AbilityDuration} ثانية Debuff المدة و+{s:AbilityCastRange} متر رمي وإلقاء مدى"
+		"citadel_ability_psychic_lift_t3_desc"	"+{s:AbilityDuration} ثانية مدة التأثير السلبي و+{s:AbilityCastRange} متر رمي وإلقاء مدى"
 		"modifier_citadel_psychiclift"			"يجري رفعها - أوه لا!"
 		//"modifier_citadel_psychiclift_self"	"Lifting - Silenced + Disarmed"
 		"psychic_lift_debuff_duration_label"	"مدة الإبطاء"
@@ -1037,7 +1037,7 @@
 		"citadel_ability_nikuman/modifier_nikuman"	"هالة التجديد"
 		//"TechShieldPerSecond_label"				"Spirit Shield Added"
 		"TechShieldPerSecond_postfix"			"/ث"
-		"citadel_ability_nikuman_t1_desc"			"توفر Aura +{s:MovementSpeedBonus} متر Move سرعة أثناء القناة"
+		"citadel_ability_nikuman_t1_desc"			"توفر الهالة +{s:MovementSpeedBonus} م/ث سرعة حركة أثناء التفعيل"
 		"citadel_ability_nikuman_t2_desc"			"{s:AbilityCooldown} فترة تبريد و+{s:AbilityChannelTime} ثانية المدة"
 		"citadel_ability_nikuman_t3_desc"			"<span class=\"highlight\">الحركة الكاملة واستخدام القدرة</span> بالإضافة إلى يعالج <span class=\"highlight\">+{s:HealMaxHealthPercent}٪ من أقصى صحة</span> في الثانية"
 		"HealMaxHealthPercent_label"				"معدل الصحة المستعاد"
@@ -1147,7 +1147,7 @@
 		"ability_warden_high_alert_quip"			"احصل على حاجز وحرك سرعة"
 		"ability_warden_high_alert_desc"			"احصل على حاجز <span class=\"highlight\"> و</span> و<span class=\"highlight\"> وحركة إضافية سرعة</span>."
 		"ability_warden_high_alert_t2_desc"		"{s:AbilityCooldown} ثانية فترة تبريد و+{s:AbilityDuration} ثانية المدة"
-		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:StatusResistancePercent}%</span> Debuff مقاومة وتحسين قياس الحاجز"
+		"ability_warden_high_alert_t3_desc"		"<span class="highlight">+{s:StatusResistancePercent}%</span> مقاومة التأثيرات السلبية وتحسين مقياس الحاجز"
 
 		"modifier_warden_high_alert"				"قوة الإرادة"
 		//"modifier_warden_high_alert_hint"			""
@@ -1434,8 +1434,8 @@
 		"MaxSlowTime_postvalue_label"					"الوقت للوصول لأقصى إضعاف"
 		"MaxSlowTime_postfix"					" ثانية"
 		"modifier_citadel_disarmed_icebeam"	"تجميد السلاح"
-		"IceBeamBuildupProcDuration_label"	"Debuff Linger المدة"
-		"IceBeamBuildupProcDuration_postvalue_label"	"Debuff Linger المدة"
+		"IceBeamBuildupProcDuration_label"	"مدة بقاء التأثير السلبي"
+		"IceBeamBuildupProcDuration_postvalue_label"	"مدة بقاء التأثير السلبي"
 		"IceBeamBuildupProcDuration_postfix"	" ثانية"
 		"modifier_icebeam_stacking_slow"		"الشعاع القطبي"
 		"BeamSplit_label"						"مدى الشعاع الإضافي"
@@ -1621,11 +1621,11 @@
 		"StompRadius_postfix"						" م"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land"		"Move Speed"
+		"ability_bounce_pad/speed_on_land"		"سرعة الحركة"
 
 		"ability_crackshot"						"إصابة ماهرة"
 		"ability_crackshot_quip"				"تعامل مع مكافأة ضرر مع لقطات للرأس"
-		"ability_crackshot_desc"				"تتعامل لقطات الرأس مع مكافأة <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_courage\">ضرر</span> وتطبق عقوبة <Panel class=\"AbilityPropertyIcon prop_slow\"> <span class=\"highlight\">Fading Move سرعة</span>. يمكن أن يحدث هذا التأثير فقط عند إيقاف تشغيل فترة تبريد. يتم تقليل <br><br>فترة تبريد بنسبة {s:CrackshotNPCCDReduction}% عند ضربات NPC. <br><span class=\"diminish\">Crackshot يتجاهل مدى ضرر ولا ينطبق على الأهداف.</span>"
+		"ability_crackshot_desc"				"تتعامل ضربات الرأس مع مكافأة <Panel class="AbilityPropertyIcon prop_bullet_damage"> <span class="highlight_courage">ضرر</span> وتطبق عقوبة <Panel class="AbilityPropertyIcon prop_slow"> <span class="highlight">إبطاء سرعة الحركة</span>. يمكن أن يحدث هذا التأثير فقط عند انتهاء فترة التبريد."
 		"FadingSlowPercent_label" "سرعة حركة متلاشية"
 		"FadingSlowPercent_postvalue_label" "سرعة حركة متلاشية"
 		"FadingSlowPercent_postfix" "%"
@@ -2287,7 +2287,7 @@
 		"modifier_citadel_shiv_dash"				"تقطيع وتمزيق"
 		"modifier_shiv_bleed_dash"				"تقطيع وتمزيق"
 		"modifier_citadel_shiv_dash_impact_slow"	"تقطيع وتمزيق"
-		"modifier_shiv_dash_heal_reduction"		"شريحة ونرد علاج Debuff"
+		"modifier_shiv_dash_heal_reduction"		"تقليل العلاج بالقطع والتقطيع"
 		"BurstFireOnHeroHit_postfix"				" ثانية"
 		"citadel_ability_shiv_dash_t2_desc"		"<span class=\"highlight\">{s:TechArmorDamageReduction}%</span> مقاومة الروح<br><span class=\"highlight\">+{s:DashRange} متر</span> داش مدى"
 
@@ -3740,7 +3740,7 @@
 		"WebDuration_postvalue_label" "شبكة المدة"
 		"WebDuration_postfix" " ثانية"
 		"ability_trapper_webwall/modifier_webwall_debuff" "ملفوف في شبكة"
-		"ability_trapper_webwall_t3_desc" "+<span class=\"highlight\">{s:DebuffDuration}</span>s Debuff المدة. الويب أيضًا <span class=\"highlight\">يسكت</span> لـ <span class=\"highlight\">{s:SilenceDuration}</span>s"
+		"ability_trapper_webwall_t3_desc" "+<span class="highlight">{s:DebuffDuration}</span> ثانية مدة التأثير السلبي. وتسبب الشبكة أيضاً <span class="highlight">إسكاتاً</span> لـ <span class="highlight">{s:SilenceDuration}</span> ثانية"
 		"ability_trapper_webwall_quip" "إنشاء شبكة خطيرة"
 
 
@@ -3823,7 +3823,7 @@
 		"BatPerSecond_postvalue_label" "الخفافيش في الثانية"
 
 		"ability_vampirebat_steallife" "جرف"
-		"ability_vampirebat_steallife_desc"		"<span class=\"diminish\">Active:</span> Slash with your umbrella, dealing {g:citadel_inline_attribute:'SpiritDamage'}, increasing with their missing health. Receive a {g:citadel_inline_attribute:'Heal'} for every target killed.<br><br><span class=\"diminish\">Passive: </span>Holding {g:citadel_binding:'ADS'} causes you to briefly float.<br><span class=\"diminish\">Rake executes non-heroes below {s:TrooperExecuteThreshold} health.</span>"
+		"ability_vampirebat_steallife_desc"		"<span class="diminish">نشط:</span> اضرب بالمظلة لترتيب {g:citadel_inline_attribute:'SpiritDamage'} تزداد مع صحة الهدف المفقودة. احصل على {g:citadel_inline_attribute:'Heal'} لكل هدف يقتل.<br><br><span class="diminish">سلبي: </span>يؤدي الضغط على {g:citadel_binding:'ADS'} إلى الطفو مؤقتاً.<br><span class="diminish">يقضي الرعب على غير الأبطال عندما تكون صحتهم أقل من {s:TrooperExecuteThreshold}.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> علاج لكل قتل <br><span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> مفقود صحة ضرر وزيادة علاج لكل مقياس Kill Spirit"
 		"MissingHealthDamagePercentage_postvalue_label" "صحة مفقود كـ ضرر"
@@ -4654,7 +4654,7 @@
 		"ability_werewolf_netshot" "حبل التعثر المقيد"
 		"ability_werewolf_netshot_desc" "قم برمي الكرة، والتعامل مع {g:citadel_inline_attribute:'SpiritDamage'}، وتطبيق {g:citadel_inline_attribute:'Slow'} ومنع القدرات الحركية أو القدرة على التحمل."
 		"ability_werewolf_netshot/debuff" "حبل التعثر المقيد"
-		"ability_werewolf_netshot_t3_desc" "<span class=\"highlight\">+{s:DebuffDuration} ثانية</span> Debuff المدة.<br>Bola ترتد إلى <span class=\"highlight\">{s:RicochetCount}</span> إضافية أهداف"
+		"ability_werewolf_netshot_t3_desc" "<span class="highlight">+{s:DebuffDuration} ثانية</span> مدة التأثير السلبي.<br>ترتد الشباك إلى <span class="highlight">{s:RicochetCount}</span> أهداف إضافية"
 
 		
 		"ability_werewolf_kickflip" "ركلة الحذاء"
@@ -4701,7 +4701,7 @@
 
 		"ability_werewolf_cripplingslash" "ضربة الذيل"
 		"ability_werewolf_cripplingslash_desc" "سحق أعداء من حولك، والتعامل مع {g:citadel_inline_attribute:'SpiritDamage'}. إنهم يعانون من <span class=\"highlight\">نزع السلاح</span> و {g:citadel_inline_attribute:'Slow'} لفترة وجيزة."
-		"ability_werewolf_cripplingslash_t3_desc" "<span class=\"highlight\">+{s:DisarmDuration} ثانية</span> Debuff المدة"
+		"ability_werewolf_cripplingslash_t3_desc" "<span class="highlight">+{s:DisarmDuration} ثانية</span> مدة التأثير السلبي"
 
 		"ability_werewolf_cripplingslash/debuff" "ضربة الذيل"
 		"ability_werewolf_cripplingslash/disarm" "ضربة الذيل"

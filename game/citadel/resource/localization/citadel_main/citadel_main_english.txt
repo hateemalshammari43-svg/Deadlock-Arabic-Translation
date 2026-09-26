@@ -4498,6 +4498,23 @@
 		"menu_play_unranked"		"قياسي"
 		"MENU_PLAY_UNRANKED"		"قياسي"
 		"menu_play_ranked_matchmaking"		"لعب مباراة تنافسية ضد لاعبين آخرين"
-	}
+	
+		"Citadel_Ranked_Overview_Tab_Name"		"نظرة عامة"
+		"Citadel_Ranked_Overview_Header"		"المود التنافسي (Ranked)"
+		"Citadel_Ranked_Overview_Bullet1"		"يتم تحديد رتبتك وبنائها بناءً على أدائك في المباريات التنافسية."
+		"Citadel_Ranked_Overview_Bullet1:f"		"يتم تحديد رتبتك وبنائها بناءً على أدائك في المباريات التنافسية."
+		"Citadel_Ranked_Overview_Bullet2"		"تُحدث الرتب وتُمنح مكافآت وتصنيفات المواسم بانتظام."
+		"Citadel_Ranked_Overview_Bullet2:f"		"تُحدث الرتب وتُمنح مكافآت وتصنيفات المواسم بانتظام."
+		"Citadel_Ranked_Overview_Eligibility"		"شروط التأهل للتنافسي"
+		"Citadel_Ranked_Overview_Eligibility_Bullet1"		"لعب 50 مباراة عادية على الأقل على حسابك."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"		"لعب 50 مباراة عادية على الأقل على حسابك."
+		"Citadel_Ranked_Overview_Eligibility_Bullet2"		"أن يكون حسابك بحالة جيدة وبدون أي حظر أو عقوبات."
+		"Citadel_Ranked_Overview_Eligibility_Bullet2:f"		"أن يكون حسابك بحالة جيدة وبدون أي حظر أو عقوبات."
+		"Citadel_Ranked_ViewSeasonHistory"		"سجل المواسم"
+		"Citadel_Ranked_ViewLeaderboards"		"لوحة المتصدرين"
+		"L_RANKEDSEASONNAME_BETA"		"الموسم التجريبي"
+		"L_RankedSeasonName_Beta"		"الموسم التجريبي"
+		"Citadel_RankedSeasonName_Beta"		"الموسم التجريبي"
+}
 }
 
