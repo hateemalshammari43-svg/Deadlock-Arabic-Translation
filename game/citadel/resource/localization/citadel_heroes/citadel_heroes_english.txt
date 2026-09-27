@@ -3240,7 +3240,7 @@
 		"Citadel_Viscous_HeroTag_3" "لزج"
 		
 		"viscous_goo_grenade"							"تناثر"
-		"viscous_goo_grenade_desc"						"قم برمي كرة من المادة اللزجة التي <span class=\"highlight\"> تقدم ضرر</span> وتترك بركًا من المادة اللزجة خلفها والتي تنطبق <span class=\"highlight\">movement إبطاء</span> على أعداء في نطاق."
+		"viscous_goo_grenade_desc"						"قم برمي كرة من المادة اللزجة التي <span class=\"highlight\"> تقدم ضرر</span> وتترك بركًا من المادة اللزجة خلفها والتي تنطبق <span class=\"highlight\">إبطاء حركة</span> على أعداء في نطاق."
 		"viscous_goo_grenade_bounce_desc"				"الزيارات المتعددة لنفس هدف تتعامل بشكل أقل مع ضرر."
 		"viscous_goo_grenade_quip"						"ضرر أعداء وأحدث الفوضى"
 		"viscous_goo_grenade_puddle_desc"				"تبقى البرك اللزجة على الأرض وتطبق حركة <span class=\"highlight\"> إبطاء</span> على أعداء أثناء المشي عليها. <br><br><span class=\"diminish\"> أنت وحلفاء تنزلقان بشكل أسرع على البرك اللزجة.</span>"

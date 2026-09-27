@@ -172,7 +172,7 @@
 		"HealFromNPC_postvalue_label"	 "الشفاء من الـ NPCs / الأجرام السماوية"
 
 		//Point Blank
-		"upgrade_close_quarter_combat_desc"	"عندما تكون في <span class=\"highlight\">، قم بإغلاق مدى</span> إلى هدف، واحصل على <span class=\"highlight\">ضرر السلاح</span> وقم بتطبيق رصاص على حركة مدىMovement إبطاء</span>."
+		"upgrade_close_quarter_combat_desc"	"عندما تكون على <span class=\"highlight\">مسافة قريبة</span> من الهدف، تكتسب <span class=\"highlight\">ضرر سلاح إضافي</span> وتطبق طلقاتك <span class=\"highlight\">إبطاءً لسرعة الحركة</span>."
 
 		//Headshot Booster
 		"upgrade_headshot_booster_desc"		"<span class=\"highlight\">إصابة الرأس التالي الخاص بك</span> ضد صفقات عدو بطل {g:citadel_inline_attribute:'BonusWeaponDamage'}."
@@ -383,14 +383,14 @@
 		
 
 		//"upgrade_express_shot"				"Express Shot"
-		"upgrade_express_shot_desc"				"هجومك القادم سوف <span class=\"highlight\"> يطلق النار مرتين </span> في تتابع سريع مع <span class=\"highlight\">increased ضرر</span> والسرعة. يستهلك هذا الهجوم كمية إضافية من ذخيرة."
+		"upgrade_express_shot_desc"				"هجومك القادم سوف <span class=\"highlight\">يطلق النار مرتين</span> في تتابع سريع مع <span class=\"highlight\">ضرر وسرعة متزايدين</span>. يستهلك هذا الهجوم ذخيرة إضافية."
 		"ProcAmmoConsumed_label"				"يتم استهلاك ذخيرة إضافي"
 		"ProcAmmoConsumed_postvalue_label"				"يتم استهلاك ذخيرة إضافي"
 		"ProcAmmoConsumed_postfix"				""
 
 		
 		//Melee Charge
-		"upgrade_melee_charge_desc"				"هجوم <span class=\"highlight\">H الثقيل التالي اشتباك</span> ضد عدو <span class=\"highlight\">زادت الصفقات ضرر</span>."
+		"upgrade_melee_charge_desc"				"هجوم <span class=\"highlight\">الاشتباك الثقيل</span> التالي ضد العدو <span class=\"highlight\">يلحق ضرراً متزايداً</span>."
 		"MeleeDistanceScale_label"				"مسافة الاشتباك الثقيل"
 		"MeleeDistanceScale_postvalue_label"				"مسافة الاشتباك الثقيل"
 		"MeleeDistanceScale_prefix"				"+"
@@ -642,7 +642,7 @@
 		"MagicCarpetSummoning_channel"			"استدعاء"
 
 		// Hex-Sealed Knuckles
-		"upgrade_superacolytes_glove_desc"			"بعد التعامل مع <span class=\"highlight\">{s:StoredSpiritDamage}</span> ضرر روحي، هجوم <span class=\"highlight\">H الثقيل التالي، </span> يتعامل مع <span class=\"highlight\">{s:StoredSpiritDamage} ضرر روحي</span> إضافي."
+		"upgrade_superacolytes_glove_desc"			"بعد التعامل مع <span class=\"highlight\">{s:StoredSpiritDamage}</span> ضرر روحي، هجوم <span class=\"highlight\">الاشتباك الثقيل التالي، </span> يتعامل مع <span class=\"highlight\">{s:StoredSpiritDamage} ضرر روحي</span> إضافي."
 		"StoredSpiritDamage_label"			"مخزنة ضرر روحي"
 		"StoredSpiritDamage_postvalue_label"			"مخزنة ضرر روحي"
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "فك ختم المفاصل!"
@@ -827,7 +827,7 @@
 		"BuffTechResist_postfix"		"%"
 
 		// Rebuttal - upgrade_melee_rebuttal
-		"upgrade_melee_rebuttal_desc"				"في <span class=\"highlight\">Parry</span> ناجح ضد عدو بطل، <span class=\"highlight\">علاج</span> تصدى لنفسك لـ ضرر وأرجع ضرر إلى هدف، واحصل على زيادة مؤقتة <span class=\"highlight\">ضرر.</span>"
+		"upgrade_melee_rebuttal_desc"				"عند تنفيذ <span class=\"highlight\">صد (Parry) ناجح</span> ضد بطل عدو، <span class=\"highlight\">تعالج نفسك</span> بنسبة من الضرر المتلقى وتعكسه إلى الهدف، وتحصل على <span class=\"highlight\">زيادة مؤقتة في الضرر</span>."
 
 		// Counterspell
 		"upgrade_counterspell_desc"				"باري التالي <span class=\"highlight\"> يحميك من ضرر وتأثيرات قدرات وعناصر عدو </span>. في تعويذة ناجحة، تصدى لـ {g:citadel_inline_attribute:'Heal'} واكتسب {g:citadel_inline_attribute:'MoveSpeed'} و{g:citadel_inline_attribute:'Spirit'}."
