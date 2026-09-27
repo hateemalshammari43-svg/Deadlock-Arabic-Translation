@@ -21,7 +21,7 @@
 		"AmmoScavengerDuration_postfix"		"ث"
 
 		//Melee Lifesteal
-		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">اشتباك</span> التالي هو <span class=\"highlight\">يعالج you</span>. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeفترة التبريدMult}x طالما أن Light اشتباك يضرب.</span>"
+		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">اشتباك</span> التالي هو <span class=\"highlight\">يعالج you</span>. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن Light اشتباك يضرب.</span>"
 		"LifestrikeHeal_label"				"العلاج عند ضربة الاشتباك"
 		"LifestrikeHeal_postvalue_label"				"العلاج عند ضربة الاشتباك"
 
@@ -81,16 +81,16 @@
 		"CasterSlowPercent_postfix"	"%"
 
 		//Torment Pulse
-		"upgrade_tech_damage_pulse_desc"	"يتعامل بشكل دوري مع {g:citadel_inline_attribute:'الروحDamage'} لأقرب اثنين من أعداء القريبة."
+		"upgrade_tech_damage_pulse_desc"	"يتعامل بشكل دوري مع {g:citadel_inline_attribute:'SpiritDamage'} لأقرب اثنين من أعداء القريبة."
 
 		//Mystic Burst
-		"upgrade_magic_burst_desc"	"يتم الشحن بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusالروحDamage'}، مما يتسبب في قدرة التعامل مع أكثر من <span class=\"highlight\">{s:MinimumDamage}</span> ضرر للتعامل مع ضرر إضافية."
+		"upgrade_magic_burst_desc"	"يتم الشحن بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusSpiritDamage'}، مما يتسبب في قدرة التعامل مع أكثر من <span class=\"highlight\">{s:MinimumDamage}</span> ضرر للتعامل مع ضرر إضافية."
 		"MagicBurstDamage_label"		"إضافي الضرر"
 
 		"MagicBurstDamage_postvalue_label"		"إضافي الضرر"
 
 		//Improved Burst Tankbuster
-		"upgrade_magic_shock_desc"	"يتم الشحن بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusالروحDamage'}، مما يتسبب في قدرة التعامل مع أكثر من <span class=\"highlight\">{s:MinimumDamage}</span> ضرر للتعامل مع ضرر إضافية. <span class=\"highlight\">يتجاهل الروح مقاومة.</span>"
+		"upgrade_magic_shock_desc"	"يتم الشحن بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusSpiritDamage'}، مما يتسبب في قدرة التعامل مع أكثر من <span class=\"highlight\">{s:MinimumDamage}</span> ضرر للتعامل مع ضرر إضافية. <span class=\"highlight\">يتجاهل الروح مقاومة.</span>"
 		"MagicShockDamage_label"		"مكافأة صحة الحالية ضرر"
 		"MagicShockDamage_postvalue_label"		"مكافأة صحة الحالية ضرر"
 		"MagicShockDamage_postfix"	"%"
@@ -150,14 +150,14 @@
 		"upgrade_long_range_desc"	"تعامل مع <span class=\"highlight\">ضرر السلاح</span> عندما تكون <span class=\"highlight\"> أبعد من الحد الأدنى للمسافة </span> من هدف."
 
 		//Mystic Shot
-		"upgrade_crackshot_desc"	"مكافأة صفقات رصاصة التالية {g:citadel_inline_attribute:'الروحDamage'}."
+		"upgrade_crackshot_desc"	"مكافأة صفقات رصاصة التالية {g:citadel_inline_attribute:'SpiritDamage'}."
 		"ProcBonusMagicDamage_prefix"	"{s:sign}"
 		"ProcBonusMagicDamage_label"	"ضرر الروح"
 
 		"ProcBonusMagicDamage_postvalue_label"	"ضرر الروح"
 
 		//Ethereal Bullets
-		"upgrade_ethereal_bullets_desc"	"يتم شحن قدرتك المشبعة بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusالروحDamage'} و{g:citadel_inline_attribute:'BonusFireRate'} و<span class=\"highlight\">reloads رصاص</span> عند الاستخدام. حتى إعادة التحميل التالية، فإن <span class=\"highlight\">رصاص يتعامل مع {g:citadel_inline_attribute:'BonusالروحDamage'}</span> بناءً على قوة الروح الخاص بك."
+		"upgrade_ethereal_bullets_desc"	"يتم شحن قدرتك المشبعة بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusSpiritDamage'} و{g:citadel_inline_attribute:'BonusFireRate'} و<span class=\"highlight\">إعادة تلقيم الذخيرة</span> عند الاستخدام. حتى إعادة التحميل التالية، فإن <span class=\"highlight\">رصاص يتعامل مع {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> بناءً على قوة الروح الخاص بك."
 		"BulletsBonusMagicDamage_label"	"أساسي ضرر الرصاص"
 		"BulletsBonusMagicDamage_postvalue_label"	"أساسي ضرر الرصاص"
 		"BulletsBonusMagicDamage_prefix"	"+"
@@ -273,7 +273,7 @@
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		//Lifestrike
-		"upgrade_boxing_glove_desc"						"يطبق هجوم <span class=\"highlight\">اشتباك الخاص بك، </span>، حركة <span class=\"highlight\"> على إبطاء</span> و<span class=\"highlight\">يعالج على </span> مقابل نسبة مئوية من <span class=\"highlight\">اشتباك. تعامل ضرر</span> بالإضافة إلى مبلغ ثابت. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeفترة التبريدMult}x طالما أن ضربات Light اشتباك.</span>"
+		"upgrade_boxing_glove_desc"						"يطبق هجوم <span class=\"highlight\">اشتباك الخاص بك، </span>، حركة <span class=\"highlight\"> على إبطاء</span> و<span class=\"highlight\">يعالج على </span> مقابل نسبة مئوية من <span class=\"highlight\">اشتباك. تعامل ضرر</span> بالإضافة إلى مبلغ ثابت. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن ضربات Light اشتباك.</span>"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
 		"DisarmDuration_label"							"نزع سلاح المدة"
@@ -348,7 +348,7 @@
 		"upgrade_glass_cannon2_desc"		"تمنح كل عملية قتل بطل <span class=\"highlight\"> ضرر السلاح</span> (حتى أقصى من مرات {s:MaxStacks}). يؤدي الموت إلى خسارة 1 تراكم."
 
 		//"upgrade_split_shot"					"Split Shot"
-		"upgrade_split_shot_desc"			"اصنع سلاح النار <span class=\"highlight\">multishot</span>. <br><br> سيؤدي ضرب أكثر من بطل لكل هجوم إلى منح مكافأة <span class=\"highlight\">متراكم ضرر السلاح</span>. لا يمكن ضرب <br><br><span class=\"diminish\">أهداف إلا مرة واحدة في كل لقطة متعددة.</span>"
+		"upgrade_split_shot_desc"			"اصنع سلاح النار <span class=\"highlight\">طلقات متعددة</span>. <br><br> سيؤدي ضرب أكثر من بطل لكل هجوم إلى منح مكافأة <span class=\"highlight\">متراكم ضرر السلاح</span>. لا يمكن ضرب <br><br><span class=\"diminish\">أهداف إلا مرة واحدة في كل لقطة متعددة.</span>"
 		"upgrade_split_shot_desc_02"		"علاوة الإصابات المتعددة للطلقة المنقسمة"
 		"SpecialShotsBonusFireRate_label"	"معدل إطلاق النار أثناء اللقطات المتعددة"
 		"SpecialShotsBonusFireRate_postvalue_label"	"معدل إطلاق النار أثناء اللقطات المتعددة"
@@ -366,13 +366,13 @@
 		"upgrade_non_player_bonus_sacrifice_desc"	"هدف هو عدو NPC واستهلكه للحصول على <span class=\"highlight\">{s:BonusSoulsPct}% أرواح إضافية</span> ويمنح برتقاليًا قويًا يدوم طويلاً."
 
 		//"upgrade_capacitor"						"Capacitor"
-		"upgrade_capacitor_desc"					"أطلق مقذوفًا يتعامل مع <span class=\"highlight\">{g:citadel_inline_attribute:'الروحIcon'}ضرر</span>، ويطبق إبطاء القوي الذي يتعافى بمرور الوقت، ويمنع <span class=\"highlight\"> استخدام قوة التحمل </span> و<span class=\"highlight\">يسكت</span>. <span class=\"highlight\"> العناصر والقدرات القائمة على الحركة </span>."
+		"upgrade_capacitor_desc"					"أطلق مقذوفًا يتعامل مع <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ضرر</span>، ويطبق إبطاء القوي الذي يتعافى بمرور الوقت، ويمنع <span class=\"highlight\"> استخدام قوة التحمل </span> و<span class=\"highlight\">يسكت</span>. <span class=\"highlight\"> العناصر والقدرات القائمة على الحركة </span>."
 		
 		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
 		"upgrade_enchanted_holsters_desc"		"أثناء القتال كلما قمت بإلقاء قدرة أو عنصر، احصل على تعزيز متراكم الذي يعمل على تحسين معدل إطلاق النار وأعد تحميل سرعة. <br><span class=\"diminish\">each تراكم يقوم بتحديث المدة.</span>"
 		
 		// "upgrade_weapon_backstabber"			"Stalker"
-		"upgrade_weapon_backstabber_desc"		"التعامل مع {g:citadel_inline_attribute:'WeaponDamage'} عند الإغلاق مدى يفتح جرحًا ويمنحك {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>جرح أعداء يأخذ {g:citadel_inline_attribute:'الروحضرر في الثانية'}، وقد خفض {g:citadel_inline_attribute:'BulletResist'}، ويتم الكشف عن <span class=\"highlight\">من خلال الجدران</span>."
+		"upgrade_weapon_backstabber_desc"		"التعامل مع {g:citadel_inline_attribute:'WeaponDamage'} عند الإغلاق مدى يفتح جرحًا ويمنحك {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>جرح الأعداء يلحق {g:citadel_inline_attribute:'SpiritDPS'}، وقد خفض {g:citadel_inline_attribute:'BulletResist'}، ويتم الكشف عن <span class=\"highlight\">من خلال الجدران</span>."
 		"BackstabberRadius_label"		"إضافي النطاق"
 		"BackstabberRadius_postvalue_label"		"إضافي النطاق"
 		"BackstabberRadius_prefix"		""
@@ -409,7 +409,7 @@
 		//-----------------------------------------------------------------------------
 		
 		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
-		"upgrade_mystic_regeneration_desc"		"التعامل مع {g:citadel_inline_attribute:'الروحDamage'} إلى عدو أبطال يمنحك مكافأة {g:citadel_inline_attribute:'Regen'}. تراكمات عند التعامل مع ضرر إلى أبطال مختلفة."
+		"upgrade_mystic_regeneration_desc"		"التعامل مع {g:citadel_inline_attribute:'SpiritDamage'} إلى عدو أبطال يمنحك مكافأة {g:citadel_inline_attribute:'Regen'}. تراكمات عند التعامل مع ضرر إلى أبطال مختلفة."
 
 		//Spirit Lifesteal
 		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
@@ -418,16 +418,16 @@
 		"upgrade_magic_vulnerability_desc"	"عندما يأخذ عدو {g:citadel_inline_attribute:'SpiritDamage'}، يتم تقليل {g:citadel_inline_attribute:'SpiritResist'} لديهم."		
 
 		//Healbane
-		"upgrade_healbane_desc"	"ينطبق {g:citadel_inline_attribute:'الروحDamage'} الخاص بك على <span class=\"highlight\">تقليل العلاج</span>. إذا مات عدو بطل تحت هذا التأثير، فستتلقى علاج كبيرة."
+		"upgrade_healbane_desc"	"ينطبق {g:citadel_inline_attribute:'SpiritDamage'} الخاص بك على <span class=\"highlight\">تقليل العلاج</span>. إذا مات عدو بطل تحت هذا التأثير، فستتلقى علاج كبيرة."
 		"HealOnKill_label"		"علاج على بطل اقتل"
 
 		"HealOnKill_postvalue_label"		"علاج على بطل اقتل"
 
 		//Mystic Slow
-		"upgrade_magic_slow_desc"	"عندما يأخذ هدف {g:citadel_inline_attribute:'الروحDamage'}، يتم تقليل <span class=\"highlight\">سرعة حركة</span>."
+		"upgrade_magic_slow_desc"	"عندما يأخذ هدف {g:citadel_inline_attribute:'SpiritDamage'}، يتم تقليل <span class=\"highlight\">سرعة حركة</span>."
 
 		//Escalating Exposure
-		"upgrade_escalating_exposure_desc"	"التعامل مع {g:citadel_inline_attribute:'الروحDamage'} يطبق متراكم <span class=\"highlight\">تضخيم الروح</span> الذي يزيد من {g:citadel_inline_attribute:'الروحDamage'} الخاص بك إلى هدف."
+		"upgrade_escalating_exposure_desc"	"التعامل مع {g:citadel_inline_attribute:'SpiritDamage'} يطبق متراكم <span class=\"highlight\">تضخيم الروح</span> الذي يزيد من {g:citadel_inline_attribute:'SpiritDamage'} الخاص بك إلى هدف."
 		"EscalatingExposureProcCooldown_label"	"تردد أقصى لكل هدف"
 		"EscalatingExposureProcCooldown_postvalue_label"	"تردد أقصى لكل هدف"
 		"EscalatingExposureProcCooldown_postfix"	"ث"
@@ -466,7 +466,7 @@
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		//Alchemical Fire
-		"upgrade_thermal_detonator_desc"		"قم برمي قارورة تنفجر عند التلامس، مما يؤدي إلى إنشاء منطقة تزيد من {g:citadel_inline_attribute:'الروحDamage'} <span class=\"highlight\"> في الثانية</span> وتقلل من عدو <span class=\"highlight\">مقاومة الرصاص</span>.<br><br>{s:NonHeroReductionPercent}٪ أقل فعالية مقابل غير أبطال."
+		"upgrade_thermal_detonator_desc"		"قم برمي قارورة تنفجر عند التلامس، مما يؤدي إلى إنشاء منطقة تزيد من {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\"> في الثانية</span> وتقلل من عدو <span class=\"highlight\">مقاومة الرصاص</span>.<br><br>{s:NonHeroReductionPercent}٪ أقل فعالية مقابل غير أبطال."
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"ضرر السلاح"
 		"BonusBaseWeaponDamageTaken_postvalue_label"		"ضرر السلاح"
@@ -545,10 +545,10 @@
 		"upgrade_ability_refresher_desc"	"<span class=\"highlight\"> قم بإعادة تعيين فترة تبريد</span> لجميع قدراتك ومؤقتاً قم باستعادة جميع الرسوم الخاصة بك </span>."
 
 		//Cold Front
-		"upgrade_cold_front_desc"			"أطلق انفجارًا جليديًا متوسعًا يضرب {g:citadel_inline_attribute:'الروحDamage'} و<span class=\"highlight\">تبطئ</span> أهداف."
+		"upgrade_cold_front_desc"			"أطلق انفجارًا جليديًا متوسعًا يضرب {g:citadel_inline_attribute:'SpiritDamage'} و<span class=\"highlight\">تبطئ</span> أهداف."
 
 		//Arctic Blast
-		"upgrade_arctic_blast_desc"			"أطلق انفجارًا جليديًا متوسعًا يتعامل مع {g:citadel_inline_attribute:'الروحDamage'} و<span class=\"highlight\">Freezing</span> ثم <span class=\"highlight\">تبطئة</span> أهداف ويضرب. تجدد المجمدة</span>"
+		"upgrade_arctic_blast_desc"			"أطلق انفجارًا جليديًا متوسعًا يتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} و<span class=\"highlight\">Freezing</span> ثم <span class=\"highlight\">تبطئة</span> أهداف ويضرب. تجدد المجمدة</span>"
 		"ArcticBlastSlowDuration_label"		"إبطاء المدة"
 		"ArcticBlastSlowDuration_postvalue_label"		"إبطاء المدة"
 		"ArcticBlastSlowDuration_postfix"	"ث"
@@ -567,7 +567,7 @@
 		"modifier_glitch_debuff"				"ملعون!"
 
 		//Bullet Resist Shredder
-		"upgrade_bullet_resist_shredder_desc"	"يقلل <span class=\"highlight\">مقاومة الرصاص</span> على أعداء عندما تتعامل مع {g:citadel_inline_attribute:'الروحDamage'}."
+		"upgrade_bullet_resist_shredder_desc"	"يقلل <span class=\"highlight\">مقاومة الرصاص</span> على أعداء عندما تتعامل مع {g:citadel_inline_attribute:'SpiritDamage'}."
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "درع رصاص منخفض"
 
 		//Echo Shard
@@ -597,12 +597,12 @@
 		"upgrade_infuser_desc"			"احصل على <span class=\"highlight\">سرقة حياة الروح</span> و <span class=\"highlight\">قوة الروح</span>."
 
 		//Spirit Strike
-		"upgrade_acolytes_glove_desc"			"عند تنفيذ هجوم <span class=\"highlight\"> الخفيف أو الثقيل اشتباك</span> ضد بطل، تعامل مع {g:citadel_inline_attribute:'الروحDamage'} إضافي مع الهجوم وقلل من هدف <span class=\"highlight\">مقاومة الروح</span>.<span class=\"diminish\"><br><br>فترة تبريد أطول بمقدار {s:LightMeleeفترة التبريدMult}x لنتائج Light اشتباك.</span>"
+		"upgrade_acolytes_glove_desc"			"عند تنفيذ هجوم <span class=\"highlight\"> الخفيف أو الثقيل اشتباك</span> ضد بطل، تعامل مع {g:citadel_inline_attribute:'SpiritDamage'} إضافي مع الهجوم وقلل من هدف <span class=\"highlight\">مقاومة الروح</span>.<span class=\"diminish\"><br><br>فترة تبريد أطول بمقدار {s:LightMeleeCooldownMult}x لنتائج Light اشتباك.</span>"
 		"SpiritDamage_label"					"ضرر الروح"
 		"SpiritDamage_postvalue_label"					"ضرر الروح"
 
 		//Spirit Snatch
-		"upgrade_spirit_snatch_desc"			"عندما تقوم بتنفيذ هجوم <span class=\"highlight\"> خفيف أو ثقيل اشتباك</span> ضد بطل، فإن الهجوم يتعامل مع {g:citadel_inline_attribute:'الروحDamage'} إضافي ويسرق <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">قوة الروح</span>.<span class=\"diminish\"><br><br> يتم تقليل التأثيرات بنسبة {s:LightMeleeReduction}% لضربات اشتباك الخفيفة.</span>"
+		"upgrade_spirit_snatch_desc"			"عندما تقوم بتنفيذ هجوم <span class=\"highlight\"> خفيف أو ثقيل اشتباك</span> ضد بطل، فإن الهجوم يتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} إضافي ويسرق <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">قوة الروح</span>.<span class=\"diminish\"><br><br> يتم تقليل التأثيرات بنسبة {s:LightMeleeReduction}% لضربات اشتباك الخفيفة.</span>"
 		"SpiritSnatch_TechArmorSteal_label"		"مقاومة الروح سرقة"
 		"SpiritSnatch_TechArmorSteal_postvalue_label"		"مقاومة الروح سرقة"
 		"SpiritSnatch_TechArmorSteal_postfix"	"%"
@@ -617,11 +617,11 @@
 		"upgrade_magic_storm_desc"				"قم بإضفاء القدرة على <span class=\"highlight\">قوة روح دائمة</span>. عند استخدام هذه القدرة، احصل على مكافأة <span class=\"highlight\">سرعة حركة</span> وحافظ على سرعة بالكامل أثناء الهجوم."
 
 		//Suppressor
-		"upgrade_suppressor_desc"					"عندما تتعامل مع {g:citadel_inline_attribute:'الروحDamage'} إلى أعداء، فإنك أيضًا تقلل من <span class=\"highlight\">معدل إطلاق النار</span>."
+		"upgrade_suppressor_desc"					"عندما تتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} إلى أعداء، فإنك أيضًا تقلل من <span class=\"highlight\">معدل إطلاق النار</span>."
 		"suppressor_debuff"						"-معدل الإطلاق"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc"				"يتم شحن قدرتك المشبعة بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusالروحDamage'} و{g:citadel_inline_attribute:'BonusFireRate'} و<span class=\"highlight\">reloads رصاص</span> عند الاستخدام."
+		"upgrade_quick_silver_desc"				"يتم شحن قدرتك المشبعة بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusSpiritDamage'} و{g:citadel_inline_attribute:'BonusFireRate'} و<span class=\"highlight\">إعادة تلقيم الذخيرة</span> عند الاستخدام."
 
 		//Resonant Healing
 		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">علاج</span> واحصل على مكافأة <span class=\"highlight\">سرعة الحركة</span> لمدة المدة قصيرة عندما تقوم بإلقاء إحدى القدرة."
@@ -642,19 +642,19 @@
 		"MagicCarpetSummoning_channel"			"استدعاء"
 
 		// Hex-Sealed Knuckles
-		"upgrade_superacolytes_glove_desc"			"بعد التعامل مع <span class=\"highlight\">{s:StoredالروحDamage}</span> ضرر روحي، هجوم <span class=\"highlight\">H الثقيل التالي، </span> يتعامل مع <span class=\"highlight\">{s:StoredالروحDamage} ضرر روحي</span> إضافي."
+		"upgrade_superacolytes_glove_desc"			"بعد التعامل مع <span class=\"highlight\">{s:StoredSpiritDamage}</span> ضرر روحي، هجوم <span class=\"highlight\">H الثقيل التالي، </span> يتعامل مع <span class=\"highlight\">{s:StoredSpiritDamage} ضرر روحي</span> إضافي."
 		"StoredSpiritDamage_label"			"مخزنة ضرر روحي"
 		"StoredSpiritDamage_postvalue_label"			"مخزنة ضرر روحي"
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "فك ختم المفاصل!"
 
 		//SpiritBurn
-		"upgrade_spirit_burn_desc"	"إلحاق ضرر روح كبير {g:citadel_inline_attribute:'الروحDamage'} بعدو خلال {s:DamageThresholdDuration} ثوانٍ يسبب انفجاراً يحدث ضرراً وحرقاً لذلك العدو. أثناء الاحتراق، يتلقى الأعداء ضرراً مستمراً وتأثيراً مخفضاً للعلاج.<br><span class=\"diminish\">وقت الانتظار منفصل لكل عدو، بحيث يمكن حرق كل هدف مرة واحدة فقط لكل فترة انتظار. يحدث نصف الضرر على غير الأبطال.</span>"
+		"upgrade_spirit_burn_desc"	"إلحاق ضرر روح كبير {g:citadel_inline_attribute:'SpiritDamage'} بعدو خلال {s:DamageThresholdDuration} ثوانٍ يسبب انفجاراً يحدث ضرراً وحرقاً لذلك العدو. أثناء الاحتراق، يتلقى الأعداء ضرراً مستمراً وتأثيراً مخفضاً للعلاج.<br><span class=\"diminish\">وقت الانتظار منفصل لكل عدو، بحيث يمكن حرق كل هدف مرة واحدة فقط لكل فترة انتظار. يحدث نصف الضرر على غير الأبطال.</span>"
 		"MinDPS_label" "الحد الأدنى للضرر في الثانية"
 
 		"MinDPS_postvalue_label" "الحد الأدنى للضرر في الثانية"
 
 		//Lightning Scroll
-		"upgrade_ultimate_burst_desc"			"ضرر من نهائيك يطبق {g:citadel_inline_attribute:'Stun'} ويتعامل مع {g:citadel_inline_attribute:'BonusالروحDamage'} بعد مهلة قصيرة.</span>"
+		"upgrade_ultimate_burst_desc"			"ضرر من نهائيك يطبق {g:citadel_inline_attribute:'Stun'} ويتعامل مع {g:citadel_inline_attribute:'BonusSpiritDamage'} بعد مهلة قصيرة.</span>"
 		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">تأثيرات إبطاء الغامضة</span>"
 		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\"> يمكن تفعيل هذا التأثير مرة واحدة فقط لكل هدف لكل نهائي.</span>"
 		"LightningScrollMysticSlow_label"		"انقل سرعة إلى ضرر روحي"
@@ -752,7 +752,7 @@
 		"HealReductionDuration_postfix"		"ث"
 
 		//Discord | Scourge
-		"upgrade_discord_desc"						"تطبيق <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">مقاومة التأثيرات السلبية</span> وهالة على حليف تحدث <span class=\"highlight\">ضرر روح {g:citadel_inline_attribute:'الروحIcon'}</span> للأعداء متناسبة مع أقصى صحة لديهم. يتم تقليل التأثيرات السلبية الحالية على الهدف.<br>يمكن إلقاؤها على النفس."
+		"upgrade_discord_desc"						"تطبيق <span class=\"highlight\">مقاومة الروح</span> و <span class=\"highlight\">مقاومة التأثيرات السلبية</span> وهالة على حليف تحدث <span class=\"highlight\">ضرر روح {g:citadel_inline_attribute:'SpiritIcon'}</span> للأعداء متناسبة مع أقصى صحة لديهم. يتم تقليل التأثيرات السلبية الحالية على الهدف.<br>يمكن إلقاؤها على النفس."
 		"MaxHealthPercentAsDPS_label"				"أقصى صحة في الثانية"
 		"MaxHealthPercentAsDPS_postvalue_label"				"أقصى صحة في الثانية"
 		"MaxHealthPercentAsDPS_postfix"				"%"
@@ -800,7 +800,7 @@
 		"upgrade_regenerating_bullet_shield_desc"	"بينما أنت <span class=\"highlight\">صحتك أعلى من {s:LifeThreshold}%</span>، احصل على <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> و <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
 
 		//Enchanter's Emblem
-		"upgrade_magic_shield_desc"		"بينما كنت <span class=\"highlight\">a أعلى من {s:LifeThreshold}% صحة</span>، احصل على مكافأة <span class=\"highlight\">{g:citadel_inline_attribute:'الروح'}</span> و<span class=\"highlight\">تخفيض فترة التبريد</span>."
+		"upgrade_magic_shield_desc"		"بينما كنت <span class=\"highlight\">a أعلى من {s:LifeThreshold}% صحة</span>، احصل على مكافأة <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> و<span class=\"highlight\">تخفيض فترة التبريد</span>."
 		
 		// "upgrade_weapon_shielding"						"Weapon Shielding"
 		"upgrade_weapon_shielding_desc"			"احصل على <span class=\"highlight\">حاجز</span> عندما تأخذ {g:citadel_inline_attribute:'WeaponDamage'} كبير من عدو أبطال في إطار زمني صغير."
@@ -818,7 +818,7 @@
 		"upgrade_unstoppable_desc"				"قم بقمع تأثيرات الحالة السلبية مؤقتاً مؤقتًا </span> وتصبح <span class=\"highlight\">immune</span> إلى <span class=\"highlight\">صعق وإسكات وSleep وRoot ونزع السلاح</span>. لا يمكن استخدام <br> أثناء <span class=\"highlight\">Stunned</span> أو <span class=\"highlight\">Slept</span>."
 
 		//Colossus
-		"upgrade_colossus_desc"			"تنمو <span class=\"highlight\"> أكبر حجمًا </span>، وتكتسب {g:citadel_inline_attribute:'BulletResist'} و{g:citadel_inline_attribute:'الروحResist'} و{g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Nالمجاورة أعداء تعاني من {g:citadel_inline_attribute:'Slow'} وقد خفضت <span class=\"highlight\">اندفاع سرعة</span>."
+		"upgrade_colossus_desc"			"تنمو <span class=\"highlight\"> أكبر حجمًا </span>، وتكتسب {g:citadel_inline_attribute:'BulletResist'} و{g:citadel_inline_attribute:'SpiritResist'} و{g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Nالمجاورة أعداء تعاني من {g:citadel_inline_attribute:'Slow'} وقد خفضت <span class=\"highlight\">اندفاع سرعة</span>."
 		"BuffBulletResist_label"		"مقاومة الرصاص"
 		"BuffBulletResist_postvalue_label"		"مقاومة الرصاص"
 		"BuffBulletResist_postfix"		"%"
@@ -830,7 +830,7 @@
 		"upgrade_melee_rebuttal_desc"				"في <span class=\"highlight\">Parry</span> ناجح ضد عدو بطل، <span class=\"highlight\">علاج</span> تصدى لنفسك لـ ضرر وأرجع ضرر إلى هدف، واحصل على زيادة مؤقتة <span class=\"highlight\">ضرر.</span>"
 
 		// Counterspell
-		"upgrade_counterspell_desc"				"باري التالي <span class=\"highlight\"> يحميك من ضرر وتأثيرات قدرات وعناصر عدو </span>. في تعويذة ناجحة، تصدى لـ {g:citadel_inline_attribute:'Heal'} واكتسب {g:citadel_inline_attribute:'MoveSpeed'} و{g:citadel_inline_attribute:'الروح'}."
+		"upgrade_counterspell_desc"				"باري التالي <span class=\"highlight\"> يحميك من ضرر وتأثيرات قدرات وعناصر عدو </span>. في تعويذة ناجحة، تصدى لـ {g:citadel_inline_attribute:'Heal'} واكتسب {g:citadel_inline_attribute:'MoveSpeed'} و{g:citadel_inline_attribute:'Spirit'}."
 		
 		"ParrySuccessHealPercentage_label"					"ضرر تم تفاديه باسم علاج"
 		"ParrySuccessHealPercentage_postvalue_label"					"ضرر تم تفاديه باسم علاج"
@@ -841,7 +841,7 @@
 		"upgrade_improved_bullet_armor_desc"	"عندما تكون أقل من <span class=\"highlight\">{s:HealthThreshold}% صحة</span>، احصل على <span class=\"highlight\">مقاومة الرصاص</span> إضافية."
 
 		// Spellbreaker
-		"upgrade_spellbreaker_desc"				"يتم تقليل المثيل التالي لارتفاع {g:citadel_inline_attribute:'الروحDamage'} الذي تتناوله بشكل كبير."
+		"upgrade_spellbreaker_desc"				"يتم تقليل الضرر التالي المتلقى من {g:citadel_inline_attribute:'SpiritDamage'} بشكل كبير."
 		"SpiritDamageReductionProc_label"		"ضرر روحي تخفيض"
 		"SpiritDamageReductionProc_postvalue_label"		"ضرر روحي تخفيض"
 		"SpiritDamageReductionProc_postfix"		"%"
@@ -856,7 +856,7 @@
 		"StackingGoldPerMinute_postvalue_label"			"الأرواح في الدقيقة"
 		
 		// Indomitable
-		"upgrade_upgrade_auto_cleanse_desc"		"يتم تنظيف <span class=\"highlight\">صعق أو السلسلة أو التثبيت أو النوم أو إسكات</span> تلقائيًا. عندما يحدث هذا، تحصل على <span class=\"highlight\">حاجز</span> ويتم تقليل كل ما لديك من <span class=\"highlight\">ability فترات تبريد</span> بنسبة {s:فترة التبريدReductionOnProc}٪."
+		"upgrade_upgrade_auto_cleanse_desc"		"يتم تنظيف <span class=\"highlight\">صعق أو السلسلة أو التثبيت أو النوم أو إسكات</span> تلقائيًا. عندما يحدث هذا، تحصل على <span class=\"highlight\">حاجز</span> ويتم تقليل كل ما لديك من <span class=\"highlight\">ability فترات تبريد</span> بنسبة {s:CooldownReductionOnProc}٪."
 		
 		//-----------------------------------------------------------------------------
 		// Upgrades: Utility
@@ -907,7 +907,7 @@
 		"upgrade_vex_barrier_desc"		"احصل على حاجز <span class=\"highlight\"> </span> عندما تكون <span class=\"highlight\"> مذهولًا أو مقيدًا بالسلاسل أو غير قادر على الحركة أو نائمًا أو إسكاتًا </span>."
 
 		//Spell Shield
-		"upgrade_spellshield_desc"		"قم بحظر {g:citadel_inline_attribute:'الروحDamage'} أو <span class=\"highlight\">التأثير السلبي</span> التالي، مما يمنع آثاره. يتجدد فقط خارج القتال."
+		"upgrade_spellshield_desc"		"قم بحظر {g:citadel_inline_attribute:'SpiritDamage'} أو <span class=\"highlight\">التأثير السلبي</span> التالي، مما يمنع آثاره. يتجدد فقط خارج القتال."
 		"upgrade_spellshield_shield"	"ختم مضاد للروح"
 		"upgrade_spellshield/modifier_spellshield_linger_buff"  "جناح سداسي الفويل مكسور!"
 		"SpellShieldFlavorText_label"	"العنوان!"
@@ -922,7 +922,7 @@
 		"upgrade_heal_on_level/heal_on_level_buff"			"علاج عند الترقية"
 
 		//Absorbing armor / witchmail
-		"upgrade_absorbing_armor_desc" "إن تلقي ضربات قوية لـ {g:citadel_inline_attribute:'الروحDamage'} من عدو يقلل من قدرة مؤقتاً العشوائية فترة تبريد</span>."
+		"upgrade_absorbing_armor_desc" "إن تلقي ضربات قوية لـ {g:citadel_inline_attribute:'SpiritDamage'} من عدو يقلل من قدرة مؤقتاً العشوائية فترة تبريد</span>."
 
 		//Healing Buff
 		"upgrade_healbuff_desc" "تطبيق {g:citadel_inline_attribute:'Heal'} على نفسك أو على حليف يمنح هدف {g:citadel_inline_attribute:'BonusFireRate'} و{g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\"> لا ينطبق على تجدد أو تأثير سلبي الفطرية رصاصة/سرقة الحياة الروحية.</span>"
@@ -947,7 +947,7 @@
 		"upgrade_shadow_step_desc"	"<span class=\"highlight\">TEport</span> للأمام مباشرة."
 
 		//Shadow Step Passive
-		"upgrade_shadow_step_passive_desc"	"يتعامل بشكل دوري مع {g:citadel_inline_attribute:'الروحDamage'} لجميع أعداء القريبة."
+		"upgrade_shadow_step_passive_desc"	"يتعامل بشكل دوري مع {g:citadel_inline_attribute:'SpiritDamage'} لجميع أعداء القريبة."
 
 		"upgrade_haunting_scream_desc"	"أطلق مقذوفًا متوسعًا يلعن <span class=\"highlight\"></span> أعداء لمدة قصيرة المدة."
 		
@@ -990,7 +990,7 @@
 		"RespawnTime_postfix" "%"
 		"RespawnTime_prefix" "{s:sign}"
 
-		"upgrade_eldritch_shot_desc"			"يطبق رصاصة التالي تأثيرًا قويًا على تقليل إخراج عدو الخاص بـ ضرر والشفاء والحركة سرعة. كما أنها تتعامل مع {g:citadel_inline_attribute:'BonusالروحDamage'} بناءً على أهداف الحالي صحة. <br><br> إن رصاصة أكبر ويخترق أهداف."
+		"upgrade_eldritch_shot_desc"			"يطبق رصاصة التالي تأثيرًا قويًا على تقليل إخراج عدو الخاص بـ ضرر والشفاء والحركة سرعة. كما أنها تتعامل مع {g:citadel_inline_attribute:'BonusSpiritDamage'} بناءً على أهداف الحالي صحة. <br><br> إن رصاصة أكبر ويخترق أهداف."
 		"upgrade_cloak_of_opportunity_desc"		"يحجب التأثير السلبي التالي الذي قد يطبق قفل <span class=\"highlight\">الحركة، أو الصعق، أو التكبيل، أو التثبيت، أو النوم</span> وتصبح <span class=\"highlight\">غير قابل للإيقاف</span>. احصل أيضاً على <span class=\"highlight\">حاجز</span> ومكافأة {g:citadel_inline_attribute:'MoveSpeed'}"
 		"upgrade_runed_gauntlets_desc"			"في كل مرة تهبط فيها اشتباك الثقيلة، يتم تقليل فترات تبريد الموجود لديك."
 		"upgrade_runed_gauntlets_parry_desc"		"بيرس من خلال باري."
