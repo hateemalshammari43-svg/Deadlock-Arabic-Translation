@@ -1411,4 +1411,10 @@
 		"upgrade_ancient_shield"		"درع قديم"
 		"upgrade_aerial_supremacy"		"سيادة جوية"
 }
+
+		// Latest Official Valve Engine Keys Added
+		"modifier_glitch_self_penalty"		"ارتداد اللعنة"
+
+		"modifier_spirit_burn_immunity"		"حصانة ضد الحرق الروحي"
+
 }

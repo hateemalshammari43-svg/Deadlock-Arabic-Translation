@@ -6812,5 +6812,251 @@
 		"hero_werewolf_search:n"		"سيلفر"
 		"hero_werewolf_sort:n"		"سيلفر"
 }
+
+		// Latest Official Valve Engine Keys Added
+		"AbandonTriggerTeam_Title"		"غادر أحد اللاعبين المباراة"
+
+		"Unranked_AbandonTriggerEarly"		"لن يتم احتساب هذه المباراة وسوف تنتهي خلال {d:end_game_countdown} ثانية."
+
+		"Ranked_AbandonTriggerEarly"		"لن يتم احتساب هذه المباراة وسوف تنتهي خلال {d:end_game_countdown} ثانية. لن يتأثر تقييمك التنافسي."
+
+		"Unranked_AbandonTriggerTeam"		"يمكنك الآن مغادرة المباراة بأمان ولن يتم احتسابها ضدك. إذا بقيت وفزت، فسيتم احتساب الفوز."
+
+		"Ranked_AbandonTriggerTeam"		"لن تخسر نقاطاً تنافسية في هذه المباراة، ويمكنك المغادرة بأمان دون أي عقوبة. إذا بقيت وفزت، فسيتم احتساب الفوز."
+
+		"Citadel_Hideout_Ranked"		"اضغط {g:citadel_binding:'Interact'} لعرض تفاصيل الموسم التنافسي"
+
+		"menu_new_violator"		"جديد!"
+
+		"menu_edit_roster"		"تعديل التشكيلة"
+
+		"menu_edit_roster_desc"		"تحديث تشكيلة أبطالك للمباراة القادمة."
+
+		"menu_leave_queue_desc"		"مغادرة طابور البحث عن مباراة."
+
+		"menu_play_ranked_locked"		"مغلق"
+
+		"menu_play_ranked_locked_details"		"عرض التفاصيل في ملفك التنافسي ←"
+
+		"menu_play_low_priority_title"		"طابور الأولوية المنخفضة"
+
+		"menu_play_low_priority_games:f"		"{low_pri_games_remaining, plural, one{تتبقى مباراة واحدة {i:low_pri_games_remaining}} other{تتبقى {i:low_pri_games_remaining} مباريات}}"
+
+		"Citadel_HeroChangeNotification_Text"		"غيّر {s:player_name} بطله"
+
+		"Citadel_RosterMode_PreGameHeroDraft"		"تغيير البطل"
+
+		"Citadel_PreGameHeroDraft_ChangeHero"		"تغيير البطل"
+
+		"Citadel_PreGameHeroDraft_Confirm"		"تأكيد البطل"
+
+		"Citadel_PreGameHeroDraft_ErrorHeroLocked"		"تم اختيار هذا البطل بالفعل"
+
+		"Citadel_PreGameHeroDraft_ErrorTimeLocked:f"		"لا يمكنك تغيير البطل لمدة {d:lockout_seconds} ثانية"
+
+		"Citadel_PreGameHeroDraft_ErrorMisc"		"تعذر اختيار البطل بسبب خطأ غير معروف"
+
+		"Citadel_PreGameHeroDraft_ButtonLabel"		"اضغط {g:citadel_binding:'Interact'} لتغيير البطل"
+
+		"Citadel_PreGameHeroDraft_ButtonLabelDisabled"		"لا يمكن تغيير البطل مجدداً"
+
+		"Citadel_RankedMatchStatus_Counts"		"{d:count_current}/{d:count_required}"
+
+		"Citadel_RankedMatchStatus_Wins"		"الانتصارات"
+
+		"Citadel_PlayMenu_LowPriorityDisable"		"غير متاح أثناء التواجد في الأولوية المنخفضة"
+
+		"Citadel_StartMatchmaking_NoBrawlWhileInLowPri"		"لا يُسمح بالبحث عن قتال الشوارع أثناء التواجد في الأولوية المنخفضة"
+
+		"Citadel_PartySetMode_BrawlMemberInLowPri"		"عضو مجموعتك {g:citadel_persona:nl:account_id} موجود حالياً في الأولوية المنخفضة ولا يمكنه لعب قتال الشوارع"
+
+		"Citadel_PartySetMode_RankedInCalibration"		"عضو مجموعتك {g:citadel_persona:nl:account_id} لا يمكنه لعب النمط التنافسي حتى يكمل مباريات تحديد المستوى"
+
+		"Citadel_PartySetMode_RankedInvalidPartySize"		"حجم مجموعتك غير مدعوم في النمط التنافسي. يُسمح بلاعبين اثنين فقط كحد أقصى لكل مجموعة في هذا النمط."
+
+		"Citadel_PartySetMode_RankedPartySkillRangeInvalid"		"فارق الرتب بين أعضاء المجموعة كبير جداً ولا يسمح باللعب معاً في النمط التنافسي."
+
+		"Citadel_PartySetMode_RankedMemberInLowPri"		"عضو مجموعتك {g:citadel_persona:nl:account_id} لا يمكنه المشاركة في النمط التنافسي بسبب وجوده في الأولوية المنخفضة أو تلقيه حظراً."
+
+		"Citadel_PartySetMode_RankedMemberCurrentlyBanned"		"عضو مجموعتك {g:citadel_persona:nl:account_id} محظور من البحث عن مباريات ولا يمكنه المشاركة في النمط التنافسي."
+
+		"Citadel_Profile_CopyFriendCode"		"نسخ رمز الصديق"
+
+		"Citadel_Profile_CopyFriendCodeSuccess"		"تم النسخ بنجاح"
+
+		"Citadel_WatchPage_FilterGameMode_Ranked"		"المباريات التنافسية"
+
+		"Citadel_MatchHistory_FilterGameMode_Ranked"		"المباريات التنافسية"
+
+		"Citadel_Post_Game_Ranked"		"تنافسي"
+
+		"Citadel_Post_Game_HeroXPReward_Win"		"فوز بالمباراة"
+
+		"Citadel_Post_Game_HeroXPReward_Loss"		"خسارة المباراة"
+
+		"Citadel_Post_Game_HeroXPReward_Amount"		"{d:reward_amount} نقطة خبرة"
+
+		"citadel_keybind_interact"		"تفاعل"
+
+		"citadel_settings_cosmetic_interact_binding"		"زر التفاعل العام"
+
+		"citadel_settings_cosmetic_interact_binding_desc"		"تم استبدال زر التفاعل القديم في المخبأ بزر تفاعل عام وشامل يمكن استخدامه داخل المخبأ وتغيير الأبطال في النمط التنافسي وسائر التفاعلات."
+
+		"Citadel_RankedNotAllowed_MissingData"		"تعذر تحديد الأهلية للنمط التنافسي. يرجى المحاولة لاحقاً."
+
+		"Citadel_RankedNotAllowed_NotEnoughMatches:f"		"العب مباريات قياسية أولاً لفتح النمط التنافسي. لعبت {d:matches_played} من أصل {d:matches_required} مباراة مطلوبة."
+
+		"Citadel_RankedNotAllowed_LowPri:f"		"غير متاح أثناء التواجد في طابور الأولوية المنخفضة. {low_pri_matches, plural, one{تتبقى مباراة واحدة {d:low_pri_matches}} other{تتبقى {d:low_pri_matches} مباريات}}."
+
+		"Citadel_RankedNotAllowed_CommsBan"		"لا يمكنك اللعب أثناء وجود حظر تواصل. ينتهي الحظر في {t:ban_expire_time}."
+
+		"Citadel_RankedNotAllowed_ReportBan"		"لا يمكنك اللعب أثناء وجود حظر بلاغات. ينتهي الحظر في {t:ban_expire_time}."
+
+		"Citadel_RankedNotAllowed_PartyMemberMissingData"		"تعذر تحديد أهلية عضو المجموعة {g:citadel_persona:member_account_id}."
+
+		"Citadel_RankedNotAllowed_PartyMemberInCalibration"		"عضو المجموعة {g:citadel_persona:member_account_id} لم يكمل مباريات تحديد المستوى بعد."
+
+		"Citadel_RankedNotAllowed_PartyInvalidSize"		"حجم المجموعة غير صالح: {d:party_size}"
+
+		"Citadel_RankedNotAllowed_PartySkillRange"		"فارق رتب أعضاء المجموعة متباعد جداً."
+
+		"Citadel_Ranked_Validating"		"جاري التحقق من مطابقة النمط التنافسي..."
+
+		"Citadel_Ranked_ErrorTitle"		"خطأ في البحث التنافسي"
+
+		"Citadel_Ranked_NotEnoughMatchesPlayed"		"عدد المباريات الملعوبة غير كافٍ."
+
+		"Citadel_Ranked_NotEnoughHeroesUnlocked"		"عدد الأبطال المفتوحين غير كافٍ."
+
+		"Citadel_Ranked_InternalError"		"خطأ داخلي في النظام."
+
+		"Citadel_RankedSeason_ViewNote"		"يظهر بعد انتهاء الموسم"
+
+		"Citadel_ranks_0"		"أوبسكورس (خامل)"
+
+		"Citadel_ranks_1"		"مبتدئ"
+
+		"Citadel_ranks_2"		"باحث"
+
+		"Citadel_ranks_3"		"مساعد"
+
+		"Citadel_ranks_4"		"حارس"
+
+		"Citadel_ranks_5"		"عارف"
+
+		"Citadel_ranks_6"		"طقوسي"
+
+		"Citadel_ranks_7"		"مبعوث"
+
+		"Citadel_ranks_8"		"عرّاف"
+
+		"Citadel_ranks_9"		"شبح"
+
+		"Citadel_ranks_10"		"متسامٍ"
+
+		"Citadel_ranks_11"		"إيتيرنوس (أبدي)"
+
+		"Citadel_rank_material_1"		"طين"
+
+		"Citadel_rank_material_2"		"حجر"
+
+		"Citadel_rank_material_3"		"حديد"
+
+		"Citadel_rank_material_4"		"برونز"
+
+		"Citadel_rank_material_5"		"فضة"
+
+		"Citadel_rank_material_6"		"ذهب"
+
+		"Citadel_rank_material_7"		"بلاتين"
+
+		"Citadel_rank_material_8"		"ألماس"
+
+		"Citadel_ranked_no_matches"		"لم يتم لعب أي مباريات تنافسية في هذا الموسم"
+
+		"Citadel_ranked_load_more"		"تحميل المزيد"
+
+		"Citadel_LeaderboardRankDesc"		"ابتداءً من رتبة {g:citadel_packed_rank_name:leaderboard_packed_rank} وما فوقها، لا يتم الحصول على الشارات بنقاط ثابتة، بل يتم تصنيف جميع اللاعبين المؤهلين حسب نقاطهم التنافسية وتوزيع الشارات وفقاً لنسبتهم المئوية بين اللاعبين."
+
+		"Citadel_RankedSeasonName_BetaSeason1"		"الموسم التجريبي 1"
+
+		"Citadel_RankedProgress_CalibratedRank"		"اكتمل تحديد المستوى"
+
+		"Citadel_RankedProgress_GainedRank"		"ترقية الرتبة"
+
+		"Citadel_RankedProgress_LostRank"		"هبوط الرتبة"
+
+		"Citadel_RankedProgress_RankPoints"		"النقاط"
+
+		"Citadel_RankedProgress_RankPointsChange"		"{s:rank_change_prefix}{d:rank_change} نقطة"
+
+		"Citadel_Ranked_Overview_Hero_Bullet2"		"يمكنك تغيير بطلك لتحسين تشكيلة فريقك أو تبادل المسارات مع حلفائك."
+
+		"Citadel_RankedSeason_Active_NotStarted"		"العب مباريات تنافسية لبدء تحديد مستواك."
+
+		"Citadel_RankedSeason_CurrentStreak"		"سلسلة الانتصارات الحالية"
+
+		"Citadel_RankedSeason_Eligibility_AccountWins:f"		"{d:current_account_wins}/{d:required_account_wins} فوز في النمط القياسي"
+
+		"Citadel_RankedSeason_Eligibility_Eligible"		"النمط التنافسي متاح الآن في قائمة اللعب"
+
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"		"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} أبطال بـ {d:required_hero_win_count} انتصارات أو أكثر"
+
+		"Citadel_RankedSeason_Eligibility_NotEligible"		"العب مباريات قياسية لفتح النمط التنافسي"
+
+		"Citadel_RankedSeason_EligibilityTitle"		"متطلبات فتح النمط التنافسي:"
+
+		"Citadel_RankedSeason_Finished_NoMatches"		"لم تشارك في هذا الموسم."
+
+		"Citadel_RankedSeason_Finished_NotCalibrated"		"لم تكتمل مباريات تحديد المستوى."
+
+		"Citadel_RankedSeason_ProtectionUsed"		"تم استخدام الحماية من هبوط الرتبة"
+
+		"Citadel_RankedSeason_ResultingRank"		"الرتبة النهائية"
+
+		"Citadel_RankedSeason_Upcoming_StartsIn"		"يبدأ الموسم خلال {t:d:t:T:time_until_start}"
+
+		"Citadel_RankedSeason_Wins"		"الانتصارات"
+
+		"Citadel_RankedSeason_WinStreak"		"سلسلة الانتصارات"
+
+		"Citadel_RankedSeason_WinStreak_Tooltip"		"حقق انتصارات متتالية لكسب نقاط تنافسية إضافية."
+
+		"Citadel_RankedSeason_WinStreakBonus_TierPoints:f"		"+{d:win_streak_tier_points} نقطة"
+
+		"Citadel_RankedSeason_WinStreakBonus_TierWins:f"		"{d:win_streak_tier_wins} انتصارات"
+
+		"Citadel_RankedSeason_WinStreakBonus_TierWinsMax:f"		"{d:win_streak_tier_wins}+ انتصارات"
+
+		"Citadel_RankedSeason_WinStreakPoints"		"+{d:win_streak_points} نقطة"
+
+		"Citadel_RankedHistory_Title"		"المواسم التنافسية"
+
+		"Citadel_RankedHistory_SeasonCalibrating"		"جاري تحديد المستوى"
+
+		"Citadel_RankedHistory_SeasonNotCalibrated"		"لم يكتمل التحديد"
+
+		"Citadel_RankedHistory_SeasonNotJoined"		"لم يشارك"
+
+		"Citadel_RankedHistory_SeasonUpcoming"		"قريباً"
+
+		"Citadel_RankedMatchHistory_Calibrated"		"اكتمل التحديد"
+
+		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} نقطة"
+
+		"modifier_crackshot_bullet_resist_reduction"		"-مقاومة الرصاص"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"		"قفزات هوائية مجانية"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"		"قفزات هوائية مجانية بدون طاقة"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"		"{s:sign}"
+
+		"CITADEL_HIDEOUT_RANKED"		"اضغط {g:citadel_binding:'Interact'} لعرض تفاصيل الموسم التنافسي"
+
+		"MENU_NEW_VIOLATOR"		"جديد!"
+
+		"MENU_EDIT_ROSTER"		"تعديل التشكيلة"
+
 }
 

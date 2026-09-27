@@ -5627,4 +5627,20 @@
 		"hero_werewolf_search:n"		"سيلفر"
 		"hero_werewolf_sort:n"		"سيلفر"
 }
+
+		// Latest Official Valve Engine Keys Added
+		"ability_crackshot_t2_desc"		"<span class=\"highlight\">+{s:Damage}</span> ضرر و <span class=\"highlight\">{s:BulletResistReduction}%</span> تقليل مقاومة الرصاص لمدة <span class=\"highlight\">{s:BulletResistReductionDuration} ثانية</span>"
+
+		"FullRageCurrentHealthDamagePct_label"		"ضرر بنسبة من الصحة الحالية"
+
+		"FullRageCurrentHealthDamagePct_postfix"		"%"
+
+		"FullRageCurrentHealthDamagePct_postvalue_label"		"من الصحة الحالية كضرر"
+
+		"TargetLifestealDuration_label"		"مدة سرقة الصحة"
+
+		"TargetLifestealDuration_postfix"		"ثانية"
+
+		"TargetLifestealDuration_postvalue_label"		"مدة سرقة الصحة"
+
 }
