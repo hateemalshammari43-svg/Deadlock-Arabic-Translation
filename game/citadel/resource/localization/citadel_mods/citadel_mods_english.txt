@@ -21,12 +21,12 @@
 		"AmmoScavengerDuration_postfix"		"ث"
 
 		//Melee Lifesteal
-		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">اشتباك</span> التالي هو <span class=\"highlight\">يعالج you</span>. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن Light اشتباك يضرب.</span>"
+		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">اشتباك</span> التالي هو <span class=\"highlight\">يعالج you</span>. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل الـ NPCs. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن Light اشتباك يضرب.</span>"
 		"LifestrikeHeal_label"				"العلاج عند ضربة الاشتباك"
 		"LifestrikeHeal_postvalue_label"				"العلاج عند ضربة الاشتباك"
 
 		//Tesla Bullets
-		"upgrade_chain_lightning_desc"	"لديك رصاص لديك فرصة لـ <span class=\"highlight\">shock</span> الخاص بك هدف. سوف يقفز <span class=\"highlight\">shock</span> إلى عدو قريب."
+		"upgrade_chain_lightning_desc"	"تتمتع طلقاتك بفرصة صعق الهدف، ويقفز الصعق إلى عدو قريب."
 
 		//Galvanic Storm
 		"GalvanicBuffDuration_label"						"المدة"
@@ -40,8 +40,8 @@
 		"ResistReductionDuration_postfix"	"ث"
 
 		//EMP Bullets
-		"upgrade_proc_silence_desc"		"يقوم رصاص الخاص بك ببناء <span class=\"highlight\">إسكات</span>. ضحايا محصنة ضد تراكم <span class=\"highlight\">{s:ImmunityDuration} ثانية</span> بعد انتهاء صلاحية إسكات."
-		"upgrade_proc_silence_debuff_desc"		"يقوم رصاص الخاص بك بتقليل هدف's <span class=\"highlight\">outgoing ضرر روحي</span>."
+		"upgrade_proc_silence_desc"		"يقوم رصاصك بتطبيق إسكات متراكم على الهدف. ويصبح محصناً ضد تراكم الإسكات لمدة {s:ImmunityDuration} ثوانٍ بعد انتهائه."
+		"upgrade_proc_silence_debuff_desc"		"يقلل رصاصك من الضرر الروحي الصادر من الهدف."
 		"proc_silence_buildup"			"بناء إسكات..."
 		"modifier_citadel_silence_proc_tech_damage_reduction"	"-ضرر الروح"
 
@@ -167,9 +167,9 @@
 		"upgrade_medic_bullets_desc"	"سوف رصاصة الخاص بك المقبل <span class=\"highlight\">علاج</span> بناءً على ما ضربته هدف."
 		"HealFromHero_label"	"الشفاء من أبطال"
 		"HealFromHero_postvalue_label"	"الشفاء من أبطال"
-		"HealFromNPC_label"	 "الشفاء من الشخصيات غير القابلة للعب / الأجرام السماوية"
+		"HealFromNPC_label"	 "الشفاء من الـ NPCs / الأجرام السماوية"
 
-		"HealFromNPC_postvalue_label"	 "الشفاء من الشخصيات غير القابلة للعب / الأجرام السماوية"
+		"HealFromNPC_postvalue_label"	 "الشفاء من الـ NPCs / الأجرام السماوية"
 
 		//Point Blank
 		"upgrade_close_quarter_combat_desc"	"عندما تكون في <span class=\"highlight\">، قم بإغلاق مدى</span> إلى هدف، واحصل على <span class=\"highlight\">ضرر السلاح</span> وقم بتطبيق رصاص على حركة مدىMovement إبطاء</span>."
@@ -273,7 +273,7 @@
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		//Lifestrike
-		"upgrade_boxing_glove_desc"						"يطبق هجوم <span class=\"highlight\">اشتباك الخاص بك، </span>، حركة <span class=\"highlight\"> على إبطاء</span> و<span class=\"highlight\">يعالج على </span> مقابل نسبة مئوية من <span class=\"highlight\">اشتباك. تعامل ضرر</span> بالإضافة إلى مبلغ ثابت. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل غير أبطال. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن ضربات Light اشتباك.</span>"
+		"upgrade_boxing_glove_desc"						"يطبق هجوم <span class=\"highlight\">اشتباك الخاص بك، </span>، حركة <span class=\"highlight\"> على إبطاء</span> و<span class=\"highlight\">يعالج على </span> مقابل نسبة مئوية من <span class=\"highlight\">اشتباك. تعامل ضرر</span> بالإضافة إلى مبلغ ثابت. <span class=\"diminish\"><br><br> هذا علاج فعال بنسبة {s:NonHeroHealPct} مقابل الـ NPCs. <br>فترة تبريد هو {s:LightMeleeCooldownMult}x طالما أن ضربات Light اشتباك.</span>"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
 		"DisarmDuration_label"							"نزع سلاح المدة"
@@ -317,7 +317,7 @@
 		"ShootDurationForMax_postfix"							"ث"
 		
 		//Escalating Resilience
-		"upgrade_reinforcing_casings_desc"    "يمنح <span class=\"highlight\">مقاومة الرصاص</span> عندما يصل رصاص إلى عدو بطل. <span class=\"highlight\">Eكل لقطة يمكن أن تمنح تراكم.</span> واحد فقط"
+		"upgrade_reinforcing_casings_desc"    "يمنح مقاومة للرصاص عندما تصيب طلقاتك بطلاً عدواً. كل طلقة يمكن أن تمنح تراكمًا واحدًا فقط."
 		"MaxArmorStacks_label"				"أقصى مقاومة الرصاص"
 		"MaxArmorStacks_postvalue_label"				"أقصى مقاومة الرصاص"
 		"MaxArmorStacks_postfix"				"%"
@@ -466,7 +466,7 @@
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		//Alchemical Fire
-		"upgrade_thermal_detonator_desc"		"قم برمي قارورة تنفجر عند التلامس، مما يؤدي إلى إنشاء منطقة تزيد من {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\"> في الثانية</span> وتقلل من عدو <span class=\"highlight\">مقاومة الرصاص</span>.<br><br>{s:NonHeroReductionPercent}٪ أقل فعالية مقابل غير أبطال."
+		"upgrade_thermal_detonator_desc"		"قم برمي قارورة تنفجر عند التلامس، مما يؤدي إلى إنشاء منطقة تزيد من {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\"> في الثانية</span> وتقلل من عدو <span class=\"highlight\">مقاومة الرصاص</span>.<br><br>{s:NonHeroReductionPercent}٪ أقل فعالية مقابل الـ NPCs."
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"ضرر السلاح"
 		"BonusBaseWeaponDamageTaken_postvalue_label"		"ضرر السلاح"
@@ -648,7 +648,7 @@
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "فك ختم المفاصل!"
 
 		//SpiritBurn
-		"upgrade_spirit_burn_desc"	"إلحاق ضرر روح كبير {g:citadel_inline_attribute:'SpiritDamage'} بعدو خلال {s:DamageThresholdDuration} ثوانٍ يسبب انفجاراً يحدث ضرراً وحرقاً لذلك العدو. أثناء الاحتراق، يتلقى الأعداء ضرراً مستمراً وتأثيراً مخفضاً للعلاج.<br><span class=\"diminish\">وقت الانتظار منفصل لكل عدو، بحيث يمكن حرق كل هدف مرة واحدة فقط لكل فترة انتظار. يحدث نصف الضرر على غير الأبطال.</span>"
+		"upgrade_spirit_burn_desc"	"إلحاق ضرر روح كبير {g:citadel_inline_attribute:'SpiritDamage'} بعدو خلال {s:DamageThresholdDuration} ثوانٍ يسبب انفجاراً يحدث ضرراً وحرقاً لذلك العدو. أثناء الاحتراق، يتلقى الأعداء ضرراً مستمراً وتأثيراً مخفضاً للعلاج.<br><span class=\"diminish\">وقت الانتظار منفصل لكل عدو، بحيث يمكن حرق كل هدف مرة واحدة فقط لكل فترة انتظار. يحدث نصف الضرر على الـ NPCs.</span>"
 		"MinDPS_label" "الحد الأدنى للضرر في الثانية"
 
 		"MinDPS_postvalue_label" "الحد الأدنى للضرر في الثانية"
@@ -958,7 +958,7 @@
 		"upgrade_infinite_rounds_desc" "لديك <span class=\"highlight\">infinite</span> ذخيرة."
 
 		// BulletShredImbue Ballistic Enchantment
-		"upgrade_bulletshredimbue_desc" "قم بإضفاء القدرة على زيادة <span class=\"highlight\">مدى</span>. إن التعامل مع ضرر بهذه القدرة يمنحك زيادة <span class=\"highlight\">ضرر السلاح</span> لكل <span class=\"highlight\"> ضربة بطل الفريدة </span>. لقد قلل من التأثير على غير أبطال."
+		"upgrade_bulletshredimbue_desc" "قم بإضفاء القدرة على زيادة <span class=\"highlight\">مدى</span>. إن التعامل مع ضرر بهذه القدرة يمنحك زيادة <span class=\"highlight\">ضرر السلاح</span> لكل <span class=\"highlight\"> ضربة بطل الفريدة </span>. لقد قلل من التأثير على الـ NPCs."
 
 		// Recharging Bullets
 		"upgrade_rechargingbullets_desc" "يؤدي التعامل مع {g:citadel_inline_attribute:'WeaponDamage'} إلى تجديد رسوم <span class=\"highlight\">each من قدراتك المشحونة </span>."

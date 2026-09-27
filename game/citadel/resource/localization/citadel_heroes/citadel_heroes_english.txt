@@ -44,8 +44,8 @@
 
 		"HealingFactor_postvalue_label"					"سرقة الحياة"
 		"HealingFactor_postfix"					"%"
-		"NonHeroHealingFactor_label"			"سرقة الحياة مقابل غير أبطال"
-		"NonHeroHealingFactor_postvalue_label"			"سرقة الحياة مقابل غير أبطال"
+		"NonHeroHealingFactor_label"			"سرقة الحياة مقابل الـ NPCs"
+		"NonHeroHealingFactor_postvalue_label"			"سرقة الحياة مقابل الـ NPCs"
 		"NonHeroHealingFactor_postfix"			"%"
 
 		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"امتصاص الحياة"
@@ -96,7 +96,7 @@
 		"citadel_ability_static_charge_desc"		"قم بتطبيق رسوم على هدف عدو بطل. بعد المدة قصير، الشحنة الساكنة <span class=\"highlight\">يصعق والأضرار</span> أعداء داخل نطاق."
 		"citadel_ability_static_charge_quip"	"قم بتطبيق منطقة متأخرة صعق على عدو بطل"
 		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"الشحنة الساكنة"
-		"citadel_ability_static_charge_t2_desc" "<span class=\"highlight\">+{s:ShockRadius} متر</span> نطاق <br><span class=\"highlight\">+{s:AbilityCastRange} متر</span> Cast مدى"
+		"citadel_ability_static_charge_t2_desc" "<span class=\"highlight\">+{s:صعقRadius} متر</span> نطاق <br><span class=\"highlight\">+{s:AbilityCastRange} متر</span> Cast مدى"
 		"citadel_ability_static_charge_t3_desc" "<span class=\"highlight\">+{s:StunDuration} ثانية</span> صعق المدة <br><span class=\"highlight\">+{s:Damage}</span> ضرر"
 
 		"citadel_ability_static_charge_v2"			"الشحنة الساكنة"
@@ -107,7 +107,7 @@
 		"citadel_ability_lightning_ball_quip"	"إطلاق كرة مدمرة من البرق"
 		"citadel_ability_lightning_ball_desc"	"أطلق كرة من البرق تتحرك في خط مستقيم. هل <span class=\"highlight\">ضرر لجميع أهداف في نطاق</span>. تبطئ ينخفض ​​عند إتلاف أعداء ويتوقف إذا وصل إلى العالم."
 		"citadel_ability_lightning_ball_t2_desc" "<span class=\"highlight\">-{s:SlowPercent}%</span> نقل سرعة عند الإصابة أهداف و <span class=\"highlight\">+{s:MaxLifetime} ثانية</span> مدة البقاء"
-		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} ضرر في الثانية و +{s:ShockRadius} متر نطاق"
+		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} ضرر في الثانية و +{s:صعقRadius} متر نطاق"
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"إبطاء كرة البرق"
 
 		"ability_power_surge"					"تدفق الطاقة"
@@ -1183,9 +1183,9 @@
 		"HealthStealPctHero_postvalue_label"				"سرقة الحياة ضد الأبطال"
 		"HealthStealPctHero_postfix"				"%"
 
-		"HealthStealPct_label"					"سرقة الحياة ضد غير الأبطال"
+		"HealthStealPct_label"					"سرقة الحياة ضد الـ NPCs"
 
-		"HealthStealPct_postvalue_label"					"سرقة الحياة ضد غير الأبطال"
+		"HealthStealPct_postvalue_label"					"سرقة الحياة ضد الـ NPCs"
 		"HealthStealPct_postfix"					"%"
 
 		"PulseInterval_label"						"فاصل النبض"
@@ -1260,7 +1260,7 @@
 		"ability_scrap_blast/modifier_scrap_blast_debuff"		"مُبطأ"
 
 		"ability_wrecker_ultimate"			"تدفق مغناطيسي"
-		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">Grabs</span> أي عدو نظر إليه ريكر، ووضعهم في <span class=\"highlight\">stasis</span> وحملهم في الأعلى. تم التقاط كل من <span class=\"highlight\">يصعق</span> و<span class=\"highlight\"> من الأضرار التي تم التقاطها من </span> بواسطة أعداء عند الانتهاء. أي شخصيات غير قابلة للعب تم الاستيلاء عليها هي <span class=\"highlight\">salvaged</span>."
+		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">Grabs</span> أي عدو نظر إليه ريكر، ووضعهم في <span class=\"highlight\">stasis</span> وحملهم في الأعلى. تم التقاط كل من <span class=\"highlight\">يصعق</span> و<span class=\"highlight\"> من الأضرار التي تم التقاطها من </span> بواسطة أعداء عند الانتهاء. أي الـ NPCs تم الاستيلاء عليها هي <span class=\"highlight\">salvaged</span>."
 		//"ThrowDamage_label"					"Throw Damage"
 		//"GrabRange_label"						"Grab Range"
 		"GrabRange_postfix"					" م"
@@ -1350,8 +1350,8 @@
 		"HealPctVsHeroes_label"					"العلاج ضد الأبطال"
 		"HealPctVsHeroes_postvalue_label"					"العلاج ضد الأبطال"
 		"HealPctVsHeroes_postfix"				"%"
-		"HealPctVsNonHeroes_label"				"العلاج ضد غير الأبطال"
-		"HealPctVsNonHeroes_postvalue_label"				"العلاج ضد غير الأبطال"
+		"HealPctVsNonHeroes_label"				"العلاج ضد الـ NPCs"
+		"HealPctVsNonHeroes_postvalue_label"				"العلاج ضد الـ NPCs"
 		"HealPctVsNonHeroes_postfix"			"%"
 		"EnemySlowDuration_label"					"إضعاف المدة"
 		"EnemySlowDuration_postvalue_label"					"إضعاف المدة"
@@ -1637,7 +1637,7 @@
 		"AbilityCooldownPerHeadshotNPC_postvalue_label" "فترة تبريد لكل شخصية غير قابلة للعب في الرأس"
 		"AbilityCooldownPerHeadshotNPC_postfix" " ثانية"
 		"ability_crackshot_t1_desc"				"<span class=\"highlight\">-{s:FadingSlowPercent}%</span> حركة التلاشي سرعة"
-		"ability_crackshot_t3_desc"				"<span class=\"highlight\">{s:AbilityCooldownPerHeadshot} ثانية</span> فترة تبريد على صور بطل. {s:AbilityCooldownPerHeadshotNPC} ثانية على صور الشخصيات غير القابلة للعب"
+		"ability_crackshot_t3_desc"				"<span class=\"highlight\">{s:AbilityCooldownPerHeadshot} ثانية</span> فترة تبريد على صور بطل. {s:AbilityCooldownPerHeadshotNPC} ثانية على صور الـ NPCs"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1760,8 +1760,8 @@
 		"StatueLifesteal_label"					"سرقة الحياة"
 		"StatueLifesteal_postvalue_label"					"سرقة الحياة"
 		"StatueLifesteal_postfix"				"%"
-		"StatueLifestealNonHero_label"			"سرقة الحياة (غير الأبطال)"
-		"StatueLifestealNonHero_postvalue_label"			"سرقة الحياة (غير الأبطال)"
+		"StatueLifestealNonHero_label"			"سرقة الحياة (الـ NPCs)"
+		"StatueLifestealNonHero_postvalue_label"			"سرقة الحياة (الـ NPCs)"
 		"StatueLifestealNonHero_postfix"		"%"
 		"StatueActivateRange_label"				"مسافة كشف العدو"
 		"StatueActivateRange_postvalue_label"				"مسافة كشف العدو"
@@ -3824,7 +3824,7 @@
 		"BatPerSecond_postvalue_label" "الخفافيش في الثانية"
 
 		"ability_vampirebat_steallife" "جرف"
-		"ability_vampirebat_steallife_desc"		"<span class=\"diminish\">نشط:</span> اضرب بالمظلة لترتيب {g:citadel_inline_attribute:'SpiritDamage'} تزداد مع صحة الهدف المفقودة. احصل على {g:citadel_inline_attribute:'Heal'} لكل هدف يقتل.<br><br><span class=\"diminish\">سلبي: </span>يؤدي الضغط على {g:citadel_binding:'ADS'} إلى الطفو مؤقتاً.<br><span class=\"diminish\">يقضي الرعب على غير الأبطال عندما تكون صحتهم أقل من {s:TrooperExecuteThreshold}.</span>"
+		"ability_vampirebat_steallife_desc"		"<span class=\"diminish\">نشط:</span> اضرب بالمظلة لترتيب {g:citadel_inline_attribute:'SpiritDamage'} تزداد مع صحة الهدف المفقودة. احصل على {g:citadel_inline_attribute:'Heal'} لكل هدف يقتل.<br><br><span class=\"diminish\">سلبي: </span>يؤدي الضغط على {g:citadel_binding:'ADS'} إلى الطفو مؤقتاً.<br><span class=\"diminish\">يقضي الرعب على الـ NPCs عندما تكون صحتهم أقل من {s:TrooperExecuteThreshold}.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> علاج لكل قتل <br><span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> مفقود صحة ضرر وزيادة علاج لكل مقياس Kill الروح"
 		"MissingHealthDamagePercentage_postvalue_label" "صحة مفقود كـ ضرر"
