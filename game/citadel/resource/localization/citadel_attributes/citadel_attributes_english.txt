@@ -3866,24 +3866,35 @@
 		// Latest Official Valve Engine Keys Added
 		"BonusSpiritLifesteal_label"		"سرقة صحة روحية إضافية"
 
+
 		"BonusSpiritLifesteal_postfix"		"%"
+
 
 		"BonusSpiritLifesteal_postvalue_label"		"سرقة صحة روحية"
 
+
 		"BonusSpiritLifesteal_prefix"		"{s:sign}"
+
 
 		"FreeAirJumps_label"		"قفزات هوائية مجانية"
 
+
 		"FreeAirJumps_postvalue_label"		"قفزات هوائية مجانية بدون طاقة"
+
 
 		"FreeAirJumps_prefix"		"{s:sign}"
 
+
 		"UltimateCooldownReduction_label"		"تقليل فترة تبريد القدرة الخارقة"
+
 
 		"UltimateCooldownReduction_postfix"		"%"
 
+
 		"UltimateCooldownReduction_postvalue_label"		"تقليل فترة تبريد القدرة الخارقة"
 
+
 		"UltimateCooldownReduction_prefix"		"{s:sign}"
+
 
 }
