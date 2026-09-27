@@ -53,7 +53,7 @@
 		"upgrade_slowing_bullets/modifier_slowing_bullets_تفعيل/modifier_slow_base"					"تباطأ"
 
 		//Inhibitor
-		"upgrade_inhibitor_desc"	"يتم بناء رصاص الخاص بك لتقليل <span class=\"highlight\"> الصادر من هدف وتطبيق <span class=\"highlight\">healing تخفيض</span>."
+		"upgrade_inhibitor_desc"		"يقلل رصاصك من ضرر السلاح والعلاج الصادر من الهدف عند إصابته."
 		"OutgoingDamagePenaltyPercent_label"	"فزجلوسكسيزا ضربة جزاء"
 		"OutgoingDamagePenaltyPercent_postvalue_label"	"فزجلوسكسيزا ضربة جزاء"
 		"OutgoingDamagePenaltyPercent_postfix"	"%"
@@ -99,7 +99,7 @@
 		"upgrade_tech_bleed_desc" "قم بإضفاء القدرة على <span class=\"highlight\">سرقة الحياة</span> وتطبيق <span class=\"highlight\">إبطاء</span> على ضربة هدف وتعامل مع <span class=\"highlight\"> نسبة مئوية إضافية من ضرر التي تم التعامل معها </span> ل أعداء حول هدف بعد مهلة قصيرة."
 	
 		//Toxic Bullets
-		"upgrade_toxic_bullets_desc"	"يقوم رصاص الخاص بك بإنشاء <span class=\"highlight\">Bleed</span> على أعداء، مما يتسبب في فقدان <span class=\"highlight\">percentage</span> من <span class=\"highlight\">أقصى صحة</span> مع مرور الوقت. ينطبق أيضًا <span class=\"highlight\">Healing تخفيض</span> على نزيف هدف."
+		"upgrade_toxic_bullets_desc"		"يسبب رصاصك نزيقاً لدى الأعداء يلحق ضرراً مستمراً ويقلل من العلاج لديهم."
 		"upgrade_toxic_bullets_buildup"					"تراكم السم..."
 		"upgrade_bleeding_bullets_buildup"				"تراكم النزيف..."
 		"modifier_item_burning_bullets_damageovertime" 	"ناسيفينج"
@@ -174,35 +174,35 @@
 		//Point Blank
 		"upgrade_close_quarter_combat_desc"	"عندما تكون في <span class=\"highlight\">، قم بإغلاق مدى</span> إلى هدف، واحصل على <span class=\"highlight\">ضرر السلاح</span> وقم بتطبيق رصاص على حركة مدىMovement إبطاء</span>."
 
-		//Headshot Booster
-		"upgrade_headshot_booster_desc"		"<span class=\"highlight\">headshot التالي الخاص بك</span> ضد صفقات عدو بطل {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		//إصابة الرأس Booster
+		"upgrade_headshot_booster_desc"		"تمنحك إصابة الرأس التالية ضرراً إضافياً على السلاح."
 
-		//Weakening Headshot
-		"upgrade_headshot_booster2_desc"		"يؤدي هبوط <span class=\"highlight\">Headshot</span> إلى تقليل <span class=\"highlight\">مقاومة الرصاص</span>."
+		//Weakening إصابة الرأس
+		"upgrade_headshot_booster2_desc"		"تؤدي إصابة الرأس إلى تقليل مقاومة الرصاص لدى الهدف."
 
 		//Sharpshooter
 		"upgrade_sharpshooter_desc"				"تعامل مع <span class=\"highlight\">ضرر السلاح</span> عندما تكون <span class=\"highlight\"> أبعد من الحد الأدنى للمسافة </span> من هدف."
 
 		//Headhunter
-		"upgrade_headhunter_desc"	"<span class=\"highlight\">headshot</span> التالي الخاص بك مقابل عدو بطل يتعامل مع {g:citadel_inline_attribute:'BonusWeaponDamage'}، {g:citadel_inline_attribute:'Heal'} لك، ويمنح لفترة وجيزة {g:citadel_inline_attribute:'BonusMoveSpeed'}."
-		"HealPercentPerHeadshot_label"		"علاج لكل لقطة للرأس"
-		"HealPercentPerHeadshot_postvalue_label"		"علاج لكل لقطة للرأس"
-		"HealPercentPerHeadshot_postfix"	"%"
-		"BaseHealOnHeadshot_label"			"علاج لكل لقطة للرأس"
-		"BaseHealOnHeadshot_postvalue_label"			"علاج لكل لقطة للرأس"
+		"upgrade_headhunter_desc"		"تمنحك إصابة الرأس التالية ضرراً إضافياً وعلاجاً وتزيد من سرعة الحركة."
+		"HealPercentPerإصابة الرأس_label"		"علاج لكل لقطة للرأس"
+		"HealPercentPerإصابة الرأس_postvalue_label"		"علاج لكل لقطة للرأس"
+		"HealPercentPerإصابة الرأس_postfix"	"%"
+		"BaseHealOnإصابة الرأس_label"			"علاج لكل لقطة للرأس"
+		"BaseHealOnإصابة الرأس_postvalue_label"			"علاج لكل لقطة للرأس"
 
-		//Spellslinger Headshots
-		"upgrade_spellslinger_headshots_part1_desc"	"يقوم رصاص الخاص بك بتطبيق مخفض يقلل من <span class=\"highlight\">مقاومة الروح</span> الخاص بـ هدف ويمنحك أنت وحلفاء <span class=\"highlight\">سرقة حياة الروح</span> ضدهم."
-		"upgrade_spellslinger_headshots_part2_desc"	"يؤدي هبوط <span class=\"highlight\">headshots</span> ضد هدف إلى تقليل <span class=\"highlight\">مقاومة الروح</span> بشكل أكبر."
+		//Spellslinger إصابة الرأسs
+		"upgrade_spellslinger_إصابة الرأسs_part1_desc"	"يقوم رصاص الخاص بك بتطبيق مخفض يقلل من <span class=\"highlight\">مقاومة الروح</span> الخاص بـ هدف ويمنحك أنت وحلفاء <span class=\"highlight\">سرقة حياة الروح</span> ضدهم."
+		"upgrade_spellslinger_إصابة الرأسs_part2_desc"	"يؤدي هبوط <span class=\"highlight\">إصابة الرأسs</span> ضد هدف إلى تقليل <span class=\"highlight\">مقاومة الروح</span> بشكل أكبر."
 		"الروحPowerGainPct_label"				"قوة الروح"
 		"الروحPowerGainPct_postvalue_label"				"قوة الروح"
 		"الروحPowerGainPct_postfix"			"%"
-		"SpellSlingerHeadshots_الروحShredPerتراكم_label"		"مقاومة الروح على لقطة الرأس"
-		"SpellSlingerHeadshots_الروحShredPerتراكم_postvalue_label"		"مقاومة الروح على لقطة الرأس"
-		"SpellSlingerHeadshots_الروحShredPerتراكم_postfix"	"%"
+		"SpellSlingerإصابة الرأسs_الروحShredPerتراكم_label"		"مقاومة الروح على لقطة الرأس"
+		"SpellSlingerإصابة الرأسs_الروحShredPerتراكم_postvalue_label"		"مقاومة الروح على لقطة الرأس"
+		"SpellSlingerإصابة الرأسs_الروحShredPerتراكم_postfix"	"%"
 
-		//Crippling Headshot
-		"upgrade_banshee_slugs_headshots_desc"	"سيؤدي هبوط <span class=\"highlight\">Headshot</span> إلى تقليل <span class=\"highlight\">رصاصة ومقاومة الروح</span> ويطبق <span class=\"highlight\">Healing تخفيض</span>."
+		//Crippling إصابة الرأس
+		"upgrade_banshee_slugs_headshots_desc"		"تؤدي إصابة الرأس إلى تقليل مقاومة الرصاص ومقاومة الروح لدى الهدف وتطبق تقليل للعلاج."
 
 		//Berserker
 		"upgrade_berserker_desc"		"يزداد <span class=\"highlight\">ضرر السلاح</span> الخاص بك عندما تتناول ضرر المستمر."
@@ -267,9 +267,9 @@
 
 		//Burst Fire Actuator
 		"BurstFireShotsFromClipPercent_Postfix"			"%"
-		"BonusHeadshotDamage_label"						"مكافأة للرأس ضرر"
-		"BonusHeadshotDamage_postvalue_label"						"مكافأة للرأس ضرر"
-		"BonusHeadshotDamage_postfix"					"%"
+		"Bonusإصابة الرأسDamage_label"						"مكافأة للرأس ضرر"
+		"Bonusإصابة الرأسDamage_postvalue_label"						"مكافأة للرأس ضرر"
+		"Bonusإصابة الرأسDamage_postfix"					"%"
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		//Lifestrike
@@ -418,7 +418,7 @@
 		"upgrade_magic_vulnerability_desc"	"عندما يأخذ عدو {g:citadel_inline_attribute:'الروحDamage'}، يتم تقليل {g:citadel_inline_attribute:'الروحResist'} لديهم."		
 
 		//Healbane
-		"upgrade_healbane_desc"	"ينطبق {g:citadel_inline_attribute:'الروحDamage'} الخاص بك على <span class=\"highlight\">Healing تخفيض</span>. إذا مات عدو بطل تحت هذا التأثير، فستتلقى علاج كبيرة."
+		"upgrade_healbane_desc"		"يلحق ضررك الروحي تأثيراً يقلل العلاج وتجدد الصحة لدى الأعداء."
 		"HealOnKill_label"		"علاج على بطل اقتل"
 
 		"HealOnKill_postvalue_label"		"علاج على بطل اقتل"
@@ -488,13 +488,13 @@
 		"ArcaneSurgeWindow_postfix"				"ث"
 
 		//Active Reload
-		"upgrade_active_reload_desc"	"أثناء إعادة التحميل، سيؤدي الضغط على {g:citadel_binding:'Reload'} في الوقت المحدد إلى إنهاء إعادة التحميل فوراً ويمنحك زيادات في <span class=\"highlight\">معدل إطلاق النار</span> و<span class=\"highlight\">سرقة حياة الرصاص</span> و<span class=\"highlight\">سرعة الحركة</span>."
+		"upgrade_active_reload_desc"		"أثناء إعادة التحميل، ينهي الضغط في الوقت المناسب إعادة التحميل فوراً ويمنح سرعة إطلاق نار وسرقة حياة وسرعة حركة."
 
 		//Slowing Hex
 		"upgrade_containment_desc"			"حركة <span class=\"highlight\">تبطئ</span> من عدو هدف. أيضًا <span class=\"highlight\">يسكت</span> العناصر والقدرات القائمة على الحركة </span>.<br><span class=\"diminish\">يزيد من جاذبية هدف.<br>D لا يؤثر على قدرة هدف على التحمل الاستخدام.</span>"
 
 		//الروح Sap
-		"upgrade_الروح_sap_desc"			"هدف و عدو إلى PHZVALXYZ قم بتقليل مقاومة الروح</span> و <span class=\"highlight\">قوة الروح</span>."
+		"upgrade_الروح_sap_desc"			"هدف و عدو إلى مؤقتاً قم بتقليل مقاومة الروح</span> و <span class=\"highlight\">قوة الروح</span>."
 
 		//Focus Lens
 		"upgrade_focus_lens_desc"			"هدف و عدو إلى <span class=\"highlight\">إسكات</span> لهم. يتم تطبيق جزء من <span class=\"highlight\">all ضرر الذي تم التعامل معه </span> أثناء إسكات على هدف عندما يختفي إسكات."
@@ -542,7 +542,7 @@
 		"upgrade_slowing_tech/modifier_slowing_tech_تفعيل/modifier_slow_base"						"تباطأ"
 
 		//Refresher
-		"upgrade_ability_refresher_desc"	"<span class=\"highlight\"> قم بإعادة تعيين فترة تبريد</span> لجميع قدراتك وPHZVALXYZ قم باستعادة جميع الرسوم الخاصة بك </span>."
+		"upgrade_ability_refresher_desc"		"يصلح ويستعيد فترة التبريد لجميع قدراتك ويستعيد شحناتها فوراً."
 
 		//Cold Front
 		"upgrade_cold_front_desc"			"أطلق انفجارًا جليديًا متوسعًا يضرب {g:citadel_inline_attribute:'الروحDamage'} و<span class=\"highlight\">تبطئ</span> أهداف."
@@ -580,7 +580,7 @@
 		"upgrade_imbued_duration_extender_desc"	"يزيد من <span class=\"highlight\">المدة</span> لقدراتك وعناصرك."
 
 		//Diviner's Kevlar
-		"upgrade_diviners_kevlar_desc"			"عند إلقاء قدرة PHZVALXYZ النهائية، تحصل </span> على <span class=\"highlight\">حاجز</span> و<span class=\"highlight\">قوة الروح</span> المؤقتة."
+		"upgrade_diviners_kevlar_desc"		"عند إلقاء قدرتك النهائية، تحصل على حاجز حماية وقوة روح مؤقتة."
 		"BonusChannelTechPower_prefix"			"+"
 		
 		"BonusChannelTimePercentage_label"		"قناة المدة"
@@ -623,11 +623,11 @@
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"يتم شحن قدرتك المشبعة بمرور الوقت باستخدام {g:citadel_inline_attribute:'BonusالروحDamage'} و{g:citadel_inline_attribute:'BonusFireRate'} و<span class=\"highlight\">reloads رصاص</span> عند الاستخدام."
 
-		//Resonant Healing
+		//Resonant العلاج
 		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">علاج</span> واحصل على مكافأة <span class=\"highlight\">سرعة الحركة</span> لمدة المدة قصيرة عندما تقوم بإلقاء إحدى القدرة."
-		"HealingPerCast_Label"					"الشفاء على القدرة المصبوب"
+		"العلاجPerCast_Label"					"الشفاء على القدرة المصبوب"
 
-		"HealingPerCast_postvalue_label"					"الشفاء على القدرة المصبوب"
+		"العلاجPerCast_postvalue_label"					"الشفاء على القدرة المصبوب"
 
 		// Magic carpet
 		"upgrade_magic_carpet_desc"				"قم باستدعاء السجادة السحرية التي سوف تطير <span class=\"highlight\">fly</span> بعيدًا. أثناء الطيران، تكون محصنًا ضد تبطئ والقيام بأي إجراء سيؤدي إلى طرد السجادة. <span class=\"diminish\"><br>لا يمكن استخدام القدرات أثناء استدعاء السجادة.</span>"
@@ -684,7 +684,7 @@
 		"HeroMultiplier_postfix" "%"
 
 		//Golden Goose Egg
-		"upgrade_goose_egg_desc"	"اكتسب PHZVALXYZأرواحًا بمرور الوقت</span>، طالما كنت على قيد الحياة."
+		"upgrade_goose_egg_desc"		"تكتسب أرواحاً بمرور الوقت طالما أنك على قيد الحياة."
 		"upgrade_goose_egg_active_desc"	"فقس البيضة واكتسب <span class=\"highlight\">souls</span> و<span class=\"highlight\"> مقويات دائمة</span>.<br><br>تزداد قيمة البيضة كلما طالت مدة تمسكك بها.<br><br><span class=\"diminish\">احصل على مقوي دائم لكل {s:BonusBuffsPerGold} الأرواح المتراكمة عند الفقس."
 		"upgrade_goose_egg_تراكمlabel" "أرواح لاكتسابها"
 		"GoldPerMinute_postvalue_label" "الأرواح في الدقيقة"
@@ -701,11 +701,11 @@
 		// Upgrades: Armor
 		//-----------------------------------------------------------------------------
 		
-		//Healing Rite
+		//العلاج Rite
 		"upgrade_health_stimpak_desc"					"قم بمنح <span class=\"highlight\">تجدد</span> و<span class=\"highlight\">سرعة الاندفاع</span> إلى هدف. يتم التخلص منه إذا أخذت ضرر من لاعبي أو أهداف عدو. يمكن أن يكون صب ذاتيا."
 
 		//Shrink Ray
-		"upgrade_shrink_ray_desc"					"يقلل <span class=\"highlight\">Model Size</span> ويمنح <span class=\"highlight\">نقل سرعة</span> إلى هدف. يسمح لـ PHZVALXYZ باستخدام الأنفاق </span> في هذا الوضع. يمكن أن يكون صب ذاتيا."
+		"upgrade_shrink_ray_desc"		"يقلل من حجم الهدف ويمنحه سرعة حركة ويسمح باستخدام الأنفاق."
 		
 		//Guardian Ward
 		"upgrade_guardian_ward_desc"		"قم بتزويد هدف بحاجز <span class=\"highlight\">حاجز</span> و<span class=\"highlight\">سرعة حركة</span> المؤقت. <span class=\"diminish\"><br>C يمكن أن يتم الإلقاء ذاتيًا. يتم تقليل <br>فترة تبريد إلى النصف عند الإلقاء على شخص آخر.</span>"
@@ -724,7 +724,7 @@
 		"HealPerتراكم_postvalue_label"								"العلاج لكل تراكم"
 
 		//Cheat Death
-		"upgrade_cheat_death_unkillable_passive"	"عندما تأخذ ضرر المميت، بدلاً من ذلك تصبح <span class=\"highlight\"> مؤقتًا الموت مناعة </span> و<span class=\"highlight\"> قم بإزالة جميع debuffs غير صعق </span>. <br><br> بينما يكون الموت محصنًا، فإنك تتعامل مع PHZVALXYZ بـ ضرر</span> وتحصل على <span class=\"highlight\"> مما يقلل من الشفاء </span>."
+		"upgrade_cheat_death_unkillable_passive"		"عند تلقي ضرر مميت، تصبح محصناً ضد الموت مؤقتاً وتزيل التأثيرات السلبية."
 		"DeathImmunityDuration_label"	"مناعة الموت المدة"
 		"DeathImmunityDuration_postvalue_label"	"مناعة الموت المدة"
 		"DeathImmunityDuration_postfix"	"ث"
@@ -732,7 +732,7 @@
 		"DeathImmunityDamageReduction_postvalue_label"		"الضرر تقليل"
 		"DeathImmunityDamageReduction_postfix"		"%"
 
-		//Healing Booster
+		//العلاج Booster
 		"upgrade_healing_booster_desc"		"يزيد من فعالية <span class=\"highlight\">علاجك</span>."
 
 		//Debuff Reducer
@@ -762,7 +762,7 @@
 		"upgrade_chonky_high_health_passive_desc"		"عندما يكون مستوى <span class=\"highlight\">صحتك أعلى من {s:HealthThreshold}%</span>، فلديك مكافأة <span class=\"highlight\">سرعة حركة</span>."
 
 		//Leech
-		"upgrade_damage_recycler_desc"				"يقلل من تأثير عدو المطبق <span class=\"highlight\">healing تخفيض</span>."
+		"upgrade_damage_recycler_desc"		"يقلل من تأثير عقوبات تقليل العلاج المطبقة عليك."
 		"LeechHealOnKill_prefix"					"+"
 		"LeechHealOnKill_label"						"أقصى صحة علاج على القتل"
 		"LeechHealOnKill_postvalue_label"						"أقصى صحة علاج على القتل"
@@ -793,7 +793,7 @@
 		"ActiveFireRate_postfix"						"%"
 
 		//Metal Skin
-		"upgrade_metal_skin_desc"						"كن PHZVALXYZ محصنًا ضد رصاص</span>."
+		"upgrade_metal_skin_desc"		"تصبح محصناً مؤقتاً ضد طلقات الرصاص."
 		"AbilityApplyDelay_postfix"						"ث"
 
 		//Battle Vest
@@ -815,7 +815,7 @@
 		"upgrade_grit_desc"			"احصل على <span class=\"highlight\">حاجز</span> مقابل المدة قصير."
 
 		//غير قابل للإيقاف
-		"upgrade_غير قابل للإيقاف_desc"				"قم بقمع تأثيرات الحالة السلبية PHZVALXYZ مؤقتًا </span> وتصبح <span class=\"highlight\">immune</span> إلى <span class=\"highlight\">صعق وإسكات والنوم وRoot ونزع السلاح</span>. لا يمكن استخدام <br> أثناء <span class=\"highlight\">Stunned</span> أو <span class=\"highlight\">Slept</span>."
+		"upgrade_غير قابل للإيقاف_desc"		"يقمع التأثيرات السلبية مؤقتاً وتصبح محصناً ضد الصعق والإسكات والنوم والتثبيت ونزع السلاح."
 
 		//Colossus
 		"upgrade_colossus_desc"			"تنمو <span class=\"highlight\"> أكبر حجمًا </span>، وتكتسب {g:citadel_inline_attribute:'BulletResist'} و{g:citadel_inline_attribute:'الروحResist'} و{g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Nالمجاورة أعداء تعاني من {g:citadel_inline_attribute:'Slow'} وقد خفضت <span class=\"highlight\">سرعة الاندفاع</span>."
@@ -922,9 +922,9 @@
 		"upgrade_heal_on_level/heal_on_level_buff"			"علاج عند الترقية"
 
 		//Absorbing armor / witchmail
-		"upgrade_absorbing_armor_desc" "إن تلقي ضربات قوية لـ {g:citadel_inline_attribute:'الروحDamage'} من عدو يقلل من قدرة PHZVALXYZ العشوائية فترة تبريد</span>."
+		"upgrade_absorbing_armor_desc"		"تلقي ضربات روحية قوية يقلل من فترة التبريد لإحدى قدراتك بشكل عشوائي."
 
-		//Healing Buff
+		//العلاج Buff
 		"upgrade_healbuff_desc" "تطبيق {g:citadel_inline_attribute:'Heal'} على نفسك أو على حليف يمنح هدف {g:citadel_inline_attribute:'BonusFireRate'} و{g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\"> لا ينطبق على تجدد أو تأثير سلبي الفطرية رصاصة/الروح Lifeسرقةs.</span>"
 
 		//Infinite Magazine
@@ -1072,16 +1072,16 @@
 		"upgrade_medic_bullets_search"		"طلقات علاجية"
 		"upgrade_close_quarter_combat"		"الاشتباك القريب"
 		"upgrade_close_quarter_combat_search"		"الاشتباك القريب"
-		"upgrade_headshot_booster"		"معزز إصابة الرأس"
-		"upgrade_headshot_booster_search"		"معزز إصابة الرأس"
-		"upgrade_headshot_booster2"		"إصابة رأس مضعفة"
-		"upgrade_headshot_booster2_search"		"إصابة رأس مضعفة"
+		"upgrade_إصابة الرأس_booster"		"معزز إصابة الرأس"
+		"upgrade_إصابة الرأس_booster_search"		"معزز إصابة الرأس"
+		"upgrade_إصابة الرأس_booster2"		"إصابة رأس مضعفة"
+		"upgrade_إصابة الرأس_booster2_search"		"إصابة رأس مضعفة"
 		"upgrade_sharpshooter"		"قناص"
 		"upgrade_sharpshooter_search"		"قناص"
 		"upgrade_headhunter"		"صائد الرؤوس"
 		"upgrade_headhunter_search"		"صائد الرؤوس"
-		"upgrade_spellslinger_headshots"		"ممزق الروح"
-		"upgrade_spellslinger_headshots_search"		"ممزق الروح"
+		"upgrade_spellslinger_إصابة الرأسs"		"ممزق الروح"
+		"upgrade_spellslinger_إصابة الرأسs_search"		"ممزق الروح"
 		"upgrade_banshee_slugs"		"إصابة رأس مشلة"
 		"upgrade_banshee_slugs_search"		"إصابة رأس مشلة"
 		"upgrade_berserker"		"هائج"
