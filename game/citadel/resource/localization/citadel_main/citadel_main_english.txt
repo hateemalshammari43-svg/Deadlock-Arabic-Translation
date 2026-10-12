@@ -5434,7 +5434,7 @@
 		"Scoreboard"		"لوحة النتائج"
 		"Select_Hero_Title"		"اختر بطلًا"
 		"SelectHeroFromRoster"		"اختر بطلًا من تشكيلتك للعب"
-		"small_gold_pickup_label:p"		"روح#|#أرواح"
+		"small_gold_pickup_label:f"		"{amount, plural, one{روح} other{أرواح}}"
 		"spirit_permanent_pickup_label"		"+2 قوة الروح"
 		"spirit_permanent_pickup_label_lv2"		"+3 قوة الروح"
 		"spirit_permanent_pickup_label_lv3"		"+4 قوة الروح"
