@@ -433,5 +433,9 @@
 		"upgrade_apex_combat"						"قتال القمة"
 		"upgrade_ancient_shield"					"درع قديم"
 		"upgrade_aerial_supremacy"					"سيادة جوية"
+		"upgrade_stackingdamageproc"		"النصل الجائع"
+		"upgrade_stackingdamageproc_search"		"النصل الجائع Hungering Blade HB"
+		"upgrade_building_buster"		"الهدم المتفجر"
+		"upgrade_building_buster_search"		"الهدم المتفجر Explosive Demolition ED XD"
 	}
 }

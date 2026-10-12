@@ -2543,5 +2543,9 @@
 		"upgrade_withering_whip"		"برميل صدئ"
 		"upgrade_withering_whip_desc"		"هدف و عدو لتقليل <span class=\"highlight\">معدل إطلاق النار</span> و <span class=\"highlight\">رصاصة مقاومة</span>."
 		"upgrade_withering_whip_search"		"برميل صدئ"
+		"Steam_Citadel_Hideout_LongIsland"		"يتمنى لو كان المخبأ في لونغ آيلاند"
+		"Steam_Citadel_Hideout_Mildred"		"يكره ميلدريد في المخبأ"
+		"Steam_Citadel_Hideout_Hathorne"		"يتآمر ضد هاثورن في المخبأ"
+		"Steam_Citadel_Hideout_Chess"		"يخطط لحركاته في المخبأ"
 	}
 }

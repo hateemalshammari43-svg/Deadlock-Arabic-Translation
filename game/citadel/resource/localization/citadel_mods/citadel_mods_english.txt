@@ -1410,6 +1410,12 @@
 		"upgrade_apex_combat"		"قتال القمة"
 		"upgrade_ancient_shield"		"درع قديم"
 		"upgrade_aerial_supremacy"		"سيادة جوية"
+		"upgrade_stackingdamageproc_desc"		"إلحاق الضرر بالأبطال <span class=\"highlight\">منخفضي الصحة</span> يمنح {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>يتراكم هذا التأثير في كل مرة يتفعل فيها، مما يزيد {g:citadel_inline_attribute:'BonusWeaponDamage'} بشكل دائم."
+		"upgrade_building_buster_desc"		"رمي مجموعة من المتفجرات اللاصقة التي تنفجر مسببة {g:citadel_inline_attribute:'WeaponDamage'} بعد تأخير طويل. <br><br>إذا أصابت <span class=\"highlight\">زعيماً</span>، فإنها تلحق {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label"		"ضرر الزعيم"
+		"upgrade_self_bubble_desc2"		"بعد ذلك، احصل على مجموعة متنوعة من التعزيزات المؤقتة:"
+		"cosmetic_ability_snowball"		"كرة ثلج"
+		"cosmetic_ability_snowball_desc"		"ارمِ كرات الثلج على أصدقائك وأعدائك. تتحسن المسافة والخصائص الأخرى كلما تقدمت في <span class=\"highlight\">تحدي العطلات 2025</span>.<br><br><span class=\"diminish\">رمي كرة ثلج على حليف لن يلحق به ضرراً وسيعيد تعيين فترة التهدئة.</span>"
 }
 
 		// Latest Official Valve Engine Keys Added
