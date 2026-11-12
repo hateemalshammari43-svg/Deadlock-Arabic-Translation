@@ -4,11 +4,11 @@ title مثبت تعريب Deadlock التلقائي - فريق الضاد
 color 0B
 
 echo ======================================================================
-echo                  مثبت تعريب لعبة Deadlock (v1.3.9)
+echo                  مثبت تعريب لعبة Deadlock (v1.4.0)
 echo                         فريق تعريب الضاد
 echo ======================================================================
 echo.
-echo [1/3] جارٍ البحث عن مسار لعبة Deadlock في جهازك...
+echo [1/4] جارٍ البحث عن مسار لعبة Deadlock في جهازك...
 
 set "GAME_PATH="
 
@@ -63,9 +63,10 @@ exit /b
 echo [+] تم العثور على اللعبة في:
 echo     "%GAME_PATH%"
 echo.
-echo [2/3] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.3.9) من GitHub...
+echo [2/4] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.4.0) من GitHub...
 
-set "BASE_URL=https://raw.githubusercontent.com/hateemalshammari43-svg/Deadlock-Arabic-Translation/main/game/citadel/resource/localization"
+set "BASE_RAW=https://raw.githubusercontent.com/hateemalshammari43-svg/Deadlock-Arabic-Translation/main/game/citadel"
+set "BASE_URL=%BASE_RAW%/resource/localization"
 set "TARGET_DIR=%GAME_PATH%\game\citadel\resource\localization"
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
@@ -96,15 +97,53 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
-    echo [X] فشل تنزيل بعض الملفات. يرجى التأكد من اتصالك بالإنترنت.
+    echo [X] فشل تنزيل بعض ملفات التعريب. يرجى التأكد من اتصالك بالإنترنت.
     pause
     exit /b
 )
 
 echo.
-echo [3/3] تم التحقق من تثبيت جميع الملفات بنجاح!
+echo [3/4] جارٍ تثبيت مود دعم الأشرطة والتوقيتات العربية في الواجهة (HUD VPK)...
+
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+    "$gameCitadel = Join-Path '%GAME_PATH%' 'game\citadel';" ^
+    "$addons = Join-Path $gameCitadel 'addons';" ^
+    "if (-not (Test-Path $addons)) { New-Item -ItemType Directory -Path $addons -Force | Out-Null };" ^
+    "$targetVpk = $null;" ^
+    "$firstFree = $null;" ^
+    "for ($i = 1; $i -le 99; $i++) {" ^
+    "  $p = Join-Path $addons ('pak{0:D2}_dir.vpk' -f $i);" ^
+    "  if (Test-Path $p) {" ^
+    "    $bytes = [System.IO.File]::ReadAllBytes($p);" ^
+    "    $head = [System.Text.Encoding]::ASCII.GetString($bytes, 0, [Math]::Min($bytes.Length, 4096));" ^
+    "    if ($head -match 'dhad_arabic_hud') { $targetVpk = $p; break }" ^
+    "  } elseif (-not $firstFree) {" ^
+    "    $firstFree = $p" ^
+    "  }" ^
+    "};" ^
+    "if (-not $targetVpk) { $targetVpk = if ($firstFree) { $firstFree } else { Join-Path $addons 'pak99_dir.vpk' } };" ^
+    "[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;" ^
+    "$wc = New-Object System.Net.WebClient;" ^
+    "$wc.Headers.Add('User-Agent', 'DeadlockArabicInstaller');" ^
+    "$vpkUrl = '%BASE_RAW%/addons/dhad_hud_arabic_dir.vpk';" ^
+    "Write-Host \"  - تثبيت: $(Split-Path $targetVpk -Leaf)...\" -ForegroundColor Cyan;" ^
+    "$wc.DownloadFile($vpkUrl, $targetVpk);" ^
+    "$gi = Join-Path $gameCitadel 'gameinfo.gi';" ^
+    "if (Test-Path $gi) {" ^
+    "  $txt = [System.IO.File]::ReadAllText($gi);" ^
+    "  if ($txt -notmatch 'citadel/addons') {" ^
+    "    if (-not (Test-Path ($gi + '.bak'))) { Copy-Item $gi ($gi + '.bak') };" ^
+    "    $rep = \"`t`t`tGame`t`t`t`tcitadel/addons`r`n\" + '$1';" ^
+    "    $txt = [regex]::Replace($txt, '(?m)^([ \t]*Game[ \t]+citadel[ \t]*\r?)$', $rep);" ^
+    "    [System.IO.File]::WriteAllText($gi, $txt);" ^
+    "    Write-Host '  - تم تفعيل citadel/addons في gameinfo.gi' -ForegroundColor Green;" ^
+    "  }" ^
+    "}"
+
+echo.
+echo [4/4] تم التحقق من تثبيت جميع الملفات ومود الواجهة بنجاح!
 echo ======================================================================
-echo              تم تثبيت التعريب بنجاح (الإصدار 1.3.9)
+echo              تم تثبيت التعريب بنجاح (الإصدار 1.4.0)
 echo              يمكنك الآن تشغيل Deadlock والاستمتاع باللعبة!
 echo ======================================================================
 echo.
