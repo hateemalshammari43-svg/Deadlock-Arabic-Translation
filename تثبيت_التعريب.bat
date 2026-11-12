@@ -4,7 +4,7 @@ title مثبت تعريب Deadlock التلقائي - فريق الضاد
 color 0B
 
 echo ======================================================================
-echo                  مثبت تعريب لعبة Deadlock (v1.3.7)
+echo                  مثبت تعريب لعبة Deadlock (v1.3.8)
 echo                         فريق تعريب الضاد
 echo ======================================================================
 echo.
@@ -63,7 +63,7 @@ exit /b
 echo [+] تم العثور على اللعبة في:
 echo     "%GAME_PATH%"
 echo.
-echo [2/3] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.3.7) من GitHub...
+echo [2/3] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.3.8) من GitHub...
 
 set "BASE_URL=https://raw.githubusercontent.com/hateemalshammari43-svg/Deadlock-Arabic-Translation/main/game/citadel/resource/localization"
 set "TARGET_DIR=%GAME_PATH%\game\citadel\resource\localization"
@@ -76,7 +76,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
     "  @{Sub='citadel_mods'; Name='citadel_mods_english.txt'}," ^
     "  @{Sub='citadel_attributes'; Name='citadel_attributes_english.txt'}," ^
     "  @{Sub='citadel_gc_hero_names'; Name='citadel_gc_hero_names_english.txt'}," ^
-    "  @{Sub='citadel_gc_mod_names'; Name='citadel_gc_mod_names_english.txt'}" ^
+    "  @{Sub='citadel_gc_mod_names'; Name='citadel_gc_mod_names_english.txt'}," ^
+    "  @{Sub='citadel_patch_notes'; Name='citadel_patch_notes_english.txt'}," ^
+    "  @{Sub='citadel_seasonal'; Name='citadel_seasonal_english.txt'}" ^
     ");" ^
     "$base = '%BASE_URL%';" ^
     "$dest = '%TARGET_DIR%';" ^
@@ -102,7 +104,7 @@ if %ERRORLEVEL% NEQ 0 (
 echo.
 echo [3/3] تم التحقق من تثبيت جميع الملفات بنجاح!
 echo ======================================================================
-echo              تم تثبيت التعريب بنجاح (الإصدار 1.3.7)
+echo              تم تثبيت التعريب بنجاح (الإصدار 1.3.8)
 echo              يمكنك الآن تشغيل Deadlock والاستمتاع باللعبة!
 echo ======================================================================
 echo.

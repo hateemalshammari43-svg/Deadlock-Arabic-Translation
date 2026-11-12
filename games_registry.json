@@ -50,6 +50,16 @@
                     "key": "gc_mod_names",
                     "source_file": "game/citadel/resource/localization/citadel_gc_mod_names/citadel_gc_mod_names_english.txt",
                     "dest_path": "game/citadel/resource/localization/citadel_gc_mod_names/citadel_gc_mod_names_english.txt"
+                },
+                {
+                    "key": "patch_notes",
+                    "source_file": "game/citadel/resource/localization/citadel_patch_notes/citadel_patch_notes_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_patch_notes/citadel_patch_notes_english.txt"
+                },
+                {
+                    "key": "seasonal",
+                    "source_file": "game/citadel/resource/localization/citadel_seasonal/citadel_seasonal_english.txt",
+                    "dest_path": "game/citadel/resource/localization/citadel_seasonal/citadel_seasonal_english.txt"
                 }
             ]
         }

@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 	"Language"		"english"
 	"Tokens"
@@ -2973,10 +2973,10 @@
 		"GroundDashReductionPercent_postvalue_label"	"مسافة الاندفاع"
 		"GroundDashReductionPercent_postfix"	"%"
 		
-		"ActivePlayerStats_Percentage"		"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\">%</span>"
+		"ActivePlayerStats_Percentage"		"%"
 		"ActivePlayerStats_PercentageNum"	"<span class=\"statNumber\">{d:value}</span><span class=\"statPostfix\">%</span>"
-		"ActivePlayerStats_MoveSpeed"		"<span id=\"speedDisplayMS\" class=\"statNumber\">{s:value}</span><span id=\"speedDisplayPostfix\" class=\"statPostfix\">م/ث</span>"
-		"ActivePlayerStats_Regen"			"<span class=\"statNumber\">{s:value}</span><span class=\"statPostfix\"> /ث</span>"
+		"ActivePlayerStats_MoveSpeed"		"م"
+		"ActivePlayerStats_Regen"			"صحة"
 
 		"TechDamageReduction_label"			"ضرر روحي تخفيض"
 
@@ -3893,7 +3893,23 @@
 		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix"		"%"
 		"InlineAttribute_WeaponDPS"		"ضرر السلاح بمرور الوقت"
 		"InlineAttribute_AbilityCooldown"		"فترة التهدئة"
-}
+		"modifier_citadel_sleep"		"نائم"
+		"UltimateCooldownReduction_prefix"		"{s:sign}"
+		"UltimateCooldownReduction_postfix"		"%"
+		"UltimateCooldownReduction_label"		"تقليل فترة تهدئة القدرة النهائية"
+		"UltimateCooldownReduction_postvalue_label"		"تقليل فترة تهدئة القدرة النهائية"
+		"BonusSpiritLifesteal_prefix"		"{s:sign}"
+		"BonusSpiritLifesteal_label"		"سرقة حياة الروح"
+		"BonusSpiritLifesteal_postvalue_label"		"سرقة حياة الروح"
+		"BonusSpiritLifesteal_postfix"		"%"
+		"FreeAirJumps_prefix"		"{s:sign}"
+		"FreeAirJumps_label"		"قفزات جوية مجانية"
+		"FreeAirJumps_postvalue_label"		"قفزات جوية مجانية"
+		"GravityScaleIncrease_label"		"مقياس الجاذبية"
+		"GravityScaleIncrease_postvalue_label"		"مقياس الجاذبية"
+		"GravityScaleIncrease_prefix"		"+"
+		"GravityScaleIncrease_postfix"		"%"
+	}
 
 		// Latest Official Valve Engine Keys Added
 		"BonusSpiritLifesteal_label"		"سرقة صحة روحية إضافية"

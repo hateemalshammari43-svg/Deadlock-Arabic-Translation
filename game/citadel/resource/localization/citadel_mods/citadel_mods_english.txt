@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 	"Language"		"english"
 	"Tokens"
@@ -22,7 +22,7 @@
 		"AmmoScavengerDuration_postfix"		"ث"
 
 		//Melee Lifesteal
-		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">الاشتباك</span> التالي <span class=\"highlight\">يُعالجك</span>.<span class=\"diminish\"><br><br>هذا العلاج فعال بنسبة 30% ضد الـ NPCs.<br>فترة التبريد تكون أطول بمقدار {s:LightMeleeCooldownMult} أضعاف لضربات الاشتباك الخفيف.</span>"
+		"upgrade_lifestrike_gauntlets_desc"	"هجوم <span class=\"highlight\">الاشتباك</span> التالي <span class=\"highlight\">يُعالجك</span>. <span class=\"diminish\"><br><br>هذا العلاج فعال بنسبة {s:NonHeroHealPct}% ضد غير الأبطال. <br>فترة التبريد تكون أطول بمقدار {s:LightMeleeCooldownMult}x لضربات الاشتباك الخفيف.</span>"
 
 		"LifestrikeHeal_label"				"العلاج عند ضربة الاشتباك"
 		"LifestrikeHeal_postvalue_label"				"العلاج عند ضربة الاشتباك"
@@ -822,7 +822,7 @@
 		"DamageWindow_postfix"								"ث"
 		
 		// "upgrade_spirit_bubble"							"Spirit Bubble"
-		"upgrade_spirit_bubble_desc"			"احصل على حاجز عندما تتلقى ضرراً روحياً كبيراً من أبطال العدو في فترة زمنية قصيرة."
+		"upgrade_spirit_bubble_desc"			"احصل على <span class=\"highlight\">حاجز</span> عندما تتلقى {g:citadel_inline_attribute:'SpiritDamage'} كبيراً من أبطال العدو في فترة زمنية قصيرة."
 
 		// "upgrade_grit"							"Grit"
 		"upgrade_grit_desc"			"احصل على <span class=\"highlight\">حاجز</span> مقابل المدة قصير."
@@ -911,7 +911,7 @@
 		"SpottedRadius_postfix"						"م"
 
 		//Majestic Leap
-		"upgrade_rocket_booster_desc"				"<span class=\"highlight\"> أطلق نفسك </span> عاليًا في الهواء وامنح نفسك حاجز <span class=\"highlight\">حاجز</span>. أثناء وجودك في الهواء، يمكنك استخدام تفعيل مرة أخرى للهبوط بشكل أسرع."
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">أطلق نفسك</span> عالياً في الهواء وامنح نفسك <span class=\"highlight\">حاجزاً</span>. أثناء وجودك في الهواء، يمكنك استخدام التفعيل مرة أخرى للهبوط بشكل أسرع.<br><br><span class=\"diminish\">لا يمكن استخدامه لمدة {s:InterruptCooldown} ث إذا تعرضت لهجوم من بطل عدو.</span>"
 		"upgrade_rocket_booster_drop_down"			"السقوط للأسفل"
 		
 		//Drain Will
@@ -1416,7 +1416,20 @@
 		"upgrade_self_bubble_desc2"		"بعد ذلك، احصل على مجموعة متنوعة من التعزيزات المؤقتة:"
 		"cosmetic_ability_snowball"		"كرة ثلج"
 		"cosmetic_ability_snowball_desc"		"ارمِ كرات الثلج على أصدقائك وأعدائك. تتحسن المسافة والخصائص الأخرى كلما تقدمت في <span class=\"highlight\">تحدي العطلات 2025</span>.<br><br><span class=\"diminish\">رمي كرة ثلج على حليف لن يلحق به ضرراً وسيعيد تعيين فترة التهدئة.</span>"
-}
+		"modifier_glitch_self_penalty"		"ارتداد اللعنة"
+		"modifier_spirit_burn_immunity"		"مناعة ضد احتراق الروح"
+		"AmbushBonusWeaponDamage_prefix"		"+"
+		"AmbushBonusWeaponDamage_label"		"ضرر سلاح الكمين"
+		"AmbushBonusWeaponDamage_postvalue_label"		"ضرر سلاح الكمين"
+		"AmbushBonusWeaponDamage_postfix"		"%"
+		"AmbushBuildUpDuration_label"		"وقت اكتمال الكمين"
+		"AmbushBuildUpDuration_postvalue_label"		"وقت اكتمال الكمين"
+		"AmbushBuildUpDuration_postfix"		"ث"
+		"HealPerMinute_label"		"زيادة العلاج في الدقيقة"
+		"TechPowerPerMinute_label"		"زيادة قوة الروح في الدقيقة"
+		"BonusFireRatePerMinute_label"		"زيادة معدل الإطلاق في الدقيقة"
+		"BonusMoveSpeedPerMinute_label"		"زيادة سرعة الحركة في الدقيقة"
+	}
 
 		// Latest Official Valve Engine Keys Added
 		"modifier_glitch_self_penalty"		"ارتداد اللعنة"

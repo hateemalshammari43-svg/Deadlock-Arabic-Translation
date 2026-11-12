@@ -1,0 +1,37 @@
+"lang"
+{
+	"Language"		"english"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"حقق {g:citadel_persona:account_id} بهجة الأعياد للبطل {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"ديسمبر 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"فتح {g:citadel_persona:account_id} زينة البطل {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"ديسمبر 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"حصل <span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> على"
+		"Citadel_Hud_Toast_SeasonalKill2"		"قتلة بكرة الثلج!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"تحدي الأعياد 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"فُز بمباراة مع كل بطل لتحصل على زينة فريدة لشجرة مخبئك."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"قم بترقية أداة <span class=\"Emphasis\">كرة الثلج</span> القابلة للرمي عبر إضافة المزيد من الزينة لشجرتك."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"المستوى {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"تحدي الأعياد"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"تذكار حصل عليه {s:hideout_owner} خلال تحديث الشتاء"
+		"Citadel_Hideout_HolidayChallenge"		"اضغط {g:citadel_binding:'Interact'} لعرض تقدم تحدي الأعياد"
+		"halloween_candy_pickup_label"		"حلوى"
+		"modifier_halloween_candy_sugar_rush"		"اندفاع السكر"
+		"Citadel_Hideout_HalloweenCauldron"		"قدر الحلوى: اضغط مطولاً على {g:citadel_binding:'AbilityMelee'} لتحطيمه والحصول على الحلوى"
+		"npc_seasonal"		"مذيع الأخبار"
+
+		"cosmetic_ability_snowball"		"كرة الثلج"
+		"cosmetic_ability_snowball_desc"		"ارمِ كرات الثلج على أصدقائك وأعدائك. تتحسن المسافة والخصائص الأخرى كلما تقدمت في <span class=\"highlight\">تحدي الأعياد 2025</span>.<br><br><span class=\"diminish\">رمي كرة الثلج على حليف لن يُلحق ضرراً وسيعيد ضبط فترة تهدئتها.</span>"
+		"SnowballSpeed_label"		"سرعة الرمي"
+		"SnowballSpeed_postvalue_label"		"السرعة"
+		"SnowballSpeed_postfix"		" م/ث"
+		"SnowballCount_label"		"كرات الثلج المرمية"
+		"SnowballCount_postvalue_label"		"المقذوفات"
+		"seasonal_ability_eat_halloween_candy"		"أكل الحلوى"
+		"seasonal_ability_eat_halloween_candy_desc"		"تناول قطعة حلوى لاستعادة الصحة وتجديد قوة التحمل والحصول على تعزيز <span class=\"highlight\">اندفاع السكر</span>.<br><br><span class=\"diminish\">تزداد قوة العلاج وإحصائيات اندفاع السكر مع تقدم المباراة.<br><br>تلقي هجوم قريب ثقيل يجعلك تسقط بعض الحلوى.</span>"
+
+		"HalloweenCandy_label"		"التكدسات:"
+		"HalloweenCandy_postvalue_label"		"التكدسات:"
+	}
+}
