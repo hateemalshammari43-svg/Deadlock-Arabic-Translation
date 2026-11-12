@@ -132,7 +132,7 @@
 		//"DrainTimeNeeded_label"				"Drain Time for Proc"
 		"DrainTimeNeeded_postfix"				" ث"
 
-		"citadel_ability_storm_cloud"			"سحابة العاصفة"
+		"citadel_ability_storm_cloud"			"Storm Cloud"
 		"citadel_ability_gigawatt_lightning_strike"		"ضربة عاصفة رعدية البرق"
 		"citadel_ability_storm_cloud_quip"		"قم بقلي جميع أعداء في مساحة كبيرة"
 		"citadel_ability_storm_cloud_desc"		"قم بتوجيه سحابة عاصفة متوسعة من حولك والتي تعمل <span class=\"highlight\"> على إتلاف جميع أعداء</span> داخل نطاق. أعداء لا تتناول ضرر عندما تكون خارج نطاق الرؤية."
@@ -308,7 +308,7 @@
 
 		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"ضعف ضرر الجدار"
 
-		"citadel_ability_rocket_barrage"		"وابل ثقيل"
+		"citadel_ability_rocket_barrage"		"Heavy Barrage"
 		"citadel_ability_rocket_barrage_quip"	"قصف منطقة بالصواريخ"
 		"citadel_ability_rocket_barrage_desc"	"يطلق العنان لوابل من الصواريخ التي تصل إلى مكان مستهدف. تم إبطاء <br><br><span class=\"diminish\">{s:hero_name} ولا يزال قادرًا على استخدام القدرة على التحمل.</span>"
 		"citadel_ability_rocket_barrage_t1_desc"	"يطبق حركة <span class=\"highlight\">{s:MoveSlowPercent}% واندفاعة إبطاء</span> لـ {s:SlowDuration} ثانية"
@@ -377,7 +377,7 @@
 		"citadel_ability_wraith_rapidfire_t3_desc"	"<span class=\"highlight\"> عدد غير محدود من ذخيرة</span> وزيادة الحجم على ضرر روحي لكل رصاصة"
 		//"citadel_ability_wraith_rapidfire/modifier_rapidfire" "Rapid Fire"
 
-		"citadel_ability_card_toss"	"خدعة البطاقات"
+		"citadel_ability_card_toss"	"Card Trick"
 		"citadel_ability_card_toss_quip" "ارمِ بطاقات موجهة"
 		"citadel_ability_card_toss_desc" "تعامل مع ضرر السلاح لاستدعاء بطاقات ذات بدلة عشوائية. يمكن رمي كل بطاقة، والتعامل مع ضرر وتطبيق تأثير مختلف حسب نوع البطاقة. البطاقات التي تم إلقاؤها تطير باتجاه عدو أو تشير إلى علامة التصويب الخاصة بك. <br><br><span class=\"diminish\">Aطاقة بديلة لرمي البطاقة الأولى</span>"
 		"citadel_ability_card_toss_t2_desc" "+{s:Damage} ضرر وزيادة تحجيم الروح"
@@ -708,7 +708,7 @@
 		//"modifier_citadel_incendiaryprojectile_burn" "Burning from Incendiary"
 		"ability_incendiary_projectile_debuff_header" "تأثيرات النابالم:"
 
-		"ability_flame_dash"			"اندفاع اللهب"
+		"ability_flame_dash"			"Flame Dash"
 		"ability_flame_dash_quip"		"انطلق للأمام، تاركًا وراءك أثرًا من اللهب"
 		"ability_flame_dash_desc"		"اندفع للأمام، واحصل على {g:citadel_inline_attribute:'SlowResistance'} بينما تترك أثرًا ملتهبًا يتعامل مع {g:citadel_inline_attribute:'SpiritDPS'}. <br><br><span class=\"diminish\"> استمر في الضغط على {g:citadel_binding:'MoveForward'} بينما تندفع تفعيل لمسافة أبعد."
 		"ability_flame_dash_t2_desc"	"<span class=\"highlight\">+{s:GroundFlameDuration} ث</span> مدة الأثر و<span class=\"highlight\">+{s:DPS} ضرر في الثانية</span>"
@@ -791,7 +791,7 @@
 
 
 
-		"ability_fire_bomb"				"الاحتراق الارتجاجي"
+		"ability_fire_bomb"				"Concussive Combustion"
 		"ability_fire_bomb_quip"		"صعق جميع أعداء القريبة بعد تأخير قصير"
 		"ability_fire_bomb_desc"		"كن قنبلة حية، وتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} وقم بتطبيق {g:citadel_inline_attribute:'Stun'} على جميع أعداء القريبة بعد تأخير."
 		"ability_fire_bomb_t2_desc"		"<span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد و <span class=\"highlight\">+{s:LifeStealPercentOnHit}%</span> انفجار سرقة الحياة"
@@ -919,7 +919,7 @@
 		"ability_sleep_dagger_quip"		"ضع عدو للنوم"
 		"ability_sleep_dagger_desc"		"إلقاء خنجر النوم على العدو لتنويمه وتثبيته في مكانه."
 
-		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"نائم"
+		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"Sleeping"
 		"ability_sleep_dagger_t1_desc"	"<span class=\"highlight\">{s:BulletResistReduction}%</span> مقاومة الرصاص تخفيض لـ {s:BulletResistReductionDuration} ثانية عند الاستيقاظ"
 		"ability_sleep_dagger_t2_desc"	"<span class=\"highlight\">+{s:SleepDuration} ث</span> مدة النوم<br>يُطبّق <span class=\"highlight\">{s:FixationStacks}</span> تراكمات تثبيت"
 		"ability_sleep_dagger_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown} ث</span> فترة التهدئة <br><span class=\"highlight\">-{s:SlowPercent}%</span> سرعة الحركة والاندفاع لمدة <span class=\"highlight\">{s:DebuffDuration} ث</span> عند الاستيقاظ"
@@ -927,7 +927,7 @@
 		"SleepMoveSpeed_postvalue_label"			"سرعة الحركة أثناء النوم"
 		"SleepMoveSpeed_postfix"			"م"
 
-		"modifier_citadel_sleep_dagger_asleep"	"نائم"
+		"modifier_citadel_sleep_dagger_asleep"	"Asleep"
 		//"HazeDaggerRadius_label"			"Hit Radius"
 		//"HazeDaggerRadius_postfix"		"m"
 		"SleepWakeUpDelay_label"			"تأخير الاستيقاظ"
@@ -970,7 +970,7 @@
 		"PhaseOutDuration_postfix"				" ثانية"
 		//"ability_smoke_bomb/modifier_buff"		"Stabilizer"
 
-		"ability_bullet_flurry"			"رقصة الرصاص"
+		"ability_bullet_flurry"			"Bullet Dance"
 		"ability_bullet_flurry_quip"	"أطلق العنان لموجة من رصاص من حولك"
 		"ability_bullet_flurry_desc"	"أدخل موجة، <span class=\"highlight\"> إطلاق سلاح</span> في أعداء القريبة بدقة <span class=\"highlight\"> المثالية </span> وإضافة <span class=\"highlight\">ضرر الرصاص.</span>"
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
@@ -1046,7 +1046,7 @@
 		"TechShieldDuration_postvalue_label"				"درع المدة"
 		"TechShieldDuration_postfix"			" ثانية"
 
-		"citadel_ability_self_vacuum"			"التفرد"
+		"citadel_ability_self_vacuum"			"Singularity"
 		"citadel_ability_self_vacuum_quip"		"اسحب وصعق فريق عدو"
 		"citadel_ability_self_vacuum_desc"		"قم بإنشاء التفرد بين يديك، مُلحقاً {g:citadel_inline_attribute:'SpiritDPS'} ومطبقاً {g:citadel_inline_attribute:'Stun'}، و<span class=\"highlight\">سحب</span> الأعداء القريبين إلى الداخل."
 
@@ -1055,7 +1055,7 @@
 		"VacuumRadius_postfix"					" م"
 
 
-		"citadel_ability_nikuman"				"هالة التجديد"
+		"citadel_ability_nikuman"				"Rejuvenating Aurora"
 		"citadel_ability_nikuman_quip"			"علاج نفسك ومن حولك"
 		"citadel_ability_nikuman_desc"			"أثناء القناة، تقوم مؤقتاً باستعادة صحة مع مرور الوقت</span> إليك وإلى أي حلفاء قريب منك.<br><span class=\"diminish\">يمكنك الاندفاع واشتباك دون كسر القناة.</span>"
 		"citadel_ability_nikuman/modifier_nikuman"	"هالة التجديد"
@@ -1195,7 +1195,7 @@
 		"FlaskDebuffDuration_postvalue_label"				"سلاح ديبوف المدة"
 		"FlaskDebuffDuration_postfix"			" ثانية"
 
-		"ability_warden_riot_protocol"			"الموقف الأخير"
+		"ability_warden_riot_protocol"			"Last Stand"
 		"ability_warden_riot_protocol_quip"		"تنبعث منها نبضات تسرق صحة من أعداء"
 		"ability_warden_riot_protocol_desc"		"بعد الشحن لمدة {s:AbilityCastDelay} ث، <span class=\"highlight\">أطلق نبضات تُلحق الضرر بالأعداء وتُعالجك</span> بناءً على الضرر المُلحق. <br>أثناء توجيه الموقف الأخير تحصل على زيادة كبيرة في <span class=\"highlight\">مقاومة الرصاص والروح</span>.<br><br><span class=\"small_diminish\">مناعة ضد الخوف أثناء تفعيل الموقف الأخير.</span>"
 
@@ -1404,7 +1404,7 @@
 
 		"GrenadeDamage_postvalue_label"						"انفجار الضرر"
 
-		"citadel_ability_lash_ultimate"			"ضربة الموت"
+		"citadel_ability_lash_ultimate"			"Death Slam"
 		"citadel_ability_lash_ultimate_quip"		"ارفع أعداء واضربهم بالأرض"
 		"citadel_ability_lash_ultimate_desc"		"ركز على أعداء لربط السياط بهم. بعد التوجيه، يتم رفع أعداء المتصل وذهول </span> ثم ارتطامه بالأرض. سيتم تلف ضحايا الخاص بك وأي أعداء في منطقة الهبوط بواسطة <span class=\"highlight\"> وإبطاء </span>. <br>اضغط على{g:citadel_binding:'Attack'}لإلقاء اتصال أعداء مبكرًا. لن يتم الإمساك بـ أعداء التي لا تكون في خط الرؤية أو تخرج من مدى أثناء وقت المزلاج."
 		"citadel_ability_lash_ultimate_t3_desc"		"<span class=\"highlight\">صعق</span> الأعداء في النطاق لمدة {s:StunDuration} ثانية<br><span class=\"highlight\">+{s:AbilityCastRange} متر</span> مدى الإلقاء"
@@ -1445,7 +1445,7 @@
 		"StaminaCooldownIncrease_label"		"القدرة على التحمل تجدد"
 		"StaminaCooldownIncrease_postvalue_label"		"القدرة على التحمل تجدد"
 		"StaminaCooldownIncrease_postfix"		"%"
-		"ability_icebeam"					"الشعاع القطبي"
+		"ability_icebeam"					"Arctic Beam"
 		"ability_icebeam_quip"				"تطبيق إبطاء المتصاعد"
 		"ability_icebeam_desc"				"إطلاق الشعاع الجليدي القارس لتجميد الأعداء وإبطائهم بشدة."
 
@@ -1466,7 +1466,7 @@
 		"MaxSlowTime_label"					"الوقت للوصول لأقصى إضعاف"
 		"MaxSlowTime_postvalue_label"					"الوقت للوصول لأقصى إضعاف"
 		"MaxSlowTime_postfix"					" ثانية"
-		"modifier_citadel_disarmed_icebeam"	"تجميد السلاح"
+		"modifier_citadel_disarmed_icebeam"	"Weapon Frozen"
 		"IceBeamBuildupProcDuration_label"	"مدة بقاء التأثير السلبي"
 		"IceBeamBuildupProcDuration_postvalue_label"	"مدة بقاء التأثير السلبي"
 		"IceBeamBuildupProcDuration_postfix"	" ثانية"
@@ -1563,7 +1563,7 @@
 		"BonusDamagePctPerPlayerKilled_label" "ضرر القنبلة اللاصقة"
 		"BonusDamagePctPerPlayerKilled_postvalue_label" "ضرر القنبلة اللاصقة"
 		"BonusDamagePctPerPlayerKilled_postfix" "%"
-		"citadel_ability_bebop_laser_beam"		"شعاع خارق"
+		"citadel_ability_bebop_laser_beam"		"Hyper Beam"
 		"citadel_ability_bebop_laser_beam_quip"	"أطلق العنان لشعاع ضار هائل"
 		"citadel_ability_bebop_laser_beam_desc" "قم بتوجيه سيل قوي من الطاقة الذي يتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} ويطبق {g:citadel_inline_attribute:'Slow'}."
 		"modifier_bebop_laser_beam"				"شعاع فائق"
@@ -1662,7 +1662,7 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land"		"سرعة الحركة"
 
-		"ability_crackshot"						"إصابة ماهرة"
+		"ability_crackshot"						"Crackshot"
 		"ability_crackshot_quip"				"تعامل مع مكافأة ضرر مع لقطات للرأس"
 		"ability_crackshot_desc"				"تُلحق إصابات الرأس <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_courage\">ضرراً</span> إضافياً وتُطبّق <Panel class=\"AbilityPropertyIcon prop_slow\"> <span class=\"highlight\">عقوبة متلاشية لسرعة الحركة</span>. لا يحدث هذا التأثير إلا عند انتهاء فترة التبريد. <br><br>تنخفض فترة التبريد بنسبة {s:CrackshotNPCCDReduction}% عند إصابة غير اللاعبين. <br><span class=\"diminish\">تتجاهل الطلقة المتقنة تناقص الضرر مع المسافة ولا تنطبق على الأهداف الرئيسية.</span>"
 		"FadingSlowPercent_label" "سرعة حركة متلاشية"
@@ -1727,7 +1727,7 @@
 		"DamageAmplificationPerStack_postvalue_label"	"مكافأة ضرر لكل تراكم"
 		"DamageAmplificationPerStack_postfix"	"%"
 
-		"ability_gravity_lasso"				"لاسو الروح"
+		"ability_gravity_lasso"				"Spirit Lasso"
 		"ability_gravity_lasso_quip"		"احصل على عدو واسحبها خلفك"
 		"ability_gravity_lasso_desc"		"ألقِ وهقك لتُلحق {g:citadel_inline_attribute:'SpiritDamage'} و{g:citadel_inline_attribute:'Pulling'} وتُطبّق {g:citadel_inline_attribute:'Stun'}.<br>استخدام منصة القفز يمدد مدة وهق الروح."
 
@@ -1895,7 +1895,7 @@
 		"BountyDuration_label" "مدة المكافأة"
 		"BountyDuration_postfix" " ثانية"
 
-		"ability_nano_shadow_pulse" "العودة إلى الظلال"
+		"ability_nano_shadow_pulse" "Return to Shadows"
 		"ability_nano_shadow_pulse_desc" "تحول فوراً إلى ظلال، لتصبح <span class=\"highlight\">غير قابل للاستهداف</span> وتكتسب {g:citadel_inline_attribute:'BonusMoveSpeed'} وتسبب {g:citadel_inline_attribute:'SpiritDamage'}.<br><br>بعد تأخير بسيط، تعود من الظلال وتسبب {g:citadel_inline_attribute:'SpiritDamage'} مجدداً."
 		"ShadowPulseDuration_label" "مدة الظل"
 		"ShadowPulseDuration_postvalue_label" "مدة الظل"
@@ -1925,7 +1925,7 @@
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" ثانية"
 
-		"ability_power_jump"			"مطر السهام"
+		"ability_power_jump"			"Rain of Arrows"
 		"ability_power_jump_quip"		"اقفز عالياً في الهواء وأطلق طلقات متعددة"
 		"ability_power_jump_desc"		"يطلقك عالياً في الهواء، مما يسمح لك بالانزلاق ببطء. أثناء الطيران، يمكنك الحصول على <span class=\"highlight\">ضرر السلاح</span> و<span class=\"highlight\">طلقات متعددة على سلاح</span>. <br>{g:citadel_binding:'AltCast'} لتقليل ارتفاع القفز.  <br>اضغط على {g:citadel_binding:'Mantle'}لإلغاء الانزلاق."
 		"ability_power_jump_t1_desc"	"أثناء الطيران، تطبق <span class=\"highlight\">+{s:WeaponDamageBonus}</span> ضرر السلاح وضرر السلاح حركة <span class=\"highlight\">{s:SlowPercent}%</span> إبطاء لـ {s:SlowDuration} ثانية"
@@ -1945,8 +1945,8 @@
 		"ability_immobilize_trap_quip"		"ضع فخاً يمنع حركة العدو"
 		"ability_immobilize_trap_desc"		"فخ تجميد وتثبيت يُشل حركة الأعداء الذين يطؤون عليه."
 
-		"modifier_citadel_immobilize_trap_immobilize"	"فخ الروح"
-		"modifier_citadel_immobilize_trap_immobilize_debuff" "إضعاف فخ الروح"
+		"modifier_citadel_immobilize_trap_immobilize"	"Spirit Snare"
+		"modifier_citadel_immobilize_trap_immobilize_debuff" "Spirit Snare Debuff"
 
 		"ability_immobilize_trap_t2_desc"	"ينطبق <span class=\"highlight\">{s:BulletArmorReduction}%</span> مقاومة الرصاص لـ {s:DebuffDuration} ثانية"
 		"ability_immobilize_trap_t3_desc"	"<span class=\"highlight\">+{s:ImmobilizeTrap_CurseDuration} ثانية</span> لعنة المدة و <span class=\"highlight\">+{s:Radius} متر</span> نطاق"
@@ -1960,7 +1960,7 @@
 		"ChargedShotHitRadiusScale_prefix"				"+"
 		"ChargedShotHitRadiusScale_postfix"				"%"
 
-		"ability_guided_arrow"		"البومة الموجهة"
+		"ability_guided_arrow"		"Guided Owl"
 		"ability_guided_arrow_quip"	"أطلق بومتك لإلحاق الضرر بالأعداء من بعيد"
 		"ability_guided_arrow_desc"	"بعد وقت إلقاء مدته {s:AbilityCastDelay} ث، <span class=\"highlight\">أطلق بومة روحية تتحكم بها</span> وتنفجر عند الاصطدام، <span class=\"highlight\">مُلحقةً الضرر ومُطبّقةً الصعق</span> على الأعداء. اضغط باستمرار على {g:citadel_binding:'MoveForward'} لتسريع البومة.<br>اضغط على {g:citadel_binding:'Mantle'} لتحرير التحكم. احصل على <span class=\"highlight\">قوة روح دائمة</span> مقابل كل بطل عدو يُقتل بالبومة الموجهة."
 		"ability_guided_arrow_t3_desc"	"بعد الضربة، تقتل أعداء التي تكون أقل من <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% صحة</span>"
@@ -1986,13 +1986,13 @@
 		"ability_blood_bomb_t2_desc"	"+<span class=\"highlight\">{s:Radius} متر</span> نطاق و +<span class=\"highlight\">{s:Damage}</span> ضرر."
 		"ability_blood_bomb_t3_desc"	"تترك القنابل فوضى سامة على الأرض، حيث تتعامل مع <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> من <span class=\"highlight\">ضرر الأصلي في الثانية</span>، مقابل <span class=\"highlight\">{s:BloodSpillDuration} ثانية</span>."
 
-		"ability_life_drain"				"استنزاف الحياة"
+		"ability_life_drain"				"Life Drain"
 		"ability_life_drain_quip"			"اسرق صحة من عدو مع مرور الوقت"
 		"ability_life_drain_desc"			"أنشئ رابطاً <span class=\"highlight\">يستنزف صحة العدو بمرور الوقت</span> و<span class=\"highlight\">يُعالجك</span>. يجب أن يكون الهدف في خط الرؤية وضمن المدى الأقصى للاستنزاف. يمكنك إطلاق النار واستخدام القدرات الأخرى أثناء الاستنزاف، لكن سرعة حركتك تنخفض. <br><span class=\"highlight\">{g:citadel_binding:'AltCast'} لمنح الصحة للأبطال الحلفاء</span>."
 
 		"ability_life_drain/modifier_life_drain" "استنزاف الحياة"
 		"ability_life_drain/modifier_life_drain_caster" "استنزاف الحياة"
-		"modifier_life_drain_silence"		"مُسكت"
+		"modifier_life_drain_silence"		"Silenced"
 		//"FriendlyTargetCooldown"			"Ally Target Cooldown"
 		"FriendlyTargetCooldown_postfix"	" ثانية"
 		"ability_life_drain_t3_desc"			"تمكين ومنح رسوم <span class=\"highlight\">+2</span>. يزيد من تحجيم الروح."
@@ -2108,7 +2108,7 @@
 		"citadel_ability_hornet_chain_t3_desc"		"<span class=\"highlight\">+{s:ChainDuration} ثانية</span> الحبل المدة و<span class=\"highlight\">+{s:CaptureRadius} متر</span> التقاط نطاق"
 		"modifier_citadel_hornet_chain_connection"	"مربوطة إلى الأرض"
 		"citadel_ability_hornet_chain/modifier_citadel_hornet_chain_connection"	"مربوطة إلى الأرض"
-		"modifier_citadel_rootgrenade"			"مقيد"
+		"modifier_citadel_rootgrenade"			"Immobilized"
 
 		"ChainLength_label"						"طول القيد"
 
@@ -2122,7 +2122,7 @@
 		//"citadel_ability_wing_blast_desc"		"Create a blast of air that pushes enemies away and damages them."
 		//"modifier_citadel_wing_blast_push"		"Being Vindicta Pushed"
 
-		"citadel_ability_hornet_leap"			"الطيران"
+		"citadel_ability_hornet_leap"			"Flight"
 		"citadel_ability_hornet_leap_quip"		"قم بالطيران وقم بتمكين سلاح الخاص بك"
 		"citadel_ability_hornet_leap_desc"		"اقفز في الهواء و<span class=\"highlight\">طيران</span>. أثناء الطيران، صفقات سلاح الخاصة بك <span class=\"highlight\">ضرر إضافي روحي</span> وزادت العناصر الخاصة بك <span class=\"highlight\">مدى.</span>"
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> قاعدة ذخيرة أثناء الطيران"
@@ -2206,7 +2206,7 @@
 		//"citadel_ability_grapplehook_desc"		"Launches out a hook, and pull {s:hero_name} towards the wall it hits."
 		//"modifier_citadel_grapplehook_wall_hanging"	"Grapple Hook Wall Hanging"
 
-		"ability_burrow"			"الحفر"
+		"ability_burrow"			"Burrow"
 		"ability_burrow2"			"الحفر"
 		"ability_burrow_quip"		"سافر تحت الأرض، وظهر مع الدوران ضرر"
 		"ability_burrow_desc"		"الجحر تحت الأرض، <span class=\"highlight\"> يتحرك بشكل أسرع، </span> ويكتسب <span class=\"highlight\">الروح ودرع الرصاص</span>. ضرر من عدو أبطال سوف يقلل من مكافأة سرعة. <br><br> عندما تقفز للخارج، تعامل مع {g:citadel_inline_attribute:'SpiritDamage'} و{g:citadel_inline_attribute:'Slow'} و{g:citadel_inline_attribute:'KnockUp'}."
@@ -2246,7 +2246,7 @@
 		"modifier_citadel_throw_sand_debuff"	"مصاب بالرمل"
 
 
-		"ability_ult_combo"				"كومبو"
+		"ability_ult_combo"				"Combo"
 		"ability_ult_combo_quip"		"أمسك عدو بطل في مكانه واضربه"
 		"ability_ult_combo_desc"		"أمسك هدف في مكانه، مؤقتاً أذهلهم وتعامل مع ضرر</span> أثناء القناة. إذا ماتوا أثناء أو خلال 3 ثوانٍ من انتهاء السرد، فستحصل على أقصى بشكل دائم."
 		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:LifeStealPercentOnHit}% سرقة الحياة</span>"
@@ -2362,7 +2362,7 @@
 		"DeferClearPct_postfix"					"%"
 		
 
-		"citadel_ability_shiv_killing_blow"		"الضربة القاضية"
+		"citadel_ability_shiv_killing_blow"		"Killing Blow"
 		"citadel_ability_shiv_killing_blow_quip"	"سافر إلى مستوى صحة بطل المنخفض واقتله على الفور"
 		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">القدرة النشطة:</span> اندفع للأمام، محدثاً {g:citadel_inline_attribute:'SpiritDamage'} لأول بطل عدو. إذا كانت صحتهم تحت <span class=\"highlight\">عتبة القتل</span>، قم <span class=\"highlight\">بإعدامهم</span> بدلاً من ذلك.<br><br>القضاء على عدو بالضربة القاضية يتيح لك إعادة استخدام القدرة خلال <span class=\"highlight\">{s:RecastWindow} ثوانٍ</span>"
 		"citadel_ability_shiv_killing_blow_passive_desc" "<span class=\"diminish\">تأثير سلبي: </span> المدمر أعداء يملأك بالغضب. أثناء الغضب الكامل، زادت مكاسب {s:hero_name} من ضرر ومؤقتاً الذي يفتح الخصائص الخاصة </span> على قدراته الأخرى."
@@ -2417,7 +2417,7 @@
 		"Citadel_Synth_HeroTag_2" "ضرر انفجاري"
 		"Citadel_Synth_HeroTag_3" "ضفادع"
 		
-		"synth_plasma_flux"			"عباءة طائرة"
+		"synth_plasma_flux"			"Flying Cloak"
 		"synth_plasma_flux_quip"		"أطلق عباءة ضارة يمكنك الانتقال إليها فوريًا"
 		"synth_plasma_flux_desc"		"أطلق عباءة تسير للأمام وتُلحق ضرراً بالأعداء. يمكنك الضغط على <span class=\"highlight\">{g:citadel_binding:'Ability2'}</span> <span class=\"highlight\">للانتقال الفوري</span> إلى موقعها."
 
@@ -2428,7 +2428,7 @@
 		"synth_plasma_flux_teleport"	"انتقال عن بعد"
 		"modifier_synth_plasma_flux_auto_projectile"	"عباءة طائرة"
 
-		"synth_pulse"					"حقيبة الساحر"
+		"synth_pulse"					"Enchanter's Satchel"
 		"synth_pulse_quip"			"اهرب لفترة وجيزة إلى حقيبتك، ثم تعامل مع ضرر"
 		"synth_pulse_desc"			"<span class=\"highlight\">Escape</span> في حقيبتك. عندما ينتهي المدة، قم بحجز <span class=\"highlight\"> لـ {g:citadel_inline_attribute:'SpiritDamage'}</span> إلى أعداء القريبة. يمكن إنهاء المدة مبكرًا عن طريق تنفيذ أي إجراء."
 		"synth_pulse_t3_desc"			"<span class=\"highlight\">+{s:EscapeDuration} ثانية</span> المدة<br><span class=\"highlight\">+{s:Radius} متر</span> نطاق<br><span class=\"highlight\">-{s:SlowPercent}%</span> نقل سرعة ومعدل إطلاق النار لـ {s:DebuffDuration} ثانية"
@@ -2436,7 +2436,7 @@
 		"EscapeDuration_postvalue_label"		"مدة الهروب"
 		"EscapeDuration_postfix"		"ث"
 
-		"synth_barrage"				"وابل"
+		"synth_barrage"				"Barrage"
 		"synth_barrage_quip"			"تنزلق الهواء أثناء إطلاق مقذوفات متعددة"
 		"synth_barrage_desc"			"وجّه لبدء إطلاق مقذوفات <span class=\"highlight\">تُلحق {g:citadel_inline_attribute:'SpiritDamage'}</span> و<span class=\"highlight\">تُطبّق {g:citadel_inline_attribute:'Slow'}</span> حول نقطة الاصطدام. المقذوفات التي تصيب بطلاً تمنح {s:hero_name} <span class=\"highlight\">{g:citadel_inline_attribute:'DamageAmp'} قابلاً للتراكم</span>.<br>الإلقاء في الهواء يجعل {s:hero_name} <span class=\"highlight\">يطفو</span>.<span class=\"diminish\"><br><br>إلقاء الاندفاع الهوائي أو العباءة الطائرة لن يُلغي الوابل.</span>"
 
@@ -2456,7 +2456,7 @@
 		"modifier_synth_barrage_debuff"	"إبطاء الوابل"
 		"modifier_synth_barrage_amp"	"الوابل - تضخيم الضرر"
 
-		"synth_affliction"			"ابتلاء"
+		"synth_affliction"			"Affliction"
 		"synth_affliction_quip"		"قم بتطبيق ضرر مع مرور الوقت على أعداء القريبة"
 		"synth_affliction_desc"		"يُطبق {g:citadel_inline_attribute:'SpiritIcon'}<span class=\"highlight\">ضرراً بمرور الوقت</span> على الأعداء القريبين.<span class=\"diminish\"><br><br>ضرر الوباء غير مميت ولا يُفعل تأثيرات العناصر.</span>"
 
@@ -2474,7 +2474,7 @@
 		"Citadel_Mirage_HeroTag_2" "مسافر"
 		"Citadel_Mirage_HeroTag_3" "مركز"
 		
-		"mirage_tornado"					"شيطان الغبار"
+		"mirage_tornado"					"Dust Devil"
 		"mirage_tornado_quip"				"حول نفسك إلى زوبعة ترفع أعداء"
 		"mirage_tornado_desc"				"حول نفسك إلى زوبعة تنطلق للأمام، <span class=\"highlight\"> يدمر أعداء</span>، تبطئة <span class=\"highlight\">، تحرك سرعة</span> و<span class=\"highlight\"> يرفعهم </span> في الهواء. بعد الخروج من الإعصار تحصل على تهرب <span class=\"highlight\">رصاصة</span>."
 		"mirage_tornado_t1_desc"			"<span class=\"highlight\">+{s:Damage}</span> ضرر"
@@ -2517,7 +2517,7 @@
 
 		"MirageFireScarabsHealthSteal_postvalue_label"	"سرقة الصحة/ث"
 
-		"mirage_teleport"		"مسافر"
+		"mirage_teleport"		"Traveler"
 		"mirage_teleport_quip"	"النقل الفوري إلى حليف أو عدو بطل"
 		"mirage_teleport_desc"	"حدد موقعاً على الخريطة المصغرة. بعد فترة وجيزة، <span class=\"highlight\">انتقال فوري</span> إلى ذلك الموقع. تلقي الضرر أثناء الشحن يقاطع الانتقال."
 
@@ -2629,7 +2629,7 @@
 		"AbilityButtonHint_DragonsFireSpeedUp"		"تسريع"
 		"AbilityButtonHint_DragonsFireSpeedDown"	"إبطاء"
 
-		"citadel_ability_tengu_airlift"				"إسقاط جوي"
+		"citadel_ability_tengu_airlift"				"Air Drop"
 		"citadel_ability_tengu_airlift_quip"		"الموت من الأعلى! قم بالطيران وإسقاط حليف على أعداء"
 		"citadel_ability_tengu_airlift_desc"		"<span class=\"highlight\">احصل على حليف</span> و<span class=\"highlight\">قم برحلة </span> معهم. قم بإسقاط حليف الخاص بك لإحداث انفجار، والتعامل مع {g:citadel_inline_attribute:'SpiritDamage'}. تكتسب أنت وحليف الخاص بك زيادة في ضرر الصادر عند انتهاء الرحلة. تم تقليل <span class=\"diminish\"><br><br>فترة تبريد بنسبة {s:CooldownReductionPctOnOthers}٪ عند استخدامها على حلفاء.<br> مع تعطيل ضرر لفترة وجيزة باستخدام القدرة. <br> أثناء الرفع، لا يمكن لـ حليف الهجوم والصفقات. {s:AllyOutgoingDamagePercent}% ضرر.</span>"
 		"citadel_ability_tengu_airlift_t1_desc"		"عند نهاية الطيران: حاجز <span class=\"highlight\">{s:AirDropBulletShield}</span> أمام {s:hero_name} وحليف الذي يتوسع بالروح"
@@ -3193,7 +3193,7 @@
 
 		"yamato_flying_strike_t3_header"			"عند الوصول إلى هدف:"
 
-		"citadel_ability_infinity_slash"		"تحويل الظل"
+		"citadel_ability_infinity_slash"		"Shadow Transformation"
 		"citadel_ability_infinity_slash_quip"	"تصبح لا يقهر وأكثر قوة"
 		"citadel_ability_infinity_slash_desc"	"كن مشبعًا بروح الظل الخاصة بـ {s:hero_name}. بعد إجراء تحويل أولي إلى <span class=\"highlight\">لا يقهر</span>، يتم تحديث قدرات مؤقتاً الخاصة بك وتصبح أسرع بنسبة 60% من </span>. تكتسب مؤقتاً مناعة لتأثيرات الحالة السلبية </span> وتزيد بشكل كبير من <span class=\"highlight\">رصاصة ومقاومة الروح</span>.<br> عندما تحصل على قتل بطل، فإنك <span class=\"highlight\">علاج</span> و تم تمديد <span class=\"highlight\">المدة</span>."
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
@@ -3338,7 +3338,7 @@
 		//"viscous_goo_puddle_desc"						"Turn yourself into a puddle of goo, becoming <span class=\"highlight\">immune to harm</span> and <span class=\"highlight\">dealing damage to nearby enemies</span>."
 		//"viscous_goo_puddle_t3_desc"					"[Not Yet Implemented]"
 
-		"viscous_goo_bowling_ball"						"كرة لزجة"
+		"viscous_goo_bowling_ball"						"Goo Ball"
 		"viscous_goo_bowling_ball_desc"					"تتحول إلى كرة لزجة كبيرة توفر <span class=\"highlight\"> ضرر</span> و<span class=\"highlight\">يصعق</span> أعداء عند الاصطدام. تمنح الكرة كميات كبيرة من <span class=\"highlight\">رصاصة</span> و<span class=\"highlight\">الروح</span> مقاومة، وترتد عن الجدران وتستطيع <span class=\"highlight\"> القفز المزدوج</span>."
 		"viscous_goo_bowling_ball_quip"					"يتدحرج ويسبب الفوضى"
 		"viscous_goo_bowling_ball_t3_desc"				"+{s:AbilityDuration} ث المدة، +{s:StunDuration} ث مدة الصعق، و+{s:Damage_scale} تحجيم الروح"
@@ -3533,8 +3533,8 @@
 
 		// Debuffs
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_emp"		"Abilities Disabled"
-		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_root"		"مثبت في مكانه"
-		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_disarmed"		"منزوع السلاح"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_root"		"Immobilized"
+		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_citadel_disarmed"		"Disarmed"
 		"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_dot"		"نزيف مستمر"
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_weakness"		"Bullet Armor Reduced"
 		//"citadel_ability_spade_draw/modifier_citadel_spade_card/modifier_spade_joker_debuff"		"Glitched"
@@ -3641,7 +3641,7 @@
 		"PetrifyDuration_postfix"		" ثانية"
 		"PetrifyDamageBreakThreshold_label"	"كتلة متحجرة ضرر"
 		"PetrifyDamageBreakThreshold_postvalue_label"	"كتلة متحجرة ضرر"
-		"ability_viper_ult/viper_ult_petrify" "متحجر"
+		"ability_viper_ult/viper_ult_petrify" "Petrified"
 		"ability_viper_ult_quip" "حول الحلفاء والأعداء على حد سواء إلى حجارة"
 		"HalfHeight_postfix"	" م"
 
@@ -3653,7 +3653,7 @@
 		"PetrifyRadius_label" "تحجر نطاق"
 		"PetrifyRadius_postvalue_label" "تحجر نطاق"
 		"PetrifyRadius_postfix" " م"
-		"ability_viper_petrifybola/petrifybola_petrify" "متحجر"
+		"ability_viper_petrifybola/petrifybola_petrify" "Petrified"
 		"ability_viper_petrifybola_t3_desc"	"+<span class=\"highlight\">{s:PetrifyDuration} ثانية</span> المتحجر المدة. يرعب كل أعداء في المنطقة.</span>"
 		"ability_viper_petrifybola_quip" "ارمِ حبل تحجير"
 
@@ -3697,7 +3697,7 @@
 		"MageTime_postfix" " ثانية"
 		"modifier_magewalk_empoweredattacks" "البطاقة المحظوظة"
 
-		"ability_magician_cloneturret" "المساعد الطيفي"
+		"ability_magician_cloneturret" "Spectral Assistant"
 		"ability_magician_cloneturret_trigger" "المساعد الطيفي"
 		"ability_magician_cloneturret_desc" "استدعِ <span class=\"highlight\">مساعداً</span> في الموقع المستهدف. يهاجم <span class=\"highlight\">المساعد</span> كلما أطلقت النار بسلاحك، مُلحقاً <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">ضرراً</span>. <br><br>أثناء وجود <span class=\"highlight\">المساعد</span>، يمكنك الضغط على <span class=\"highlight\">{g:citadel_binding:'Ability2'}</span> لتبديل المواقع مع <span class=\"highlight\">مساعدك</span>. <br><br><span class=\"diminish\">إلقاء المساعد الطيفي يُعيد أيضاً تلقيم سلاحك.</span>"
 
@@ -3888,7 +3888,7 @@
 		"PerTargetCooldown_postvalue_label" "فترة التهدئة لكل هدف"
 		"PerTargetCooldown_postfix" " ثانية"
 
-		"ability_vampirebat_batblink" "تراجع دموي"
+		"ability_vampirebat_batblink" "Sanguine Retreat"
 		"ability_vampirebat_batblink_t1_desc" "عند الإرسال: احصل على <span class=\"highlight\">+{s:BonusFireRate}%</span> معدل إطلاق النار لـ {s:BuffDuration} ثانية وأضف <span class=\"highlight\">{s:BonusBullets}</span> رصاص"
 		"ability_vampirebat_batblink_t3_desc" "<span class=\"highlight\">+{s:MaxRecasts}</span> إعادة إلقاء<br><span class=\"highlight\">+{s:AbilityCastRange} م</span> المدى"
 		"ability_vampirebat_batblink_desc" "تشتت لفترة وجيزة، لتصبح <span class=\"highlight\">غير قابل للاستهداف</span> وتطير إلى موقع مستهدف. <br><br>يمكن <span class=\"highlight\">إعادة إلقاؤها</span> خلال نافذة وجيزة."
@@ -3897,7 +3897,7 @@
 		"RecastWindow_postfix"				" ثانية"
 		"BonusBullets_postvalue_label"		"مكافأة رصاص"
 
-		"ability_vampirebat_batswarm" "ظلامنا"
+		"ability_vampirebat_batswarm" "Nox Nostra"
 		"ability_vampirebat_batswarm_desc" "<span class=\"diminish\">تفعيل:</span> أطلق العنان لسحابة من الخفافيش التي تبحث عن أهداف، كل منها يتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} ويطبق {g:citadel_inline_attribute:'Silence'}.<br><br><span class=\"diminish\">تأثير سلبي:</span> إثارة لدغات الحب ضد أبطال يزيد بشكل دائم من مؤقتاً عدد الخفافيش التي تم إطلاقها </span>."
 		"ability_vampirebat_batswarm_t3_desc" "عند الإصابة: تعامل مع <span class=\"highlight\">+{s:CurrentHealthPercent}%</span> الحالي صحة كـ ضرر"
 		"BatCount_label" "تم إصدار إجمالي الخفافيش"
@@ -4079,7 +4079,7 @@
 		"DoorwayDistance_label"	"مسافة البوابة"
 		"DoorwayDistance_postfix"	" م"
 
-		"ability_doorman_hotel" "نزيل الفندق"
+		"ability_doorman_hotel" "Hotel Guest"
 		"ability_doorman_hotel_desc" "أرسل الجسد المادي للهدف ليصبح ضيفاً في فندق البارونة. يجب على الضيف التوجه فوراً إلى مصعد الخروج، حيث يُعاد إلى موقعه الأصلي. <br><br>تُدفع تكلفة الإقامة في فندق البارونة على شكل {g:citadel_inline_attribute:'SpiritDamage'}. عدم تسجيل الخروج في الوقت المحدد يُكلّف {g:citadel_inline_attribute:'SpiritDamage'} إضافياً."
 
 		"ability_doorman_hotel_t1_desc" "{s:StaminaDrain} استنزاف القدرة على التحمل و {s:AbilityCooldown} فترة تبريد"
@@ -4177,7 +4177,7 @@
 		"ShockDuration_postfix" " ثانية"
 
 		//Ability 2
-		"ability_frank_selfzap" "بدء التشغيل السريع"
+		"ability_frank_selfzap" "Jumpstart"
 		"ability_frank_selfzap_desc" "ألحق {g:citadel_inline_attribute:'SpiritDamage'} بنفسك. ثم، اكتسب {g:citadel_inline_attribute:'Regen'} إضافي و {g:citadel_inline_attribute:'BonusMoveSpeed'}، يتلاشى مع الوقت."
 		"ability_frank_selfzap/selfzap" "بدء التشغيل السريع"
 		"ability_frank_selfzap_t2_desc" "<span class=\"highlight\">+{s:TotalHealthRegen}</span> إجمالي صحة ​​تجدد و <span class=\"highlight\">{s:AbilityCooldown} ثانية</span> فترة تبريد"
@@ -4185,7 +4185,7 @@
 
 
 		//Ability 3
-		"ability_frank_painaura" "هالة المعاناة"
+		"ability_frank_painaura" "Aura of Suffering"
 		"ability_frank_painaura_desc" "أطلق الألم، ملحقاً {g:citadel_inline_attribute:'SpiritDPS'} بالأعداء وبنفسك. <br><br>يستمر الضرر <span class=\"highlight\">في الازدياد</span> كلما طالت مدة توجيه القدرة، حتى يصل إلى الحد الأقصى."
 		"ability_frank_painaura_t1_desc" "أعداء تتلقى <span class=\"highlight\">{s:SlowPercent}%</span> تحرك واندفاع إبطاء"
 		"ability_frank_painaura_t2_desc" "<span class=\"highlight\">+{s:MinDPS}</span> الحد الأدنى للضرر بالثانية و<span class=\"highlight\">+{s:MaxDPS}</span> أقصى ضرر في الثانية"
@@ -4201,7 +4201,7 @@
 		"SelfDamagePercentage_postfix" "%"
 
 		//Ability 4
-		"ability_frank_revive" "الإنعاش الصاعق"
+		"ability_frank_revive" "Shocking Reanimation"
 		"ability_frank_revive_desc" "أطلق موجة بعد تناول ضرر المميت، مع تطبيق {g:citadel_inline_attribute:'Slow'} المتناقص. <br><br>بعد قناة قصيرة، يمكنك إعادة تنشيطها، والتعامل مع {g:citadel_inline_attribute:'SpiritDamage'} وتطبيق {g:citadel_inline_attribute:'Stun'} على أعداء القريبة."
 		"CooldownRefreshChancePercent_label" "فرصة استرداد فترة تبريد"
 		"CooldownRefreshChancePercent_postvalue_label" "فرصة استرداد فترة تبريد"
@@ -4246,7 +4246,7 @@
 		"DrifterRend_SpiritDamage_label"			"الضرر"
 		"DrifterRend_SpiritDamage_postvalue_label"	"الضرر"
 
-		"drifter_shadow_mark"		"علامة المتربّص"
+		"drifter_shadow_mark"		"Stalker's Mark"
 		"drifter_shadow_mark_desc"	"أرسل علامة تسبب نزيفاً لأول هدف تصيبه، مُلحقةً {g:citadel_inline_attribute:'SpiritDPS'}.<br><br>بينما ينزف العدو يمكنك إعادة تفعيل علامة المتعقب لـ<span class=\"highlight\">الظهور فوراً خلف ظهره.</span>"
 
 		"drifter_shadow_mark_t1_desc" "<span class=\"highlight\">{s:BulletResistReduction}% مقاومة الرصاص"
@@ -4308,7 +4308,7 @@
 		"KillDuration_postfix" " ثانية"
 		"modifier_drifter_hunger_stealth"	"تخفّي"
 
-		"drifter_darkness"			"ليل أبدي"
+		"drifter_darkness"			"Eternal Night"
 		"drifter_darkness_desc"		"تحيط أبطال الأعداء القريبين بالظلام مما يحد بشدة من رؤيتهم للوحدات الأخرى. يتم كشف الأعداء المتأثرين لك ويعتبرون <span class=\"highlight\">معزولين</span> طوال المدة.<br><br>تكتسب {g:citadel_inline_attribute:'BonusSprintSpeed'}."
 
 		"drifter_darkness_t3_desc"	"+{s:AbilityDuration} ثانية المدة و +{s:MaxTargets} أقصى أهداف."
@@ -4384,7 +4384,7 @@
 		"ability_bookworm_aoemagic/areamodifier/root" "القراءة الآسرة"
 		"ability_bookworm_aoemagic_t3_desc" "<span class=\"highlight\">+{s:Radius} متر</span> لنصف القطر<br>عند الإصابة: تقليل المقاومة الروحية بمقدار <span class=\"highlight\">{s:TechArmorDamageReduction}%</span> لمدة <span class=\"highlight\">{s:DebuffDuration} ثوانٍ</span>"
 
-		"ability_bookworm_knightcharge" "هجمة الحشد"
+		"ability_bookworm_knightcharge" "Rallying Charge"
 		"ability_bookworm_knightcharge_desc" "أطلق موجة من الفرسان والخيول الطيفية التي تندفع عبر <span class=\"highlight\">المدينة بأكملها</span>، لتقوم بـ{g:citadel_inline_attribute:'Healing'} الحلفاء وإلحاق {g:citadel_inline_attribute:'SpiritDamage'} بالأعداء. <br><br>تتضخم قوة {g:citadel_inline_attribute:'Heal'} و{g:citadel_inline_attribute:'SpiritDamage'} كلما قطع الفرسان مسافة أطول."
 		"ability_bookworm_knightcharge/buff" "هجمة الحشد"
 		"ability_bookworm_knightcharge_t2_desc" "زيادة عرض الهجمة بمقدار <span class=\"highlight\">+{s:KnightCountInFirstWave} من الخيول</span><br>تقليص فترة التهدئة بمقدار <span class=\"highlight\">{s:AbilityCooldown} ثوانٍ</span>"
@@ -4440,7 +4440,7 @@
 		"ability_familiar_primary_weapon_bubblegun_crit" "ضرر السلاح - ضربة حرجة"
 		"ability_melee_familiar" "هجوم قريب"
 		
-		"ability_familiar_ability01" "قيلولة"
+		"ability_familiar_ability01" "Naptime"
 		"ability_familiar_ability01_desc" "ألق نظرك إلى الأمام، ثاقبًا الجدران والأرضيات. أعداء في النظرة <span class=\"highlight\"> بطيئة، وقد خفضت مسافة الشرطة، ولا يمكنها استخدام قدرات الحركة. </span><br><br> عندما تنتهي القناة <span class=\"highlight\">، فإنهم ينامون </span> قبل الاستيقاظ على صداع شديد يسبب {g:citadel_inline_attribute:'SpiritDamage'}."
 		"ability_familiar_ability01_t1_desc" "-{s:ConsumeStaminaOnWake} القدرة على التحمل عند الاستيقاظ وعدم القدرة على التحمل تجدد أثناء النوم"
 		"ability_familiar_ability01_t2_desc" "+{s:Radius} متر نطاق و +{s:SleepDuration} ث مدة النوم"
@@ -4638,7 +4638,7 @@
 		//
 
 		//Ability 4 - Gravestone
-		"ability_necro_gravestone" "المرسوم المستعار"
+		"ability_necro_gravestone" "Borrowed Decree"
 		"ability_necro_gravestone_desc_1" "<span class=\"diminish\">تأثير فطري: يمكن للقدرات </span>استدعاء <span class=\"highlight\">غول</span> يتجه نحو قاعدة العدو مُلحقاً {g:citadel_inline_attribute:'MeleeDamage'}. ينفجر عند الاقتراب من بطل عدو مُلحقاً {g:citadel_inline_attribute:'SpiritDamage'} ومُطبقاً {g:citadel_inline_attribute:'Slow'} مؤقتاً."
 
 		"ability_necro_gravestone_desc_2" "<span class=\"diminish\">تفعيل: </span> قم بإنشاء شاهد قبر في موقع هدف الذي يستدعي <span class=\"highlight\">أغوال</span> مع مرور الوقت. يمكن لـ أعداء تدمير شاهد القبر باستخدام اشتباكين ثقيلين."
@@ -4744,10 +4744,10 @@
 		"ability_header_while_transformed" "أثناء التحول:"
 
 		
-		"ability_werewolf_transformation" "لعنة المستذئب"
+		"ability_werewolf_transformation" "Lycan Curse"
 		"ability_werewolf_transformation_desc" "<span class=\"diminish\">سلبي: </span>إلحاق الضرر يولّد نشوة الدم وتزداد عند انخفاض الصحة. عند الحد الأقصى لنشوة الدم، تُلقي لعنة المستذئب تلقائياً.<br><br><span class=\"diminish\">نشط:</span> تحوّل فوراً، مكتسباً زيادة في {g:citadel_inline_attribute:'MaxHealth'} و{g:citadel_inline_attribute:'FireRate'} متراكمة على أبطال العدو، مع <span class=\"highlight\">استبدال قدراتك وسلاحك</span> بنسخها الشرسة."
 
-		"ability_werewolf_transformation/werewolf" "لعنة المستذئب"
+		"ability_werewolf_transformation/werewolf" "Lycan Curse"
 		"ability_werewolf_transformation_t1_desc" "<span class=\"highlight\">+{s:TechResist}%</span> رصاصة & الروح مقاومة"
 		"ability_werewolf_transformation_t2_desc" "<span class=\"highlight\">+{s:BonusMoveSpeed} متر/s</span> نقل سرعة و<span class=\"highlight\">{s:BonusHealth}</span> مكافأة صحة"
 		"ability_werewolf_transformation_t3_desc" "عند قتل بطل: تحديث القدرات، المدة، والتحول علاج"
@@ -4755,8 +4755,8 @@
 		"ability_werewolf_transformation_trigger_desc" "العودة إلى شكلك البشري."
 		"ability_werewolf_transformation_ready_hint" "أطلق العنان!"
 
-		"ability_werewolf_transformation/werewolf/stackingbuff" "لعنة المستذئب"
-		"ability_werewolf_transformation/ready" "اللعنة تنادي..."
+		"ability_werewolf_transformation/werewolf/stackingbuff" "Lycan Curse"
+		"ability_werewolf_transformation/ready" "The Curse Beckons..."
 		"AutoActivateHealthThreshold_postvalue_label" "عتبة صحة للإرسال التلقائي"
 		"AutoActivateHealthThreshold_postfix" "%"
 		"ability_werewolf_passive_desc" "<span class=\"diminish\">بشري:</span>تتبع آخر بطل قمت بضربه. قتل الأعداء المتتبعين يمنح أرواحاً إضافية.<br><br><span class=\"diminish\">ذئب:</span>تتبع أي أبطال ذوي صحة منخفضة في الجوار. قتل الأبطال المتتبعين يقلل من فترات تبريد قدراتك."
@@ -4824,7 +4824,7 @@
 		"ability_werewolf_onthehunt" "في رحلة الصيد"
 		"ability_werewolf_onthehunt_desc" "اكتسب {g:citadel_inline_attribute:'BonusFireRate'} و {g:citadel_inline_attribute:'BonusMoveSpeed'}، ويحصل الحلفاء القريبون على نصف القيمة. القتل خلال هذا الوقت يعيد إلقاء قدرة \"في رحلة الصيد\"."
 		
-		"ability_werewolf_leap" "القفزة الساحقة"
+		"ability_werewolf_leap" "Crushing Leap"
 		"ability_werewolf_leap_desc" "اقفز في الهواء قبل الهبوط، وتعامل مع {g:citadel_inline_attribute:'MeleeDamage'} وقم بتطبيق {g:citadel_inline_attribute:'Slow'} على أعداء القريبة أثناء دفعهم بعيدًا."
 		"ability_werewolf_leap_t1_desc" "عند الهبوط: <span class=\"highlight\">+{s:BonusMoveSpeed} متر/s</span> حرك سرعة لـ {s:LandingBonusesDuration} ثانية"
 		"ability_werewolf_leap_t3_desc" "ينطبق <span class=\"highlight\">{s:StunDuration} ثانية</span> صعق"
@@ -4875,7 +4875,7 @@
 		"TotalShotCount_postvalue_label"	"إجمالي اللقطات"
 		"ability_priest_barrage_fire_hint" "إطلاق النشاب"
 
-		"ability_priest_weaponswap" "غضب السيد"
+		"ability_priest_weaponswap" "Ira Domini"
 		"ability_priest_weaponswap_desc" "اشحن نشابك بـ <span class=\"highlight\">3 أوتاد</span>، ملحقاً {g:citadel_inline_attribute:'WeaponDamage'} متزايداً بشكل هائل.<br><br>الوتد الأخير يكون <span class=\"highlight\">مباركاً</span>، ملحقاً {g:citadel_inline_attribute:'PureDamage'} و<span class=\"highlight\">يقضى فوراً</span> على الأعداء ذوي الصحة المنخفضة."
 		"ability_priest_weaponswap_t1_desc" "بينما تفعيل: احصل على <span class=\"highlight\">{s:BonusMoveSpeed} متر/s</span> تحرك سرعة"
 		"ability_priest_weaponswap_t2_desc" "<span class=\"highlight\">{s:AbilityCooldown} ثانية</span> القدرة فترة تبريد و <span class=\"highlight\"> + {s:BonusDamage}</span> مكافأة ضرر"
@@ -5028,7 +5028,7 @@
 		"AttackDashRange_postfix"			" م"
 		"ability_fencer_lunge_on_proc"		"عند تفعيل أقصى تكدسات"
 
-		"ability_fencer_riposte"	"ضربة مرتدة سريعة"
+		"ability_fencer_riposte"	"Riposte"
 		"ability_fencer_riposte_desc" "استعد <span class=\"highlight\">لصد وتفادي</span> الهجوم القادم. عند الصد الناجح، تصبح لفترة وجيزة <span class=\"highlight\">محصناً</span> وتندفع نحو بطل العدو لتصعقه وتُقلل مقاومته للاشتباك.<br><br><span class=\"diminish\">اضغط {g:citadel_binding:'Ability2'} لتحديد الهدف.</span>"
 
 		"RiposteChannelTime_postvalue_label"	"مدة الصد"
@@ -5055,7 +5055,7 @@
 		"MeleeResistReductionDuration_postvalue_label"	"مدة الإضعاف"
 		"MeleeResistReductionDuration_postfix"			" ثانية"
 
-		"ability_fencer_ultimate"		"إيتاني لو سان"
+		"ability_fencer_ultimate"		"Itani Lo Sahn"
 		"ability_fencer_ultimate_desc"	"اشحن وقم بتنفيذ شرطة مائلة طويلة مدى. ضرب أعداء <span class=\"highlight\"> لا يمكن اتخاذ إجراء أو علاج</span> وعالقة في حركة إبطاء. عندما تنتهي صلاحية هذا التأثير، فإنهم يعانون من <span class=\"highlight\"> المدمر ضرر</span>، ويتعاملون مع مكافأة ضرر مقابل نصف صحة أعداء.<br><br><span class=\"diminish\"> أثناء حركة إبطاء، يكون أبولو غير معرض للخطر. و أعداء يأخذان ضرر.<br><br> عقد {g:citadel_binding:'Ability4'} أو {g:citadel_binding:'Attack'} لتأخير الإلقاء.</span>"
 		//"ability_fencer_ultimate_t3_desc"	"+{s:ImpactDamage} Impact Damage and +{s:DelayedDamage} Delayed Damage"
 		//"ability_fencer_ultimate_t3_desc"	"{s:}% Max Health Damage"
@@ -5646,7 +5646,7 @@
 		"Citadel_Ratking_HeroTag_3"		"عنيد"
 		"citadel_weapon_ratking_set"		"مرسوم الحاكم"
 		"citadel_ability_jump_ratking"		"قفز"
-		"ability_ratking_entertunnel"		"يتسلل للداخل..."
+		"ability_ratking_entertunnel"		"Squeezing In..."
 		"ability_ratking_scrap_grenade"		"قنبلة خردة"
 		"ability_ratking_scrap_grenade_desc"		"ارمِ قنبلة خردة تنفجر عدة مرات، مسببة {g:citadel_inline_attribute:'BulletDamage'} ومطبقة {g:citadel_inline_attribute:'Slow'}.<br><br><span class=\"diminish\">يمكن ضرب القنبلة باشتباك قريب لإبعادها.</span>"
 		"ability_ratking_scrap_grenade_t3_desc"		"إضافة انفجار نهائي أكبر إضافي"
@@ -5661,7 +5661,7 @@
 		"ability_ratking_ratarmor_t1_desc"		"+{s:MaxRats} الحد الأقصى للجرذان"
 		"ability_ratking_ratarmor_t2_desc"		"<span class=\"highlight\">{s:AbilityCooldown}ث</span> فترة التهدئة<br><span class=\"highlight\">+{s:ReturnFireChance}%</span> فرصة رد الرصاص"
 		"ability_ratking_ratarmor_t3_desc"		"تقليل كل الضرر إلى حد أقصى قدره <span class=\"highlight\">{s:MaxDamagePerHit}</span><br><span class=\"highlight\">+{s:MaxHealthPct}%</span> من الصحة القصوى كحاجز"
-		"ability_ratking_standard_bearer"		"حامل الراية"
+		"ability_ratking_standard_bearer"		"Rule, Ratannia!"
 		"ability_ratking_standard_bearer_desc"		"اشحن واغرس راية راتانيا، مانحاً جميع الحلفاء القريبين زيادة في {g:citadel_inline_attribute:'MoveSpeed'}، و<span class=\"highlight\">مناعة ضد الإبطاء</span>، و<span class=\"highlight\">تقليل الضرر المتلقى</span> أثناء التواجد قرب الراية."
 		"ability_ratking_standard_bearer_t1_desc"		"+{s:BonusMoveSpeed} م سرعة الحركة<br>{s:AbilityCooldown} ث فترة التبريد"
 		"ability_ratking_standard_bearer_t2_desc"		"+{s:FlagDuration}ث مدة الراية<br>+{s:Radius}م النطاق"
@@ -5674,7 +5674,7 @@
 		"ability_baba_bubbling_brew_t1_desc"		"+{s:AbilityCastRange}م مدى الإلقاء"
 		"ability_baba_bubbling_brew_t2_desc"		"{s:AbilityCooldown}ث فترة التهدئة<br>+{s:DebuffDuration}ث مدة التأثير السلبي"
 		"ability_baba_bubbling_brew_t3_desc"		"+{s:AbilityCharges} شحنة<br>عند الإصابة: سحب الأعداء {s:PullDistance}م"
-		"ability_baba_bench_run"		"أرجل الجدة الطويلة"
+		"ability_baba_bench_run"		"Granny Long Legs"
 		"ability_baba_bench_run_quip"		"أرجل الجدة الطويلة: اقفز عالياً واركل أي شخص قريب بأرجل مشحونة بالروح."
 		"ability_baba_bench_run_desc"		"تمتد أرجل مقعدك، مانحة {g:citadel_inline_attribute:'BonusMoveSpeed'}، وقفزات أعلى، و<span class=\"highlight\">مقاومة التأثيرات السلبية</span> و<span class=\"highlight\">مقاومة الاشتباك القريب</span>.<br><br><span class=\"diminish\">اشتباك خفيف:</span> نفّذ <span class=\"highlight\">ركلة</span> تدفع الأعداء للخلف.<br><span class=\"diminish\">اشتباك ثقيل:</span> نفّذ <span class=\"highlight\">ضربة أرضية ساحقة</span> تطبق {g:citadel_inline_attribute:'KnockUp'} و{g:citadel_inline_attribute:'Slow'} وتلحق {g:citadel_inline_attribute:'SpiritDamage'}.<br><br><span class=\"diminish\">اضغط مطولاً على {g:citadel_binding:'Crouch'} لشحن قفزة عالية، ثم أفلت للقفز.</span>"
 		"ability_baba_bench_run_t1_desc"		"+{s:BonusMoveSpeed}م سرعة الحركة"
@@ -5693,7 +5693,7 @@
 		"ability_baba_ultimate_2_t3_desc"		"+{s:MaxDamage} أقصى ضرر <br>+{s:MaxDamage_scale} تحجيم الروح<br>+{s:MaxPigeonDuration}ث أقصى مدة"
 		"ability_chessmaster_movechesspiece"		"تحريك القطعة"
 		"ability_chessmaster_movechesspiece_desc"		"<span class=\"diminish\">تحريك ({g:citadel_binding:'ADS'}):</span> حدد <span class=\"highlight\">قطعة شطرنج</span> وحركها إلى موقع مستهدف، لتفعيل تأثيرات بناءً على نوع القطعة.<br><br> تحريك القطعة له فترة تهدئة فريدة لكل هدف."
-		"ability_chessmaster_throwbishop"		"رمي الفيل"
+		"ability_chessmaster_throwbishop"		"Setup Bishop"
 		"ability_chessmaster_throwbishop_desc"		"أنشئ قطعة <span class=\"highlight\">فيل</span> تبقى في مكانها لأجل غير مسمى. <br><br><span class=\"diminish\">تحريك ({g:citadel_binding:'ADS'}):</span> يحرك الفيل، مطبقاً {g:citadel_inline_attribute:'Slow'} متلاشياً وملحقاً {g:citadel_inline_attribute:'SpiritDamage'} بالأعداء الذين يمر عبرهم. بعد تأخير، يفعل مربعات قطرية تلحق {g:citadel_inline_attribute:'SpiritDamage'} إضافياً عند الوقوف عليها.<br><br><span class=\"diminish\">أعد التفعيل لاستعادة جميع الفيلة وإنهاء القدرة.</span>"
 		"ability_chessmaster_throwbishop_t1_desc"		"+{s:MoveDistance}م مسافة التحريك<br>+{s:FadingSlowPercent}% إبطاء متلاشٍ"
 		"ability_chessmaster_throwbishop_t2_desc"		"<span class=\"highlight\">+{s:MaxPieces}</span> الحد الأقصى للقطع<br>يمكن إعادة الإلقاء خلال {s:RecastWindow}ث"
@@ -5708,7 +5708,7 @@
 		"ability_chessmaster_forkpiece_t1_desc"		"عند الإصابة: تقليل معدل إطلاق النار بنسبة {s:FireRateSlow}% لمدة {s:DebuffDuration}ث"
 		"ability_chessmaster_forkpiece_t2_desc"		"عند الإصابة: {s:CurrentHealthPercent}% من الصحة الحالية كضرر"
 		"ability_chessmaster_forkpiece_t3_desc"		"+{s:MaxReflectCount} ارتدادات عن الجدران<br>{s:AbilityCooldown}ث فترة التهدئة<br>+{s:ImmobilizeDuration}ث مدة التثبيت"
-		"ability_chessmaster_queen"		"الوزير"
+		"ability_chessmaster_queen"		"Develop Queen"
 		"ability_chessmaster_queen_desc"		"ضع قطعة الوزير لتسيطر على رقعة الشطرنج وتطبق كش ملك على الأعداء."
 		"ability_chessmaster_queen_t1_desc"		"+{s:AbilityDuration}ث المدة"
 		"ability_chessmaster_queen_t2_desc"		"+{s:SlowPercent}% إبطاء. يطبق كش ملك على الأبطال الذين تقل صحتهم عن {s:CheckmateThreshold}، ويعدمهم فوراً."
@@ -5724,7 +5724,7 @@
 		"StompDamagePerMeterSecondary_label"		"الضرر لكل متر (25م+)"
 		"StompDamagePerMeterSecondary_postvalue_label"		"الضرر لكل متر (25م+)"
 		"modifier_crackshot_bullet_resist_reduction"		"-مقاومة الرصاص"
-		"ability_digger_entertunnel"		"يحفر..."
+		"ability_digger_entertunnel"		"Digging..."
 		"BonusBatsCurrent_label"		"خفافيش إضافية:"
 		"RakeHealPerKill_label"		"علاج لكل قتيل"
 		"MaxHealthMelee_label"		"صحة إضافية للاشتباك القريب"
@@ -6086,7 +6086,7 @@
 		"MissileGroundDuration_postvalue_label"		"مهلة الانفجار"
 		"MissileGroundDuration_label"		"مهلة الانفجار"
 		"MissileGroundDuration_postfix"		"ث"
-		"ability_deadpack_flamethrower"		"تفريغ الوقود"
+		"ability_deadpack_flamethrower"		"Jettison Fuel"
 		"ability_deadpack_flamethrower_desc"		"رش الوقود لإلحاق {g:citadel_inline_attribute:'WeaponDPS'} وتمزيق {g:citadel_inline_attribute:'BulletResist'}، مما يتراكم نحو <span class=\"highlight\">انفجار ارتدادي هائل</span> يُلحق {g:citadel_inline_attribute:'SpiritDamage'} ويدفعك للخلف.<br><br>يُنفّس حقيبة الدفع النفاثة عند إلحاق الضرر.</span>"
 		"ability_deadpack_flamethrower_t2_desc"		"+{s:ScorchDamage} ضرر انفجاري<br>عند إصابة الانفجار الارتدادي: +{s:BonusFireRate}% معدل الإطلاق لمدة {s:BuffDuration}ث"
 		"ability_deadpack_flamethrower_t3_desc"		"{s:BulletResistReduction}% تمزيق مقاومة الرصاص<br>عند إصابة الانفجار الارتدادي: تطبيق وسم"
@@ -6151,11 +6151,11 @@
 		"DeadpackUltBonusTotalDamage_label"		"ضرر إضافي"
 		"DeadpackUltBonusTotalDamage_postvalue_label"		"ضرر إضافي"
 		"DeadpackUltBonusTotalDamage_postfix"		"%"
-		"DeadpackUlt_Target_Modifier"		"عرض حي"
+		"DeadpackUlt_Target_Modifier"		"Live Demonstration"
 		"GrabRange_postvalue_label"		"مدى الإمساك"
 		"GrabRange_label"		"مدى الإمساك"
 		"citadel_weapon_artist_set"		"حلول إبداعية"
-		"ability_artist_pullbrush"		"حبر حي"
+		"ability_artist_pullbrush"		"Living Ink"
 		"ability_artist_homingbrush"		"حبر حي"
 		"ability_artist_homingbrush_desc_passive"		"<span class=\"diminish\">كامنة:</span> إلقاء أي قدرة أخرى يُجدّد فترة التهدئة لقدرة <span class=\"highlight\">حالة التدفق</span>."
 		"ability_artist_homingbrush_desc_active"		"<span class=\"diminish\">تعزيز ({g:citadel_binding:'ABILITY1'}):</span> تدبّ الحياة في رصاصاتك الـ<span class=\"highlight\">3</span> التالية، مما يتيح لك توجيهها أثناء انطلاقها. تُلحق الرصاصات {g:citadel_inline_attribute:'BulletDamage'} متزايداً وتنثر {g:citadel_inline_attribute:'SpiritDamage'} في مساحة صغيرة.<br><br>كل إصابة ناجحة ضد بطل تُقلّص <span class=\"highlight\">فترات تهدئة جميع القدرات</span>، وبمقدار النصف لـ<span class=\"highlight\">فترات تهدئة جميع العناصر</span>."
@@ -6183,7 +6183,7 @@
 		"GroundAuraDuration_postfix"		"ث"
 		"GroundAuraDuration_postvalue_label"		"مدة الهالة الأرضية"
 		"GroundAuraDuration_label"		"مدة الهالة الأرضية"
-		"ability_artist_tether"		"طبيعة صامتة"
+		"ability_artist_tether"		"Still Life"
 		"ability_artist_tether_desc"		"اختر بطلاً ليكون <span class=\"highlight\">موضوع رسمك</span>، مُلحقاً به {g:citadel_inline_attribute:'SpiritDPS'} طالما أنك تنظر إليه. <br><br>إذا اكتمل الرسم، يتلقى {g:citadel_inline_attribute:'SpiritDamage'} إضافياً، ويُصاب بـ{g:citadel_inline_attribute:'Stun'}، ويُسقط <span class=\"highlight\">رسمة</span> يمكن التقاطها.<br><br> مقابل كل <span class=\"highlight\">رسمة</span> تجمعها، تكتسب إحصائيات دائمة بناءً على البطل."
 		"ability_artist_tether_t1_desc"		"أثناء الرسم: اكسب {s:HealthRegen} تجدّد الصحة، ويتجدد لمدة {s:BuffDuration}ث عند الالتقاط"
 		"ability_artist_tether_t2_desc"		"أثناء الرسم: يُلحق الخاضعون للرسم {s:OutgoingDamagePercent}% ضرر"
@@ -6216,7 +6216,7 @@
 		"artist_drawing_brawler"		"رسمة مشاكس"
 		"artist_drawing_assassin"		"رسمة قاتل"
 		"artist_drawing_healer"		"رسمة معالج"
-		"ability_artist_bamboogrove"		"منظر تجريدي"
+		"ability_artist_bamboogrove"		"Abstract Landscape"
 		"ability_artist_bamboogrove_desc"		"أنشئ لوحة دائرية من الحبر تحجب الرؤية وتمنح الحلفاء {g:citadel_inline_attribute:'Spirit'}.<br><br>يُكشف الأعداء بداخلها، ومغادرتها تُلحق بهم {g:citadel_inline_attribute:'SpiritDamage'} وتُصيبهم بـ{g:citadel_inline_attribute:'Silence'} و{g:citadel_inline_attribute:'Slow'}، مما يُدمّر الحبر أثناء ذلك."
 		"ability_artist_bamboogrove/center/buff"		"منظر تجريدي"
 		"ability_artist_bamboogrove_t2_desc"		"عند التعزيز: +{s:AbilityLifestealPercentHero}% سرقة حياة الروح<br>+{s:TechPower} قوة الروح"
@@ -6266,7 +6266,7 @@
 		"LeechEatDurationPerSecond_label"		"استنزاف مدة التعزيز في الثانية"
 		"LeechEatDurationPerSecond_postvalue_label"		"استنزاف مدة التعزيز في الثانية"
 		"LeechEatDurationPerSecond_postfix"		"ث"
-		"ability_nurse_fear"		"أهوال كامنة"
+		"ability_nurse_fear"		"Lurking Terrors"
 		"ability_nurse_fear_desc"		"افتحي حقيبتك واكشفي عن الأهوال التي تحملينها بداخلها، لتُلحقي {g:citadel_inline_attribute:'SpiritDPS'} بالأعداء أمامك. يتراكم الرعب لدى الأعداء <span class=\"highlight\">الذين ينظرون إليك</span> و<span class=\"highlight\">لا يمكنهم استخدام قوة التحمل أو قدرات الحركة</span>. وعند بلوغ أقصى رعب، <span class=\"highlight\">يفرّون فزعاً بعيداً عنك</span>.<br><br>كل علقة جمعتِها تُضيف <span class=\"highlight\">مدة خوف</span>.<br><span class=\"diminish\"><br>يتلقى الأعداء المولّون ظهورهم إليك {s:FacingAwayDamagePercent}% من الضرر ما لم يكونوا خائفين.</span>"
 		"ability_nurse_fear_t2_desc"		"-{s:SlowPercent}% سرعة الحركة ومعدل الإطلاق<br>+{s:DPS} ضرر في الثانية"
 		"ability_nurse_fear_t3_desc"		"+{s:AbilityChannelTime}ث مدة التوجيه<br>+{s:DPS_scale} تدرّج الروح<br>تتلقى ضرراً مُقلّصاً بنسبة {s:DamageResistPctWhileChanneling}% أثناء التوجيه"
@@ -6293,7 +6293,7 @@
 		"FearMoveSpeedBonus_label"		"سرعة حركة العدو الهارب"
 		"FearMoveSpeedBonus_postvalue_label"		"سرعة حركة العدو الهارب"
 		"FearMoveSpeedBonus_postfix"		" م/ث"
-		"modifier_citadel_nurse_fear_debuff"		"مرعوب"
+		"modifier_citadel_nurse_fear_debuff"		"Feared"
 		"modifier_nurse_fear_buildup"		"أشِح بنظرك"
 		"ability_nurse_healing_needles"		"إبر الشفاء"
 		"ability_nurse_healing_needles_desc"		"لقّمي سلاحك بمخزن كامل من المحاقن التي تمنح {g:citadel_inline_attribute:'Heal'} للحلفاء. <span class=\"highlight\">إلحاق الضرر</span> يستعيد الشحنات، وكل علقة جمعتِها تستعيدها ببطء.<br><br>إعادة التلقيم تستهلك شحنة للحصول على مخزن جديد.<br><br><span class=\"small_diminish\">تُرد المحاقن غير المستخدمة كشحنة جزئية. أعيدي الإلقاء لإبعادها.</span>"

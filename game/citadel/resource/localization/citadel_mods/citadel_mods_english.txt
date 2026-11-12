@@ -576,7 +576,7 @@
 
 		//Curse
 		"upgrade_glitch_desc"					"يلعن العدو - <span class=\"highlight\">مقاطعاً، ومصمتاً، ونازعاً لسلاحه</span>، و <span class=\"highlight\">مانعاً لاستخدام العناصر</span>. <span class=\"highlight\">يزيل جميع البفات غير الخارقة</span>.<br><br>يتم تقليل <span class=\"highlight\">ضرر المستكشف الخاص بك</span> طوال المدة."
-		"modifier_glitch_debuff"				"ملعون!"
+		"modifier_glitch_debuff"				"Cursed!"
 
 		//Bullet Resist Shredder
 		"upgrade_bullet_resist_shredder_desc"	"يقلل <span class=\"highlight\">مقاومة الرصاص</span> على أعداء عندما تتعامل مع {g:citadel_inline_attribute:'SpiritDamage'}."
@@ -652,7 +652,7 @@
 		"MagicCarpetShieldDuration_label"		"درع المدة"
 		"MagicCarpetShieldDuration_postvalue_label"		"درع المدة"
 		"MagicCarpetShieldDuration_postfix"		"ث"
-		"MagicCarpetSummoning_channel"			"استدعاء"
+		"MagicCarpetSummoning_channel"			"Summoning"
 
 		// Hex-Sealed Knuckles
 		"upgrade_superacolytes_glove_desc"			"بعد التعامل مع <span class=\"highlight\">{s:StoredSpiritDamage}</span> ضرر روحي، هجوم <span class=\"highlight\">الاشتباك الثقيل التالي، </span> يتعامل مع <span class=\"highlight\">{s:StoredSpiritDamage} ضرر روحي</span> إضافي."

@@ -4,7 +4,7 @@ title مثبت تعريب Deadlock التلقائي - فريق الضاد
 color 0B
 
 echo ======================================================================
-echo                  مثبت تعريب لعبة Deadlock (v1.3.8)
+echo                  مثبت تعريب لعبة Deadlock (v1.3.9)
 echo                         فريق تعريب الضاد
 echo ======================================================================
 echo.
@@ -63,7 +63,7 @@ exit /b
 echo [+] تم العثور على اللعبة في:
 echo     "%GAME_PATH%"
 echo.
-echo [2/3] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.3.8) من GitHub...
+echo [2/3] جارٍ تنزيل وتثبيت أحدث ملفات التعريب (v1.3.9) من GitHub...
 
 set "BASE_URL=https://raw.githubusercontent.com/hateemalshammari43-svg/Deadlock-Arabic-Translation/main/game/citadel/resource/localization"
 set "TARGET_DIR=%GAME_PATH%\game\citadel\resource\localization"
@@ -104,7 +104,7 @@ if %ERRORLEVEL% NEQ 0 (
 echo.
 echo [3/3] تم التحقق من تثبيت جميع الملفات بنجاح!
 echo ======================================================================
-echo              تم تثبيت التعريب بنجاح (الإصدار 1.3.8)
+echo              تم تثبيت التعريب بنجاح (الإصدار 1.3.9)
 echo              يمكنك الآن تشغيل Deadlock والاستمتاع باللعبة!
 echo ======================================================================
 echo.
